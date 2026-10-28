@@ -1,0 +1,58 @@
+[
+  {
+    "id": "term-05-bg",
+    "index": 5,
+    "slug": "qingming",
+    "name": "����",
+    "role": "background",
+    "file": "assets/05-qingming-bg.png",
+    "alpha": false,
+    "prompt": "A clear early-April river winding through a Chinese rural landscape, fresh green banks and distant willow trees, a modest stone footpath and low hills; no close grass, no boat in the water, no large foreground trees. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. ",
+    "source": "[�������ɻ�ο�·��δ�湫�����ṩ]"
+  },
+  {
+    "id": "term-05-boat",
+    "index": 5,
+    "slug": "qingming",
+    "name": "����",
+    "role": "subject",
+    "file": "assets/05-qingming-boat.png",
+    "alpha": true,
+    "layout": [
+      0.44,
+      0.43,
+      0.34,
+      0.26
+    ],
+    "prompt": "A small traditional unpainted Chinese wooden river skiff viewed from a low three-quarter side angle, one seated boatman in plain contemporary rural clothes holding a long wooden oar; correct boat structure and calm posture, isolated transparent cutout, no water or shoreline. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. ",
+    "source": "[�������ɻ�ο�·��δ�湫�����ṩ]"
+  },
+  {
+    "id": "term-05-grass",
+    "index": 5,
+    "slug": "qingming",
+    "name": "����",
+    "role": "foreground",
+    "file": "assets/05-qingming-grass.png",
+    "alpha": true,
+    "layout": [
+      0.34,
+      0.67,
+      0.7,
+      0.34
+    ],
+    "prompt": "A loose low cluster of tender riverside grasses and a few small white wildflowers, realistic early spring botany, side-lit from upper right, isolated transparent foreground strip, no ground or scenery. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. ",
+    "source": "[�������ɻ�ο�·��δ�湫�����ṩ]"
+  },
+  {
+    "id": "term-06-bg",
+    "index": 6,
+    "slug": "guyu",
+    "name": "����",
+    "role": "background",
+    "file": "assets/06-guyu-bg.png",
+    "alpha": false,
+    "prompt": "Early rice terraces in a southern Chinese valley after a warm spring rain, shallow reflective paddies with young planted rows in the middle distance, mist opening above the ridges, no close rice plants in foreground, wet texture and soft light. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. ",
+    "source": "[�������ɻ�ο�·��δ�湫�����ṩ]"
+  }
+]

@@ -1,0 +1,547 @@
+{
+  "unique_count": 44,
+  "chronological_duplicates": [],
+  "images": [
+    {
+      "id": "spring-01-background",
+      "file": "assets/01-lichun-background-candidate.png",
+      "ownerShot": "spring-01-lichun",
+      "sha256": "2bd5772e6a8a6cce79325fc46d15a309f12c0798bf68d184e9aafdcfe5eb310b",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "spring-01-plum-foreground",
+      "file": "assets/01-lichun-foreground-candidate.png",
+      "ownerShot": "spring-01-lichun",
+      "sha256": "ade47ae2085f9af9208f1e4d5c45cafff620fb98e2cf12ddd13cdf227b56756b",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "id": "spring-02-background",
+      "file": "assets/02-yushui-background-candidate.png",
+      "ownerShot": "spring-02-yushui",
+      "sha256": "e84b6e40602e5bf317477dd793e263ebe6deb47d841143c81d15f5d850f46211",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "spring-02-willow-foreground",
+      "file": "assets/02-yushui-foreground-candidate.png",
+      "ownerShot": "spring-02-yushui",
+      "sha256": "1d62fa1d1eb7ce84f8ed400f7b3bd66aa3e143e1d4a8b98f730091a084fd2259",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "id": "term-03-bg",
+      "file": "assets/03-jingzhe-bg.png",
+      "ownerShot": "term-03-jingzhe",
+      "sha256": "3b23b76115ead8a51d19b2eafa40f49b91fe4666849c7af9aabd684b12a5202b",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "term-03-sprout",
+      "file": "assets/03-jingzhe-sprout.png",
+      "ownerShot": "term-03-jingzhe",
+      "sha256": "62a5c72a722b19197643a1c9c891229881244bb15ca55058551a903ab2e48a23",
+      "size": [
+        1310,
+        1201
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "term-04-bg",
+      "file": "assets/04-chunfen-bg.png",
+      "ownerShot": "term-04-chunfen",
+      "sha256": "fdabb3a43bc45d20acd30240ca42dcb34252b8e21f2b84a27a896ddc210f4485",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "term-05-bg",
+      "file": "assets/05-qingming-bg.png",
+      "ownerShot": "term-05-qingming",
+      "sha256": "02f0573494e9295f948db861a6ea8994de028d333ef4af4d0b83764ad9331660",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "term-05-boat",
+      "file": "assets/05-qingming-boat.png",
+      "ownerShot": "term-05-qingming",
+      "sha256": "96d57fdca5dae82858e132077c8d74b5b4b0cb6c01cf4de06d4a7b07c8c09898",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "id": "term-05-grass",
+      "file": "assets/05-qingming-grass.png",
+      "ownerShot": "term-05-qingming",
+      "sha256": "840a0dbc057305bf0a31a29a7304a4af14e2e24fb10aaf1383e59490fefc40e1",
+      "size": [
+        1774,
+        887
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "term-06-bg",
+      "file": "assets/06-guyu-bg.png",
+      "ownerShot": "term-06-guyu",
+      "sha256": "0e17839d733533ecc2a46f1ba06b0ec8966840275be73ab025c9769ce0596627",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "term-06-seedlings",
+      "file": "assets/06-guyu-seedlings.png",
+      "ownerShot": "term-06-guyu",
+      "sha256": "6ab84450d50248495f195bd98635f7ed1d969ff40cd98a34eba0fd61892f28c8",
+      "size": [
+        1162,
+        1353
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "term-07-bg",
+      "file": "assets/07-lixia-bg.png",
+      "ownerShot": "term-07-lixia",
+      "sha256": "e832841eccfd38321c1ee71bbb2a067c793ab02b59bd1bc79fe45048d3751f1f",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "term-08-bg",
+      "file": "assets/08-xiaoman-bg.png",
+      "ownerShot": "term-08-xiaoman",
+      "sha256": "46c67b1be9aff14b9f6c07a5d4347d09200daadc16b5a56abf12b51b221c7f28",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "term-08-wheat",
+      "file": "assets/08-xiaoman-wheat.png",
+      "ownerShot": "term-08-xiaoman",
+      "sha256": "25826d83ffaf9e1e328ac1052e9c9d2dd2313656fdb309c81ee45f34787f133b",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "id": "term-09-bg",
+      "file": "assets/09-mangzhong-bg.png",
+      "ownerShot": "term-09-mangzhong",
+      "sha256": "1f96faf32b4bcb62060d82381c7f27289f0b8469ce04cb6fa43f951e237513f3",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "term-09-sickle",
+      "file": "assets/09-mangzhong-sickle.png",
+      "ownerShot": "term-09-mangzhong",
+      "sha256": "2b49f5152746e2ffc648ce5ad0240ce8d42fd5d9b8e08beaee6b76e59808faaa",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "id": "term-09-wheatbundle",
+      "file": "assets/09-mangzhong-wheatbundle.png",
+      "ownerShot": "term-09-mangzhong",
+      "sha256": "f61d0585873e0f7728d267ab9af6c48f5b3e3e4997ace69398e7d156ee6013c8",
+      "size": [
+        1145,
+        1374
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "term-10-bg",
+      "file": "assets/10-xiazhi-bg.png",
+      "ownerShot": "term-10-xiazhi",
+      "sha256": "100cd3f2e5a4ae759e1b4c2dab0df4141bb14a17e4a89affa407a8817aeef0f6",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "term-11-bg",
+      "file": "assets/11-xiaoshu-bg.png",
+      "ownerShot": "term-11-xiaoshu",
+      "sha256": "389957e71f965ac0e305772fef19534500cddf9c107ef21e678d31ab02905efc",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "term-11-lotus",
+      "file": "assets/11-xiaoshu-lotus.png",
+      "ownerShot": "term-11-xiaoshu",
+      "sha256": "c92661479bea857c6eec30355b4ff85841688c2ba6b99e674b084250958ee92e",
+      "size": [
+        1145,
+        1374
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "term-12-bg",
+      "file": "assets/12-dashu-bg.png",
+      "ownerShot": "term-12-dashu",
+      "sha256": "758aef693de3c1e8125cc1e77108dd4775b33af67cf3800c26d0cc1b3d37e4db",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "term-13-bg",
+      "file": "assets/13-liqiu-bg.png",
+      "ownerShot": "term-13-liqiu",
+      "sha256": "3c61ac374d4427a1d9e6708759c7c3cbfa743aa4cb996bee6f23628307dd6a88",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "term-13-pomegranate",
+      "file": "assets/13-liqiu-pomegranate.png",
+      "ownerShot": "term-13-liqiu",
+      "sha256": "7ad75f4f7a46de124c76bd9eccfcfc376054c3e82f56acfb782211725660f23f",
+      "size": [
+        1348,
+        1167
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "term-14-bg",
+      "file": "assets/14-chushu-bg.png",
+      "ownerShot": "term-14-chushu",
+      "sha256": "852f657520925f6bd208f331e84ff452e2c8ff2c8aeb7c801491e9b877073b36",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "term-15-bg",
+      "file": "assets/15-bailu-bg.png",
+      "ownerShot": "term-15-bailu",
+      "sha256": "57c7981f35ff1d9e46a46264e945cad4f89360d234470f87b89a513702e287e0",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "term-15-dewgrass",
+      "file": "assets/15-bailu-dewgrass.png",
+      "ownerShot": "term-15-bailu",
+      "sha256": "2b1a2df8cd82418acce5b23c9d10ad7d0e5c08a949425e21d34a911aebddc11a",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "term-15-reeds",
+      "file": "assets/15-bailu-reeds.png",
+      "ownerShot": "term-15-bailu",
+      "sha256": "da0f8ceed83bdac178006db967b674c66ed29c67243bb5f56e147748fbc36304",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        253
+      ]
+    },
+    {
+      "id": "term-16-bg",
+      "file": "assets/16-qiufen-bg.png",
+      "ownerShot": "term-16-qiufen",
+      "sha256": "7f155f0649ff577538bbc08aa3069d7a5f69a69416f137c550ca03117796c29b",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "term-17-bg",
+      "file": "assets/17-hanlu-bg.png",
+      "ownerShot": "term-17-hanlu",
+      "sha256": "beec956866fbc1dfff9ef05b6ae8fec03d4c3655ff63067558690e115269065a",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "term-17-maple",
+      "file": "assets/17-hanlu-maple.png",
+      "ownerShot": "term-17-hanlu",
+      "sha256": "ab0df21c7bc7c7fbf96295e1e8e0f863150708c194feaa644e4e006690bcf7dd",
+      "size": [
+        1312,
+        1199
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "term-18-bg",
+      "file": "assets/18-shuangjiang-bg.png",
+      "ownerShot": "term-18-shuangjiang",
+      "sha256": "519ca293b8faa3197d8b3a5c111baf97fd8924b737f5c8ccb004f9137e051bf6",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "term-18-persimmon",
+      "file": "assets/18-shuangjiang-persimmon.png",
+      "ownerShot": "term-18-shuangjiang",
+      "sha256": "6231e98f6aa7fc328fc64158ab26f26f53f00cedd818bc6b38eed3718c024c96",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "id": "term-19-bg",
+      "file": "assets/19-lidong-bg.png",
+      "ownerShot": "term-19-lidong",
+      "sha256": "e1d4a86ad6ccf77771476076040fdafe3f694d289e44eaaaddadc169ad8a71ed",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "term-20-bamboo",
+      "file": "assets/20-xiaoxue-bamboo.png",
+      "ownerShot": "term-20-xiaoxue",
+      "sha256": "ebf75e5d1b8296ec460b3a2426984ad5873bf273da5421775b60c04e83b2a403",
+      "size": [
+        1374,
+        1145
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "term-20-bg",
+      "file": "assets/20-xiaoxue-bg.png",
+      "ownerShot": "term-20-xiaoxue",
+      "sha256": "e06c4a48795d3d1daaace5af9d13889941e60b21bbed1c768a62664ae6519f80",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "term-21-bg",
+      "file": "assets/21-daxue-bg.png",
+      "ownerShot": "term-21-daxue",
+      "sha256": "5f5cd0c2ff740959ab9e161f5076b09430768e384cf38351243d9ad0861db4d9",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "term-21-pine",
+      "file": "assets/21-daxue-pine.png",
+      "ownerShot": "term-21-daxue",
+      "sha256": "0b7ef9425dd149ac7f25787bda303e70a2f8490c3bdd168e94c27dc94881b617",
+      "size": [
+        2009,
+        783
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "term-21-roof",
+      "file": "assets/21-daxue-roof.png",
+      "ownerShot": "term-21-daxue",
+      "sha256": "5eab6796857c06fb2dc349ef3d888677d166b8bfee67058d5d591c7512b18893",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "id": "term-22-bg",
+      "file": "assets/22-dongzhi-bg.png",
+      "ownerShot": "term-22-dongzhi",
+      "sha256": "473bca879c560eff401a78ec9044e99eaa340ba22ee305061ffb8f74395c8025",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "term-23-bg",
+      "file": "assets/23-xiaohan-bg.png",
+      "ownerShot": "term-23-xiaohan",
+      "sha256": "c8e2488bced04919761b8bb554c1795b9889d4f18bca40ce45cca209cc1e3fe9",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "term-23-whiteplum",
+      "file": "assets/23-xiaohan-whiteplum.png",
+      "ownerShot": "term-23-xiaohan",
+      "sha256": "c32ce006dad7369d4afb7e894ce6a1ab5717bf6aee80127e33c2df97e9d208dd",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "id": "term-24-bg",
+      "file": "assets/24-dahan-bg.png",
+      "ownerShot": "term-24-dahan",
+      "sha256": "4c9f789bdcbfe0321524d7f5b5d894345256ec9d8611653bcc2abc4351a4f4da",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_extrema": null
+    },
+    {
+      "id": "opening-ice",
+      "file": "assets/opening-ice.png",
+      "ownerShot": "opening",
+      "sha256": "3f8b033f66d4cf68199cd70792f9b08bc95baea764bb9bdbf4ec74361c8bf0aa",
+      "size": [
+        1672,
+        941
+      ],
+      "alpha_extrema": null
+    }
+  ]
+}

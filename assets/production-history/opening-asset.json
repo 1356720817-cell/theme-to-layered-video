@@ -1,0 +1,13 @@
+{
+  "id": "opening-ice",
+  "file": "assets/opening-ice.png",
+  "ownerShot": "opening",
+  "status": "ready",
+  "kind": "image",
+  "depiction": "generated",
+  "source": "image_gen",
+  "source_file": "[�������ɻ�ο�·��δ�湫�����ṩ]",
+  "prompt": "Use case: photorealistic-natural. Unique opening background for a cinematic Chinese 24 solar terms short film. Extreme low-angle close view of a frozen pond edge: clear thin ice, trapped air bubbles, frost-coated dark stones and a few dry winter grasses at the far right, a very narrow trickle of water beginning to move under the ice, cold blue-gray dawn with a distant warm line of light. Visually striking tactile winter detail, no plum twig, no leaves or blooms, no giant landscape horizon. Wide 16:9 composition, dark quiet left half for a two-line Chinese question to be overlaid later. Natural history photography, high texture fidelity, plausible water and ice optics, restrained light. No text, symbols, watermark, logo, border, fantasy effect or CGI gloss. This exact scene is used only in the opening, and is distinct from all later seasonal assets.",
+  "rights": "����Ŀ����image_gen����",
+  "alpha": false
+}

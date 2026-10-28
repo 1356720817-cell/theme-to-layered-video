@@ -1,0 +1,41 @@
+[
+  {
+    "id": "term-03-bg",
+    "index": 3,
+    "slug": "jingzhe",
+    "name": "����",
+    "role": "background",
+    "file": "assets/03-jingzhe-bg.png",
+    "alpha": false,
+    "prompt": "Macro-level view of dark moist spring soil and a shallow earthen hollow, delicate roots and warm morning light, distant blurred field, no foreground sprout or insect. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. ",
+    "source": "[�������ɻ�ο�·��δ�湫�����ṩ]"
+  },
+  {
+    "id": "term-03-sprout",
+    "index": 3,
+    "slug": "jingzhe",
+    "name": "����",
+    "role": "foreground",
+    "file": "assets/03-jingzhe-sprout.png",
+    "alpha": true,
+    "layout": [
+      0.47,
+      0.25,
+      0.5,
+      0.7
+    ],
+    "prompt": "One botanically credible tiny cereal sprout with two folded green leaves rising from a small irregular clump of soil, a single small harmless ground beetle beside it; isolated nature photography cutout, no backdrop. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. ",
+    "source": "[�������ɻ�ο�·��δ�湫�����ṩ]"
+  },
+  {
+    "id": "term-04-bg",
+    "index": 4,
+    "slug": "chunfen",
+    "name": "����",
+    "role": "background",
+    "file": "assets/04-chunfen-bg.png",
+    "alpha": false,
+    "prompt": "A broad northern Chinese river plain at spring dawn, sun exactly near the horizon, delicate green fields and a lone distant tree, balanced warm light and cool shade, clear spacious sky, contemplative natural photograph. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. ",
+    "source": "[�������ɻ�ο�·��δ�湫�����ṩ]"
+  }
+]

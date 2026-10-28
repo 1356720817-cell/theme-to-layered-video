@@ -1,0 +1,402 @@
+{
+  "track": "���� (The History)",
+  "artist": "Jannik",
+  "source_sha256": "5b48a13fdc37f31a4b62445d7a0f57595201bab025ceb47729036d3f4596ec38",
+  "source_duration_seconds": 258,
+  "excerpt_source_seconds": [
+    77,
+    205
+  ],
+  "film_duration_seconds": 128,
+  "main_climax_source_seconds": [
+    102,
+    198
+  ],
+  "climax_video_start_seconds": 25,
+  "gain_db_compared_to_v3": -6.020599913,
+  "measured_subdivision_seconds": 0.25,
+  "measured_pulse_seconds": 0.5,
+  "method": "Measured spectral periodicity, bass-band flux and section-level waveform; all boundary times use the measured half-second grid. Main drop source 102s minus source offset 77s equals video 25s.",
+  "full_human_listening_review": false,
+  "boundaries": [
+    {
+      "shot": "spring-01-lichun",
+      "title": "����",
+      "film_frame": 150,
+      "source_seconds": 82.0,
+      "duration_seconds": 6,
+      "transition": {
+        "type": "dissolve",
+        "frames": 10
+      },
+      "nearby_bass_flux_peak_seconds": 82.02267,
+      "grid_error_frames": 0.0,
+      "nearby_peak_delta_ms": 22.67,
+      "bass_strength": 0.28624
+    },
+    {
+      "shot": "spring-02-yushui",
+      "title": "��ˮ",
+      "film_frame": 330,
+      "source_seconds": 88.0,
+      "duration_seconds": 6,
+      "transition": {
+        "type": "dissolve",
+        "frames": 7
+      },
+      "nearby_bass_flux_peak_seconds": 88.01267,
+      "grid_error_frames": 0.0,
+      "nearby_peak_delta_ms": 12.67,
+      "bass_strength": 0.25668
+    },
+    {
+      "shot": "term-03-jingzhe",
+      "title": "����",
+      "film_frame": 510,
+      "source_seconds": 94.0,
+      "duration_seconds": 8,
+      "transition": {
+        "type": "cut",
+        "frames": 0
+      },
+      "nearby_bass_flux_peak_seconds": 93.99267,
+      "grid_error_frames": 0.0,
+      "nearby_peak_delta_ms": -7.33,
+      "bass_strength": 0.13787
+    },
+    {
+      "shot": "term-04-chunfen",
+      "title": "����",
+      "film_frame": 750,
+      "source_seconds": 102.0,
+      "duration_seconds": 7.5,
+      "transition": {
+        "type": "cut",
+        "frames": 0
+      },
+      "nearby_bass_flux_peak_seconds": 101.99267,
+      "grid_error_frames": 0.0,
+      "nearby_peak_delta_ms": -7.33,
+      "bass_strength": 0.99071
+    },
+    {
+      "shot": "term-05-qingming",
+      "title": "����",
+      "film_frame": 975,
+      "source_seconds": 109.5,
+      "duration_seconds": 9,
+      "transition": {
+        "type": "wipe-left",
+        "frames": 7
+      },
+      "nearby_bass_flux_peak_seconds": 109.52267,
+      "grid_error_frames": 0.0,
+      "nearby_peak_delta_ms": 22.67,
+      "bass_strength": 0.31
+    },
+    {
+      "shot": "term-06-guyu",
+      "title": "����",
+      "film_frame": 1245,
+      "source_seconds": 118.5,
+      "duration_seconds": 7.5,
+      "transition": {
+        "type": "dissolve",
+        "frames": 7
+      },
+      "nearby_bass_flux_peak_seconds": 118.51267,
+      "grid_error_frames": 0.0,
+      "nearby_peak_delta_ms": 12.67,
+      "bass_strength": 0.3441
+    },
+    {
+      "shot": "term-07-lixia",
+      "title": "����",
+      "film_frame": 1470,
+      "source_seconds": 126.0,
+      "duration_seconds": 3,
+      "transition": {
+        "type": "cut",
+        "frames": 0
+      },
+      "nearby_bass_flux_peak_seconds": 126.02267,
+      "grid_error_frames": 0.0,
+      "nearby_peak_delta_ms": 22.67,
+      "bass_strength": 0.30441
+    },
+    {
+      "shot": "term-08-xiaoman",
+      "title": "С��",
+      "film_frame": 1560,
+      "source_seconds": 129.0,
+      "duration_seconds": 4.5,
+      "transition": {
+        "type": "match-in",
+        "frames": 7
+      },
+      "nearby_bass_flux_peak_seconds": 128.99267,
+      "grid_error_frames": 0.0,
+      "nearby_peak_delta_ms": -7.33,
+      "bass_strength": 0.68506
+    },
+    {
+      "shot": "term-09-mangzhong",
+      "title": "â��",
+      "film_frame": 1695,
+      "source_seconds": 133.5,
+      "duration_seconds": 4.5,
+      "transition": {
+        "type": "cut",
+        "frames": 0
+      },
+      "nearby_bass_flux_peak_seconds": 133.51267,
+      "grid_error_frames": 0.0,
+      "nearby_peak_delta_ms": 12.67,
+      "bass_strength": 0.36181
+    },
+    {
+      "shot": "term-10-xiazhi",
+      "title": "����",
+      "film_frame": 1830,
+      "source_seconds": 138.0,
+      "duration_seconds": 3,
+      "transition": {
+        "type": "dissolve",
+        "frames": 7
+      },
+      "nearby_bass_flux_peak_seconds": 137.99267,
+      "grid_error_frames": 0.0,
+      "nearby_peak_delta_ms": -7.33,
+      "bass_strength": 0.3157
+    },
+    {
+      "shot": "term-11-xiaoshu",
+      "title": "С��",
+      "film_frame": 1920,
+      "source_seconds": 141.0,
+      "duration_seconds": 4.5,
+      "transition": {
+        "type": "wipe-right",
+        "frames": 7
+      },
+      "nearby_bass_flux_peak_seconds": 141.00267,
+      "grid_error_frames": 0.0,
+      "nearby_peak_delta_ms": 2.67,
+      "bass_strength": 0.51594
+    },
+    {
+      "shot": "term-12-dashu",
+      "title": "����",
+      "film_frame": 2055,
+      "source_seconds": 145.5,
+      "duration_seconds": 4.5,
+      "transition": {
+        "type": "cut",
+        "frames": 0
+      },
+      "nearby_bass_flux_peak_seconds": 145.51267,
+      "grid_error_frames": 0.0,
+      "nearby_peak_delta_ms": 12.67,
+      "bass_strength": 0.30833
+    },
+    {
+      "shot": "term-13-liqiu",
+      "title": "����",
+      "film_frame": 2190,
+      "source_seconds": 150.0,
+      "duration_seconds": 4.5,
+      "transition": {
+        "type": "cut",
+        "frames": 0
+      },
+      "nearby_bass_flux_peak_seconds": 149.99267,
+      "grid_error_frames": 0.0,
+      "nearby_peak_delta_ms": -7.33,
+      "bass_strength": 0.2814
+    },
+    {
+      "shot": "term-14-chushu",
+      "title": "����",
+      "film_frame": 2325,
+      "source_seconds": 154.5,
+      "duration_seconds": 3,
+      "transition": {
+        "type": "dissolve",
+        "frames": 7
+      },
+      "nearby_bass_flux_peak_seconds": 154.50267,
+      "grid_error_frames": 0.0,
+      "nearby_peak_delta_ms": 2.67,
+      "bass_strength": 0.42824
+    },
+    {
+      "shot": "term-15-bailu",
+      "title": "��¶",
+      "film_frame": 2415,
+      "source_seconds": 157.5,
+      "duration_seconds": 4.5,
+      "transition": {
+        "type": "focus",
+        "frames": 7
+      },
+      "nearby_bass_flux_peak_seconds": 157.52267,
+      "grid_error_frames": 0.0,
+      "nearby_peak_delta_ms": 22.67,
+      "bass_strength": 0.27341
+    },
+    {
+      "shot": "term-16-qiufen",
+      "title": "���",
+      "film_frame": 2550,
+      "source_seconds": 162.0,
+      "duration_seconds": 4.5,
+      "transition": {
+        "type": "cut",
+        "frames": 0
+      },
+      "nearby_bass_flux_peak_seconds": 162.00267,
+      "grid_error_frames": 0.0,
+      "nearby_peak_delta_ms": 2.67,
+      "bass_strength": 0.31474
+    },
+    {
+      "shot": "term-17-hanlu",
+      "title": "��¶",
+      "film_frame": 2685,
+      "source_seconds": 166.5,
+      "duration_seconds": 4.5,
+      "transition": {
+        "type": "wipe-left",
+        "frames": 7
+      },
+      "nearby_bass_flux_peak_seconds": 166.50267,
+      "grid_error_frames": 0.0,
+      "nearby_peak_delta_ms": 2.67,
+      "bass_strength": 0.41791
+    },
+    {
+      "shot": "term-18-shuangjiang",
+      "title": "˪��",
+      "film_frame": 2820,
+      "source_seconds": 171.0,
+      "duration_seconds": 3,
+      "transition": {
+        "type": "dissolve",
+        "frames": 7
+      },
+      "nearby_bass_flux_peak_seconds": 170.99267,
+      "grid_error_frames": 0.0,
+      "nearby_peak_delta_ms": -7.33,
+      "bass_strength": 0.56484
+    },
+    {
+      "shot": "term-19-lidong",
+      "title": "����",
+      "film_frame": 2910,
+      "source_seconds": 174.0,
+      "duration_seconds": 4.5,
+      "transition": {
+        "type": "cut",
+        "frames": 0
+      },
+      "nearby_bass_flux_peak_seconds": 174.00267,
+      "grid_error_frames": 0.0,
+      "nearby_peak_delta_ms": 2.67,
+      "bass_strength": 0.23949
+    },
+    {
+      "shot": "term-20-xiaoxue",
+      "title": "Сѩ",
+      "film_frame": 3045,
+      "source_seconds": 178.5,
+      "duration_seconds": 3,
+      "transition": {
+        "type": "dissolve",
+        "frames": 7
+      },
+      "nearby_bass_flux_peak_seconds": 178.50267,
+      "grid_error_frames": 0.0,
+      "nearby_peak_delta_ms": 2.67,
+      "bass_strength": 0.42565
+    },
+    {
+      "shot": "term-21-daxue",
+      "title": "��ѩ",
+      "film_frame": 3135,
+      "source_seconds": 181.5,
+      "duration_seconds": 4.5,
+      "transition": {
+        "type": "wipe-right",
+        "frames": 7
+      },
+      "nearby_bass_flux_peak_seconds": 181.51267,
+      "grid_error_frames": 0.0,
+      "nearby_peak_delta_ms": 12.67,
+      "bass_strength": 0.37872
+    },
+    {
+      "shot": "term-22-dongzhi",
+      "title": "����",
+      "film_frame": 3270,
+      "source_seconds": 186.0,
+      "duration_seconds": 4.5,
+      "transition": {
+        "type": "dissolve",
+        "frames": 7
+      },
+      "nearby_bass_flux_peak_seconds": 186.00267,
+      "grid_error_frames": 0.0,
+      "nearby_peak_delta_ms": 2.67,
+      "bass_strength": 0.35684
+    },
+    {
+      "shot": "term-23-xiaohan",
+      "title": "С��",
+      "film_frame": 3405,
+      "source_seconds": 190.5,
+      "duration_seconds": 3,
+      "transition": {
+        "type": "match-in",
+        "frames": 7
+      },
+      "nearby_bass_flux_peak_seconds": 190.51267,
+      "grid_error_frames": 0.0,
+      "nearby_peak_delta_ms": 12.67,
+      "bass_strength": 0.33796
+    },
+    {
+      "shot": "term-24-dahan",
+      "title": "��",
+      "film_frame": 3495,
+      "source_seconds": 193.5,
+      "duration_seconds": 4.5,
+      "transition": {
+        "type": "focus",
+        "frames": 7
+      },
+      "nearby_bass_flux_peak_seconds": 193.52267,
+      "grid_error_frames": 0.0,
+      "nearby_peak_delta_ms": 22.67,
+      "bass_strength": 0.39109
+    }
+  ],
+  "opening_events": {
+    "source_start_seconds": 77.0,
+    "question_second_frame": 30,
+    "arrangement_break_video_seconds": [
+      22.2,
+      23.4
+    ],
+    "title_frame": 75,
+    "pickup_tagline_frame": 105,
+    "main_drop_frame": 750,
+    "main_drop_shot": "����",
+    "opening_fade_in_seconds": 1.25
+  },
+  "ending_events": {
+    "source_start_seconds": 198.0,
+    "arrangement_release_frame": 45,
+    "subtitle_frame": 45,
+    "tail_fade_seconds": 2.0
+  }
+}

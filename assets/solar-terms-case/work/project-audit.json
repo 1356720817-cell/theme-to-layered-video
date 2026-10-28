@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "topic": "��ʮ�Ľ�����һ����α�ʱ��д�����",
+  "shot_count": 26,
+  "asset_count": 44,
+  "used_asset_count": 44,
+  "timeline_frames": 3840,
+  "unique_image_hashes": 44,
+  "errors": [],
+  "warnings": [],
+  "scope": "Schema, continuity and byte-identical image reuse; composition, factual accuracy, near-duplicate visuals and listening require review."
+}

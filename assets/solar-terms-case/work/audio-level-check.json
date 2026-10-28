@@ -1,0 +1,23 @@
+{
+  "previous_source": "final.mp4",
+  "comparison_original_seconds": [
+    102,
+    198
+  ],
+  "previous_video_seconds": [
+    17,
+    113
+  ],
+  "current_video_seconds": [
+    25,
+    121
+  ],
+  "previous_rms": 0.30569965814174194,
+  "current_rms": 0.15289598852095365,
+  "rms_ratio": 0.5001509960801502,
+  "measured_gain_db_compared_to_v3": -6.017977238697345,
+  "expected_gain_db_compared_to_v3": -6.020599913,
+  "reduction_verified": true,
+  "current_pcm_peak": 0.5325772166252136,
+  "human_full_listening_review": false
+}

@@ -1,0 +1,365 @@
+{
+  "selection_note": "ÿ����һ����ʫ�ʽ�ѡ������ͷʱ��ѡһ����һ�䡣ʫ��Ϊ�Ļ����󣬲������������ѧ˵����",
+  "poems": [
+    {
+      "index": 1,
+      "term": "����",
+      "excerpt": "�ɻ�������˪�٣������˼��ľ֪��",
+      "author": "�Ŗ�",
+      "work": "����ż��",
+      "source_url": "https://www.ccdi.gov.cn/yaowenn/202501/t20250126_402828_m.html",
+      "text_and_attribution_checked": true,
+      "relationship": "��������Ӧʱ�����󣻲���ʫ������רΪ�ý���������",
+      "clip_seconds": [
+        5.0,
+        11.0
+      ],
+      "short_excerpt_for_fast_shot": false
+    },
+    {
+      "index": 2,
+      "term": "��ˮ",
+      "excerpt": "����֪ʱ�ڣ������˷�����",
+      "author": "�Ÿ�",
+      "work": "��ҹϲ��",
+      "source_url": "https://www.moe.gov.cn/srcsite/A06/s3331/201612/W020161213303084709835.pdf",
+      "text_and_attribution_checked": true,
+      "relationship": "��������Ӧʱ�����󣻲���ʫ������רΪ�ý���������",
+      "clip_seconds": [
+        11.0,
+        17.0
+      ],
+      "short_excerpt_for_fast_shot": false
+    },
+    {
+      "index": 3,
+      "term": "����",
+      "excerpt": "΢���ڻ��£�һ�׾���ʼ��",
+      "author": "ΤӦ��",
+      "work": "�����",
+      "source_url": "https://www.beijing.gov.cn/renwen/zt/essjq/zjs/202209/t20220908_2811393.html",
+      "text_and_attribution_checked": true,
+      "relationship": "��������Ӧʱ�����󣻲���ʫ������רΪ�ý���������",
+      "clip_seconds": [
+        17.0,
+        25.0
+      ],
+      "short_excerpt_for_fast_shot": false
+    },
+    {
+      "index": 4,
+      "term": "����",
+      "excerpt": "�ٴ������գ���ɫ���з֡�",
+      "author": "����",
+      "work": "������",
+      "source_url": "https://dfzb.suzhou.gov.cn/dfzb/szdq/202203/fccc818c79dd44ecac50d2eb5b1a9aa0.shtml",
+      "text_and_attribution_checked": true,
+      "relationship": "��������Ӧʱ�����󣻲���ʫ������רΪ�ý���������",
+      "clip_seconds": [
+        25.0,
+        32.5
+      ],
+      "short_excerpt_for_fast_shot": false
+    },
+    {
+      "index": 5,
+      "term": "����",
+      "excerpt": "�滨����������������Ѱ������ǡ�",
+      "author": "��Ω��",
+      "work": "�յ���������",
+      "source_url": "https://www.qingcheng.gov.cn/zjqc/mswh/content/post_150917.html",
+      "text_and_attribution_checked": true,
+      "relationship": "��������Ӧʱ�����󣻲���ʫ������רΪ�ý���������",
+      "clip_seconds": [
+        32.5,
+        41.5
+      ],
+      "short_excerpt_for_fast_shot": false
+    },
+    {
+      "index": 6,
+      "term": "����",
+      "excerpt": "���괺������ɽ����ɫ�ࡣ",
+      "author": "Ԫ�",
+      "work": "ӽإ����ʫ������������",
+      "source_url": "https://www.bjqtm.com/xcjy/dwxc/%E5%AE%9D%E5%8D%9A%E5%BE%AE%E8%AF%BE%E5%A0%82%EF%BD%9C%E8%AF%97%E8%AF%8D%E8%AF%9D%E8%8A%82%E6%B0%94-%E8%B0%B7%E9%9B%A8%E6%98%A5%E5%85%89%E6%99%93%EF%BC%8C%E5%B1%B1%E5%B7%9D%E9%BB%9B",
+      "text_and_attribution_checked": true,
+      "relationship": "��������Ӧʱ�����󣻲���ʫ������רΪ�ý���������",
+      "clip_seconds": [
+        41.5,
+        49.0
+      ],
+      "short_excerpt_for_fast_shot": false
+    },
+    {
+      "index": 7,
+      "term": "����",
+      "excerpt": "�����Ĳ�ʤ��ʱ��",
+      "author": "����ʯ",
+      "work": "���ļ���",
+      "source_url": "https://zh.wikisource.org/zh-hans/���ļ���",
+      "text_and_attribution_checked": true,
+      "relationship": "��������Ӧʱ�����󣻲���ʫ������רΪ�ý���������",
+      "clip_seconds": [
+        49.0,
+        52.0
+      ],
+      "short_excerpt_for_fast_shot": true
+    },
+    {
+      "index": 8,
+      "term": "С��",
+      "excerpt": "����������ӽ���ɣҶ���ʲ�ʳ����",
+      "author": "ŷ����",
+      "work": "����԰��ʱ�ִ��Ķ��ס����",
+      "source_url": "https://www.kfdsw.com/index/detail/id/2670.html",
+      "text_and_attribution_checked": true,
+      "relationship": "��������Ӧʱ�����󣻲���ʫ������רΪ�ý���������",
+      "clip_seconds": [
+        52.0,
+        56.5
+      ],
+      "short_excerpt_for_fast_shot": false
+    },
+    {
+      "index": 9,
+      "term": "â��",
+      "excerpt": "ʱ�꼰â�֣���Ұ�Բ�����",
+      "author": "½��",
+      "work": "ʱ��",
+      "source_url": "https://wn.bjsjw.gov.cn/n702/20250310/i101223.html",
+      "text_and_attribution_checked": true,
+      "relationship": "��������Ӧʱ�����󣻲���ʫ������רΪ�ý���������",
+      "clip_seconds": [
+        56.5,
+        61.0
+      ],
+      "short_excerpt_for_fast_shot": false
+    },
+    {
+      "index": 10,
+      "term": "����",
+      "excerpt": "�������Ƽ���",
+      "author": "ΤӦ��",
+      "work": "���������",
+      "source_url": "https://wjw.shanxi.gov.cn/zfxxgk/fdzdgknr/jkzx/202505/t20250516_9835856.shtml",
+      "text_and_attribution_checked": true,
+      "relationship": "��������Ӧʱ�����󣻲���ʫ������רΪ�ý���������",
+      "clip_seconds": [
+        61.0,
+        64.0
+      ],
+      "short_excerpt_for_fast_shot": true
+    },
+    {
+      "index": 11,
+      "term": "С��",
+      "excerpt": "�ɷ�����������¶�����졣",
+      "author": "�Ϻ�Ȼ",
+      "work": "������ͤ������",
+      "source_url": "https://www.cma.gov.cn/2011xzt/20150130/20150701/201507/t20150701_286561.html",
+      "text_and_attribution_checked": true,
+      "relationship": "��������Ӧʱ�����󣻲���ʫ������רΪ�ý���������",
+      "clip_seconds": [
+        64.0,
+        68.5
+      ],
+      "short_excerpt_for_fast_shot": false
+    },
+    {
+      "index": 12,
+      "term": "����",
+      "excerpt": "���겻֪��ȥ��һ�緽�����",
+      "author": "���ɴ�",
+      "work": "ϲ��",
+      "source_url": "https://m.ahjjjc.gov.cn/p/60817.html",
+      "text_and_attribution_checked": true,
+      "relationship": "��������Ӧʱ�����󣻲���ʫ������רΪ�ý���������",
+      "clip_seconds": [
+        68.5,
+        73.0
+      ],
+      "short_excerpt_for_fast_shot": false
+    },
+    {
+      "index": 13,
+      "term": "����",
+      "excerpt": "�Թŷ��ﱯ���ȣ���������ʤ������",
+      "author": "������",
+      "work": "��ʶ��ס���һ",
+      "source_url": "https://yllhj.beijing.gov.cn/ztxx/bjhx/hhzs/202011/t20201104_2128451.shtml",
+      "text_and_attribution_checked": true,
+      "relationship": "��������Ӧʱ�����󣻲���ʫ������רΪ�ý���������",
+      "clip_seconds": [
+        73.0,
+        77.5
+      ],
+      "short_excerpt_for_fast_shot": false
+    },
+    {
+      "index": 14,
+      "term": "����",
+      "excerpt": "����������",
+      "author": "�׾���",
+      "work": "���������л�",
+      "source_url": "https://www.bjqtm.com/xcjy/dwxc/%E5%AE%9D%E5%8D%9A%E5%BE%AE%E8%AF%BE%E5%A0%82%E9%87%91%E6%96%87%E8%AF%9D%E8%8A%82%E6%B0%94-%E5%A4%84%E6%9A%91",
+      "text_and_attribution_checked": true,
+      "relationship": "��������Ӧʱ�����󣻲���ʫ������רΪ�ý���������",
+      "clip_seconds": [
+        77.5,
+        80.5
+      ],
+      "short_excerpt_for_fast_shot": true
+    },
+    {
+      "index": 15,
+      "term": "��¶",
+      "excerpt": "¶�ӽ�ҹ�ף����ǹ�������",
+      "author": "�Ÿ�",
+      "work": "��ҹ�����",
+      "source_url": "https://hb.cma.gov.cn/qxkp/qxkp/202202/t20220207_4494148.html",
+      "text_and_attribution_checked": true,
+      "relationship": "��������Ӧʱ�����󣻲���ʫ������רΪ�ý���������",
+      "clip_seconds": [
+        80.5,
+        85.0
+      ],
+      "short_excerpt_for_fast_shot": false
+    },
+    {
+      "index": 16,
+      "term": "���",
+      "excerpt": "������֣�����¶�����ڰ롣",
+      "author": "л��",
+      "work": "��筴����������",
+      "source_url": "https://m.12371.gov.cn/content/2023-09/23/content_449476.html",
+      "text_and_attribution_checked": true,
+      "relationship": "��������Ӧʱ�����󣻲���ʫ������רΪ�ý���������",
+      "clip_seconds": [
+        85.0,
+        89.5
+      ],
+      "short_excerpt_for_fast_shot": false
+    },
+    {
+      "index": 17,
+      "term": "��¶",
+      "excerpt": "�������綯�����ຮ¶�㡣",
+      "author": "�׾���",
+      "work": "����",
+      "source_url": "https://www.shidianguji.com/mingju/7623272193846034483",
+      "text_and_attribution_checked": true,
+      "relationship": "��������Ӧʱ�����󣻲���ʫ������רΪ�ý���������",
+      "clip_seconds": [
+        89.5,
+        94.0
+      ],
+      "short_excerpt_for_fast_shot": false
+    },
+    {
+      "index": 18,
+      "term": "˪��",
+      "excerpt": "��ľҡ��¶Ϊ˪��",
+      "author": "��ا",
+      "work": "����ж��ס���һ",
+      "source_url": "https://www.bjxch.gov.cn/file/20191108/1573199211783080701.pdf",
+      "text_and_attribution_checked": true,
+      "relationship": "��������Ӧʱ�����󣻲���ʫ������רΪ�ý���������",
+      "clip_seconds": [
+        94.0,
+        97.0
+      ],
+      "short_excerpt_for_fast_shot": true
+    },
+    {
+      "index": 19,
+      "term": "����",
+      "excerpt": "��紵����ͥ�£���Ҷ����������",
+      "author": "���ɵ�",
+      "work": "����",
+      "source_url": "https://www.sqlzw.gov.cn/sitesources/nysjwjw/page_pc/xcjd/wh/article5698d5bb9e8f41ccb35c541a293116f5.html",
+      "text_and_attribution_checked": true,
+      "relationship": "��������Ӧʱ�����󣻲���ʫ������רΪ�ý���������",
+      "clip_seconds": [
+        97.0,
+        101.5
+      ],
+      "short_excerpt_for_fast_shot": false
+    },
+    {
+      "index": 20,
+      "term": "Сѩ",
+      "excerpt": "�����������֦��",
+      "author": "����",
+      "work": "��ѩ",
+      "source_url": "https://dxs.moe.gov.cn/zx/a/jj/220210/1747122.shtml",
+      "text_and_attribution_checked": true,
+      "relationship": "��������Ӧʱ�����󣻲���ʫ������רΪ�ý���������",
+      "clip_seconds": [
+        101.5,
+        104.5
+      ],
+      "short_excerpt_for_fast_shot": true
+    },
+    {
+      "index": 21,
+      "term": "��ѩ",
+      "excerpt": "����һҹ��������ǧ�������滨����",
+      "author": "᯲�",
+      "work": "��ѩ�������йٹ龩",
+      "source_url": "https://www.nationalreading.gov.cn/ydzg/plgc/202508/t20250815_926664.html",
+      "text_and_attribution_checked": true,
+      "relationship": "��������Ӧʱ�����󣻲���ʫ������רΪ�ý���������",
+      "clip_seconds": [
+        104.5,
+        109.0
+      ],
+      "short_excerpt_for_fast_shot": false
+    },
+    {
+      "index": 22,
+      "term": "����",
+      "excerpt": "��ʱ��������ߣ�����������������",
+      "author": "�Ÿ�",
+      "work": "С��",
+      "source_url": "https://www.beijing.gov.cn/renwen/zt/essjq/hsjq/202209/t20220908_2811456.html",
+      "text_and_attribution_checked": true,
+      "relationship": "��������Ӧʱ�����󣻲���ʫ������רΪ�ý���������",
+      "clip_seconds": [
+        109.0,
+        113.5
+      ],
+      "short_excerpt_for_fast_shot": false
+    },
+    {
+      "index": 23,
+      "term": "С��",
+      "excerpt": "�躮���Կ���",
+      "author": "����ʯ",
+      "work": "÷��",
+      "source_url": "https://yllhj.beijing.gov.cn/ztxx/bjhx/hhzs/201902/t20190222_118661.shtml",
+      "text_and_attribution_checked": true,
+      "relationship": "��������Ӧʱ�����󣻲���ʫ������רΪ�ý���������",
+      "clip_seconds": [
+        113.5,
+        116.5
+      ],
+      "short_excerpt_for_fast_shot": true
+    },
+    {
+      "index": 24,
+      "term": "��",
+      "excerpt": "��ѩδ�����ջ����ܳ���",
+      "author": "½��",
+      "work": "��",
+      "source_url": "https://paper.people.com.cn/zgnyb/pc/attachement/202501/20/460e9077-87be-47d8-8262-b688d3720d3f.pdf",
+      "text_and_attribution_checked": true,
+      "relationship": "��������Ӧʱ�����󣻲���ʫ������רΪ�ý���������",
+      "clip_seconds": [
+        116.5,
+        121.0
+      ],
+      "short_excerpt_for_fast_shot": false
+    }
+  ]
+}

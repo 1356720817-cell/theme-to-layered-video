@@ -1,0 +1,2067 @@
+[
+  {
+    "id": "opening",
+    "start": 0,
+    "end": 150,
+    "section": "opening",
+    "chapter": "����",
+    "title": "��ʮ�Ľ���",
+    "subtitle": "����û������ô�������ˣ�",
+    "kicker": "",
+    "theme": "dark",
+    "visual": "calendar-opening",
+    "camera": {
+      "type": "still"
+    },
+    "transition": {
+      "type": "cut",
+      "frames": 0
+    },
+    "layers": [
+      {
+        "assetId": "opening-ice",
+        "role": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1
+      }
+    ],
+    "words": [
+      {
+        "text": "����û��",
+        "frame": 0
+      },
+      {
+        "text": "��ô��������",
+        "frame": 30
+      },
+      {
+        "text": "��ʮ�Ľ���",
+        "frame": 75
+      },
+      {
+        "text": "˳��̫��������һ��",
+        "frame": 105
+      }
+    ],
+    "music": {
+      "source_start_seconds": 77.0,
+      "question_second_frame": 30,
+      "arrangement_break_video_seconds": [
+        22.2,
+        23.4
+      ],
+      "title_frame": 75,
+      "pickup_tagline_frame": 105,
+      "main_drop_frame": 750,
+      "main_drop_shot": "����",
+      "opening_fade_in_seconds": 1.25
+    }
+  },
+  {
+    "id": "spring-01-lichun",
+    "start": 150,
+    "end": 330,
+    "section": "main",
+    "chapter": "��",
+    "title": "����",
+    "subtitle": "�����ɶ����������洺�����š�",
+    "kicker": "�� �� �ƾ� 315��",
+    "theme": "dark",
+    "camera": {
+      "type": "reveal-hold",
+      "amount": 0.8
+    },
+    "transition": {
+      "type": "dissolve",
+      "frames": 10
+    },
+    "layers": [
+      {
+        "assetId": "spring-01-background",
+        "role": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1,
+        "fit": "cover",
+        "parallax": 0.8
+      },
+      {
+        "assetId": "spring-01-plum-foreground",
+        "role": "foreground",
+        "x": 0.405,
+        "y": 0.275,
+        "w": 0.595,
+        "h": 0.655,
+        "fit": "contain",
+        "parallax": 1.75,
+        "motion": {
+          "x0": 0.018,
+          "x1": -0.006,
+          "y0": 0.006,
+          "y1": -0.004,
+          "scale0": 0.97,
+          "scale1": 1.045
+        }
+      }
+    ],
+    "words": [],
+    "index": 1,
+    "layout": "left",
+    "visual": "nature",
+    "weather": "mist",
+    "music": {
+      "source_start_seconds": 82.0,
+      "source_end_seconds": 88.0,
+      "pulse_seconds": 0.5,
+      "duration_pulses": 12.0,
+      "entry_on_measured_grid": true
+    },
+    "accentFrames": [],
+    "accentStrength": 0.018,
+    "labelCueFrames": {
+      "kicker": 0,
+      "title": 0,
+      "subtitle": 7
+    },
+    "poem": {
+      "lines": [
+        "�ɻ�������˪��",
+        "�����˼��ľ֪"
+      ],
+      "author": "�Ŗ�",
+      "work": "����ż��",
+      "sourceUrl": "https://www.ccdi.gov.cn/yaowenn/202501/t20250126_402828_m.html",
+      "verified": true,
+      "copyright": "�Ŵ�ʫ�ʣ�ԭ�����������򣻽���ѡԭ�ģ��������ִ����Ļ�������",
+      "cueFrame": 12,
+      "lineStaggerFrames": 6,
+      "attributionCueFrame": 24,
+      "placement": "lower-left"
+    }
+  },
+  {
+    "id": "spring-02-yushui",
+    "start": 330,
+    "end": 510,
+    "section": "main",
+    "chapter": "��",
+    "title": "��ˮ",
+    "subtitle": "ѩ�����꣬�������Ұ��ʼ��ˮ��",
+    "kicker": "�� �� �ƾ� 330��",
+    "theme": "dark",
+    "camera": {
+      "type": "tilt-down",
+      "amount": 0.42
+    },
+    "transition": {
+      "type": "dissolve",
+      "frames": 7
+    },
+    "layers": [
+      {
+        "assetId": "spring-02-background",
+        "role": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1,
+        "fit": "cover",
+        "parallax": 0.82
+      },
+      {
+        "assetId": "spring-02-willow-foreground",
+        "role": "foreground",
+        "x": 0.405,
+        "y": 0.015,
+        "w": 0.59,
+        "h": 0.72,
+        "fit": "contain",
+        "parallax": 1.8,
+        "motion": {
+          "x0": 0.012,
+          "x1": -0.012,
+          "y0": -0.008,
+          "y1": 0.008,
+          "scale0": 1,
+          "scale1": 1.055
+        }
+      }
+    ],
+    "words": [],
+    "index": 2,
+    "layout": "left",
+    "visual": "nature",
+    "weather": "rain",
+    "music": {
+      "source_start_seconds": 88.0,
+      "source_end_seconds": 94.0,
+      "pulse_seconds": 0.5,
+      "duration_pulses": 12.0,
+      "entry_on_measured_grid": true
+    },
+    "accentFrames": [],
+    "accentStrength": 0.018,
+    "labelCueFrames": {
+      "kicker": 0,
+      "title": 0,
+      "subtitle": 7
+    },
+    "poem": {
+      "lines": [
+        "����֪ʱ��",
+        "�����˷���"
+      ],
+      "author": "�Ÿ�",
+      "work": "��ҹϲ��",
+      "sourceUrl": "https://www.moe.gov.cn/srcsite/A06/s3331/201612/W020161213303084709835.pdf",
+      "verified": true,
+      "copyright": "�Ŵ�ʫ�ʣ�ԭ�����������򣻽���ѡԭ�ģ��������ִ����Ļ�������",
+      "cueFrame": 12,
+      "lineStaggerFrames": 6,
+      "attributionCueFrame": 24,
+      "placement": "lower-left"
+    }
+  },
+  {
+    "id": "term-03-jingzhe",
+    "index": 3,
+    "start": 510,
+    "end": 750,
+    "section": "main",
+    "chapter": "��",
+    "title": "����",
+    "subtitle": "�������£��ݷ�������������",
+    "kicker": "�� �� �ƾ� 345��",
+    "theme": "dark",
+    "layout": "left",
+    "visual": "nature",
+    "weather": "none",
+    "camera": {
+      "type": "push",
+      "amount": 1
+    },
+    "transition": {
+      "type": "cut",
+      "frames": 0
+    },
+    "layers": [
+      {
+        "assetId": "term-03-bg",
+        "role": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1,
+        "fit": "cover",
+        "parallax": 1
+      },
+      {
+        "assetId": "term-03-sprout",
+        "role": "foreground",
+        "x": 0.47,
+        "y": 0.25,
+        "w": 0.5,
+        "h": 0.7,
+        "fit": "contain",
+        "parallax": 1.5,
+        "motion": {
+          "x0": 0.012,
+          "x1": -0.014,
+          "y0": 0.004,
+          "y1": -0.004,
+          "scale0": 0.99,
+          "scale1": 1.025,
+          "sway": 1.0
+        }
+      }
+    ],
+    "words": [],
+    "music": {
+      "source_start_seconds": 94.0,
+      "source_end_seconds": 102.0,
+      "pulse_seconds": 0.5,
+      "duration_pulses": 16.0,
+      "entry_on_measured_grid": true
+    },
+    "accentFrames": [],
+    "accentStrength": 0.018,
+    "labelCueFrames": {
+      "kicker": 0,
+      "title": 0,
+      "subtitle": 7
+    },
+    "poem": {
+      "lines": [
+        "΢���ڻ���",
+        "һ�׾���ʼ"
+      ],
+      "author": "ΤӦ��",
+      "work": "�����",
+      "sourceUrl": "https://www.beijing.gov.cn/renwen/zt/essjq/zjs/202209/t20220908_2811393.html",
+      "verified": true,
+      "copyright": "�Ŵ�ʫ�ʣ�ԭ�����������򣻽���ѡԭ�ģ��������ִ����Ļ�������",
+      "cueFrame": 12,
+      "lineStaggerFrames": 6,
+      "attributionCueFrame": 24,
+      "placement": "lower-left"
+    }
+  },
+  {
+    "id": "term-04-chunfen",
+    "index": 4,
+    "start": 750,
+    "end": 975,
+    "section": "main",
+    "chapter": "��",
+    "title": "����",
+    "subtitle": "��ҹ�ӽ�ƽ�֣���ɫ�ߵ����С�",
+    "kicker": "�� �� �ƾ� 0��",
+    "theme": "dark",
+    "layout": "left",
+    "visual": "nature",
+    "weather": "none",
+    "camera": {
+      "type": "still",
+      "amount": 1
+    },
+    "transition": {
+      "type": "cut",
+      "frames": 0
+    },
+    "layers": [
+      {
+        "assetId": "term-04-bg",
+        "role": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1,
+        "fit": "cover",
+        "parallax": 1
+      }
+    ],
+    "words": [],
+    "music": {
+      "source_start_seconds": 102.0,
+      "source_end_seconds": 109.5,
+      "pulse_seconds": 0.5,
+      "duration_pulses": 15.0,
+      "entry_on_measured_grid": true
+    },
+    "accentFrames": [
+      0,
+      90
+    ],
+    "accentStrength": 0.01,
+    "labelCueFrames": {
+      "kicker": 0,
+      "title": 0,
+      "subtitle": 7
+    },
+    "poem": {
+      "lines": [
+        "�ٴ�������",
+        "��ɫ���з�"
+      ],
+      "author": "����",
+      "work": "������",
+      "sourceUrl": "https://dfzb.suzhou.gov.cn/dfzb/szdq/202203/fccc818c79dd44ecac50d2eb5b1a9aa0.shtml",
+      "verified": true,
+      "copyright": "�Ŵ�ʫ�ʣ�ԭ�����������򣻽���ѡԭ�ģ��������ִ����Ļ�������",
+      "cueFrame": 12,
+      "lineStaggerFrames": 6,
+      "attributionCueFrame": 24,
+      "placement": "lower-left"
+    }
+  },
+  {
+    "id": "term-05-qingming",
+    "index": 5,
+    "start": 975,
+    "end": 1245,
+    "section": "main",
+    "chapter": "��",
+    "title": "����",
+    "subtitle": "���徰����������̤�඼����ʱ�ڡ�",
+    "kicker": "�� �� �ƾ� 15��",
+    "theme": "dark",
+    "layout": "left",
+    "visual": "nature",
+    "weather": "none",
+    "camera": {
+      "type": "track-left",
+      "amount": 0.65
+    },
+    "transition": {
+      "type": "wipe-left",
+      "frames": 7
+    },
+    "layers": [
+      {
+        "assetId": "term-05-bg",
+        "role": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1,
+        "fit": "cover",
+        "parallax": 1
+      },
+      {
+        "assetId": "term-05-boat",
+        "role": "subject",
+        "x": 0.3,
+        "y": 0.56,
+        "w": 0.33,
+        "h": 0.255,
+        "fit": "contain",
+        "parallax": 0.38,
+        "motion": {
+          "x0": -0.015,
+          "x1": 0.045,
+          "y0": 0.004,
+          "y1": -0.002,
+          "scale0": 0.97,
+          "scale1": 1
+        }
+      },
+      {
+        "assetId": "term-05-grass",
+        "role": "foreground",
+        "x": 0.34,
+        "y": 0.67,
+        "w": 0.7,
+        "h": 0.34,
+        "fit": "contain",
+        "parallax": 1.5,
+        "motion": {
+          "x0": 0.025,
+          "x1": -0.025,
+          "y0": 0,
+          "y1": 0,
+          "scale0": 1,
+          "scale1": 1.02,
+          "sway": 0.4
+        }
+      }
+    ],
+    "words": [],
+    "music": {
+      "source_start_seconds": 109.5,
+      "source_end_seconds": 118.5,
+      "pulse_seconds": 0.5,
+      "duration_pulses": 18.0,
+      "entry_on_measured_grid": true
+    },
+    "accentFrames": [
+      45
+    ],
+    "accentStrength": 0.018,
+    "labelCueFrames": {
+      "kicker": 0,
+      "title": 0,
+      "subtitle": 7
+    },
+    "poem": {
+      "lines": [
+        "�滨����������",
+        "����Ѱ�������"
+      ],
+      "author": "��Ω��",
+      "work": "�յ���������",
+      "sourceUrl": "https://www.qingcheng.gov.cn/zjqc/mswh/content/post_150917.html",
+      "verified": true,
+      "copyright": "�Ŵ�ʫ�ʣ�ԭ�����������򣻽���ѡԭ�ģ��������ִ����Ļ�������",
+      "cueFrame": 12,
+      "lineStaggerFrames": 6,
+      "attributionCueFrame": 24,
+      "placement": "lower-left"
+    }
+  },
+  {
+    "id": "term-06-guyu",
+    "index": 6,
+    "start": 1245,
+    "end": 1470,
+    "section": "main",
+    "chapter": "��",
+    "title": "����",
+    "subtitle": "������ٹȣ���������¢��������",
+    "kicker": "�� �� �ƾ� 30��",
+    "theme": "dark",
+    "layout": "left",
+    "visual": "nature",
+    "weather": "rain",
+    "camera": {
+      "type": "pull-back",
+      "amount": 1
+    },
+    "transition": {
+      "type": "dissolve",
+      "frames": 7
+    },
+    "layers": [
+      {
+        "assetId": "term-06-bg",
+        "role": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1,
+        "fit": "cover",
+        "parallax": 1
+      },
+      {
+        "assetId": "term-06-seedlings",
+        "role": "foreground",
+        "x": 0.48,
+        "y": 0.52,
+        "w": 0.52,
+        "h": 0.72,
+        "fit": "contain",
+        "parallax": 1.5,
+        "motion": {
+          "x0": -0.012,
+          "x1": 0.014,
+          "y0": 0.004,
+          "y1": -0.004,
+          "scale0": 0.99,
+          "scale1": 1.025,
+          "sway": 1.0
+        }
+      }
+    ],
+    "words": [],
+    "music": {
+      "source_start_seconds": 118.5,
+      "source_end_seconds": 126.0,
+      "pulse_seconds": 0.5,
+      "duration_pulses": 15.0,
+      "entry_on_measured_grid": true
+    },
+    "accentFrames": [
+      45
+    ],
+    "accentStrength": 0.018,
+    "labelCueFrames": {
+      "kicker": 0,
+      "title": 0,
+      "subtitle": 7
+    },
+    "poem": {
+      "lines": [
+        "���괺����",
+        "ɽ����ɫ��"
+      ],
+      "author": "Ԫ�",
+      "work": "ӽإ����ʫ������������",
+      "sourceUrl": "https://www.bjqtm.com/xcjy/dwxc/%E5%AE%9D%E5%8D%9A%E5%BE%AE%E8%AF%BE%E5%A0%82%EF%BD%9C%E8%AF%97%E8%AF%8D%E8%AF%9D%E8%8A%82%E6%B0%94-%E8%B0%B7%E9%9B%A8%E6%98%A5%E5%85%89%E6%99%93%EF%BC%8C%E5%B1%B1%E5%B7%9D%E9%BB%9B",
+      "verified": true,
+      "copyright": "�Ŵ�ʫ�ʣ�ԭ�����������򣻽���ѡԭ�ģ��������ִ����Ļ�������",
+      "cueFrame": 12,
+      "lineStaggerFrames": 6,
+      "attributionCueFrame": 24,
+      "placement": "lower-left"
+    }
+  },
+  {
+    "id": "term-07-lixia",
+    "index": 7,
+    "start": 1470,
+    "end": 1560,
+    "section": "main",
+    "chapter": "��",
+    "title": "����",
+    "subtitle": "���ճ�����֦Ҷ��Ũ���̿���",
+    "kicker": "�� �� �ƾ� 45��",
+    "theme": "dark",
+    "layout": "bottom",
+    "visual": "nature",
+    "weather": "none",
+    "camera": {
+      "type": "tilt-up",
+      "amount": 0.6
+    },
+    "transition": {
+      "type": "cut",
+      "frames": 0
+    },
+    "layers": [
+      {
+        "assetId": "term-07-bg",
+        "role": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1,
+        "fit": "cover",
+        "parallax": 1
+      }
+    ],
+    "words": [],
+    "music": {
+      "source_start_seconds": 126.0,
+      "source_end_seconds": 129.0,
+      "pulse_seconds": 0.5,
+      "duration_pulses": 6.0,
+      "entry_on_measured_grid": true
+    },
+    "accentFrames": [],
+    "accentStrength": 0.01,
+    "labelCueFrames": {
+      "kicker": 0,
+      "title": 0,
+      "subtitle": 7
+    },
+    "poem": {
+      "lines": [
+        "�����Ĳ�ʤ��ʱ"
+      ],
+      "author": "����ʯ",
+      "work": "���ļ���",
+      "sourceUrl": "https://zh.wikisource.org/zh-hans/���ļ���",
+      "verified": true,
+      "copyright": "�Ŵ�ʫ�ʣ�ԭ�����������򣻽���ѡԭ�ģ��������ִ����Ļ�������",
+      "cueFrame": 12,
+      "lineStaggerFrames": 6,
+      "attributionCueFrame": 24,
+      "placement": "upper-left"
+    }
+  },
+  {
+    "id": "term-08-xiaoman",
+    "index": 8,
+    "start": 1560,
+    "end": 1695,
+    "section": "main",
+    "chapter": "��",
+    "title": "С��",
+    "subtitle": "����������δӯ������������ء�",
+    "kicker": "�� �� �ƾ� 60��",
+    "theme": "dark",
+    "layout": "left",
+    "visual": "nature",
+    "weather": "none",
+    "camera": {
+      "type": "track-right",
+      "amount": 0.65
+    },
+    "transition": {
+      "type": "match-in",
+      "frames": 7
+    },
+    "layers": [
+      {
+        "assetId": "term-08-bg",
+        "role": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1,
+        "fit": "cover",
+        "parallax": 1
+      },
+      {
+        "assetId": "term-08-wheat",
+        "role": "foreground",
+        "x": 0.44,
+        "y": 0.23,
+        "w": 0.56,
+        "h": 0.88,
+        "fit": "contain",
+        "parallax": 1.5,
+        "motion": {
+          "x0": -0.012,
+          "x1": 0.014,
+          "y0": 0.004,
+          "y1": -0.004,
+          "scale0": 0.99,
+          "scale1": 1.025,
+          "sway": 1.0
+        }
+      }
+    ],
+    "words": [],
+    "music": {
+      "source_start_seconds": 129.0,
+      "source_end_seconds": 133.5,
+      "pulse_seconds": 0.5,
+      "duration_pulses": 9.0,
+      "entry_on_measured_grid": true
+    },
+    "accentFrames": [
+      45
+    ],
+    "accentStrength": 0.018,
+    "labelCueFrames": {
+      "kicker": 0,
+      "title": 0,
+      "subtitle": 7
+    },
+    "poem": {
+      "lines": [
+        "����������ӽ�",
+        "ɣҶ���ʲ�ʳ��"
+      ],
+      "author": "ŷ����",
+      "work": "����԰��ʱ�ִ��Ķ��ס����",
+      "sourceUrl": "https://www.kfdsw.com/index/detail/id/2670.html",
+      "verified": true,
+      "copyright": "�Ŵ�ʫ�ʣ�ԭ�����������򣻽���ѡԭ�ģ��������ִ����Ļ�������",
+      "cueFrame": 12,
+      "lineStaggerFrames": 6,
+      "attributionCueFrame": 24,
+      "placement": "lower-left"
+    }
+  },
+  {
+    "id": "term-09-mangzhong",
+    "index": 9,
+    "start": 1695,
+    "end": 1830,
+    "section": "main",
+    "chapter": "��",
+    "title": "â��",
+    "subtitle": "��â���죬�������æ��д�������",
+    "kicker": "�� �� �ƾ� 75��",
+    "theme": "dark",
+    "layout": "left",
+    "visual": "nature",
+    "weather": "none",
+    "camera": {
+      "type": "reveal-hold",
+      "amount": 1
+    },
+    "transition": {
+      "type": "cut",
+      "frames": 0
+    },
+    "layers": [
+      {
+        "assetId": "term-09-bg",
+        "role": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1,
+        "fit": "cover",
+        "parallax": 1
+      },
+      {
+        "assetId": "term-09-wheatbundle",
+        "role": "subject",
+        "x": 0.48,
+        "y": 0.16,
+        "w": 0.44,
+        "h": 0.73,
+        "fit": "contain",
+        "parallax": 0.38,
+        "motion": {
+          "x0": 0.012,
+          "x1": -0.014,
+          "y0": 0.004,
+          "y1": -0.004,
+          "scale0": 0.99,
+          "scale1": 1.025,
+          "sway": 0.55
+        }
+      },
+      {
+        "assetId": "term-09-sickle",
+        "role": "foreground",
+        "x": 0.58,
+        "y": 0.66,
+        "w": 0.35,
+        "h": 0.2,
+        "fit": "contain",
+        "parallax": 1.5,
+        "motion": {
+          "x0": 0.012,
+          "x1": -0.014,
+          "y0": 0.004,
+          "y1": -0.004,
+          "scale0": 0.99,
+          "scale1": 1.025,
+          "sway": 0.55
+        }
+      }
+    ],
+    "words": [],
+    "music": {
+      "source_start_seconds": 133.5,
+      "source_end_seconds": 138.0,
+      "pulse_seconds": 0.5,
+      "duration_pulses": 9.0,
+      "entry_on_measured_grid": true
+    },
+    "accentFrames": [
+      45
+    ],
+    "accentStrength": 0.018,
+    "labelCueFrames": {
+      "kicker": 0,
+      "title": 0,
+      "subtitle": 7
+    },
+    "poem": {
+      "lines": [
+        "ʱ�꼰â��",
+        "��Ұ�Բ���"
+      ],
+      "author": "½��",
+      "work": "ʱ��",
+      "sourceUrl": "https://wn.bjsjw.gov.cn/n702/20250310/i101223.html",
+      "verified": true,
+      "copyright": "�Ŵ�ʫ�ʣ�ԭ�����������򣻽���ѡԭ�ģ��������ִ����Ļ�������",
+      "cueFrame": 12,
+      "lineStaggerFrames": 6,
+      "attributionCueFrame": 24,
+      "placement": "lower-left",
+      "top": 0.53
+    }
+  },
+  {
+    "id": "term-10-xiazhi",
+    "index": 10,
+    "start": 1830,
+    "end": 1920,
+    "section": "main",
+    "chapter": "��",
+    "title": "����",
+    "subtitle": "������������̫��ֱ�ձ��ع��ߡ�",
+    "kicker": "�� �� �ƾ� 90��",
+    "theme": "dark",
+    "layout": "left",
+    "visual": "nature",
+    "weather": "none",
+    "camera": {
+      "type": "still",
+      "amount": 1
+    },
+    "transition": {
+      "type": "dissolve",
+      "frames": 7
+    },
+    "layers": [
+      {
+        "assetId": "term-10-bg",
+        "role": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1,
+        "fit": "cover",
+        "parallax": 1
+      }
+    ],
+    "words": [],
+    "music": {
+      "source_start_seconds": 138.0,
+      "source_end_seconds": 141.0,
+      "pulse_seconds": 0.5,
+      "duration_pulses": 6.0,
+      "entry_on_measured_grid": true
+    },
+    "accentFrames": [],
+    "accentStrength": 0.01,
+    "labelCueFrames": {
+      "kicker": 0,
+      "title": 0,
+      "subtitle": 7
+    },
+    "poem": {
+      "lines": [
+        "�������Ƽ�"
+      ],
+      "author": "ΤӦ��",
+      "work": "���������",
+      "sourceUrl": "https://wjw.shanxi.gov.cn/zfxxgk/fdzdgknr/jkzx/202505/t20250516_9835856.shtml",
+      "verified": true,
+      "copyright": "�Ŵ�ʫ�ʣ�ԭ�����������򣻽���ѡԭ�ģ��������ִ����Ļ�������",
+      "cueFrame": 12,
+      "lineStaggerFrames": 6,
+      "attributionCueFrame": 24,
+      "placement": "lower-left"
+    }
+  },
+  {
+    "id": "term-11-xiaoshu",
+    "index": 11,
+    "start": 1920,
+    "end": 2055,
+    "section": "main",
+    "chapter": "��",
+    "title": "С��",
+    "subtitle": "��������ʢ�Ļ�δ��������",
+    "kicker": "�� �� �ƾ� 105��",
+    "theme": "dark",
+    "layout": "left",
+    "visual": "nature",
+    "weather": "none",
+    "camera": {
+      "type": "track-left",
+      "amount": 0.65
+    },
+    "transition": {
+      "type": "wipe-right",
+      "frames": 7
+    },
+    "layers": [
+      {
+        "assetId": "term-11-bg",
+        "role": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1,
+        "fit": "cover",
+        "parallax": 1
+      },
+      {
+        "assetId": "term-11-lotus",
+        "role": "foreground",
+        "x": 0.48,
+        "y": 0.26,
+        "w": 0.53,
+        "h": 0.67,
+        "fit": "contain",
+        "parallax": 1.5,
+        "motion": {
+          "x0": 0.012,
+          "x1": -0.014,
+          "y0": 0.004,
+          "y1": -0.004,
+          "scale0": 0.99,
+          "scale1": 1.025,
+          "sway": 1.0
+        }
+      }
+    ],
+    "words": [],
+    "music": {
+      "source_start_seconds": 141.0,
+      "source_end_seconds": 145.5,
+      "pulse_seconds": 0.5,
+      "duration_pulses": 9.0,
+      "entry_on_measured_grid": true
+    },
+    "accentFrames": [
+      45
+    ],
+    "accentStrength": 0.018,
+    "labelCueFrames": {
+      "kicker": 0,
+      "title": 0,
+      "subtitle": 7
+    },
+    "poem": {
+      "lines": [
+        "�ɷ�������",
+        "��¶������"
+      ],
+      "author": "�Ϻ�Ȼ",
+      "work": "������ͤ������",
+      "sourceUrl": "https://www.cma.gov.cn/2011xzt/20150130/20150701/201507/t20150701_286561.html",
+      "verified": true,
+      "copyright": "�Ŵ�ʫ�ʣ�ԭ�����������򣻽���ѡԭ�ģ��������ִ����Ļ�������",
+      "cueFrame": 12,
+      "lineStaggerFrames": 6,
+      "attributionCueFrame": 24,
+      "placement": "lower-left"
+    }
+  },
+  {
+    "id": "term-12-dashu",
+    "index": 12,
+    "start": 2055,
+    "end": 2190,
+    "section": "main",
+    "chapter": "��",
+    "title": "����",
+    "subtitle": "�������ϸߴ�����Ұ�����ȹ���������",
+    "kicker": "�� �� �ƾ� 120��",
+    "theme": "dark",
+    "layout": "bottom",
+    "visual": "nature",
+    "weather": "rain",
+    "camera": {
+      "type": "diagonal",
+      "amount": 1
+    },
+    "transition": {
+      "type": "cut",
+      "frames": 0
+    },
+    "layers": [
+      {
+        "assetId": "term-12-bg",
+        "role": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1,
+        "fit": "cover",
+        "parallax": 1
+      }
+    ],
+    "words": [],
+    "music": {
+      "source_start_seconds": 145.5,
+      "source_end_seconds": 150.0,
+      "pulse_seconds": 0.5,
+      "duration_pulses": 9.0,
+      "entry_on_measured_grid": true
+    },
+    "accentFrames": [
+      45
+    ],
+    "accentStrength": 0.01,
+    "labelCueFrames": {
+      "kicker": 0,
+      "title": 0,
+      "subtitle": 7
+    },
+    "poem": {
+      "lines": [
+        "���겻֪��ȥ",
+        "һ�緽������"
+      ],
+      "author": "���ɴ�",
+      "work": "ϲ��",
+      "sourceUrl": "https://m.ahjjjc.gov.cn/p/60817.html",
+      "verified": true,
+      "copyright": "�Ŵ�ʫ�ʣ�ԭ�����������򣻽���ѡԭ�ģ��������ִ����Ļ�������",
+      "cueFrame": 12,
+      "lineStaggerFrames": 6,
+      "attributionCueFrame": 24,
+      "placement": "upper-left"
+    }
+  },
+  {
+    "id": "term-13-liqiu",
+    "index": 13,
+    "start": 2190,
+    "end": 2325,
+    "section": "main",
+    "chapter": "��",
+    "title": "����",
+    "subtitle": "��ʱת������������δԶ�롣",
+    "kicker": "�� �� �ƾ� 135��",
+    "theme": "dark",
+    "layout": "left",
+    "visual": "nature",
+    "weather": "none",
+    "camera": {
+      "type": "pull-back",
+      "amount": 1
+    },
+    "transition": {
+      "type": "cut",
+      "frames": 0
+    },
+    "layers": [
+      {
+        "assetId": "term-13-bg",
+        "role": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1,
+        "fit": "cover",
+        "parallax": 1
+      },
+      {
+        "assetId": "term-13-pomegranate",
+        "role": "foreground",
+        "x": 0.5,
+        "y": -0.13,
+        "w": 0.5,
+        "h": 0.95,
+        "fit": "contain",
+        "parallax": 1.5,
+        "motion": {
+          "x0": 0.012,
+          "x1": -0.014,
+          "y0": 0.004,
+          "y1": -0.004,
+          "scale0": 0.99,
+          "scale1": 1.025,
+          "sway": 1.0
+        }
+      }
+    ],
+    "words": [],
+    "music": {
+      "source_start_seconds": 150.0,
+      "source_end_seconds": 154.5,
+      "pulse_seconds": 0.5,
+      "duration_pulses": 9.0,
+      "entry_on_measured_grid": true
+    },
+    "accentFrames": [
+      45
+    ],
+    "accentStrength": 0.018,
+    "labelCueFrames": {
+      "kicker": 0,
+      "title": 0,
+      "subtitle": 7
+    },
+    "poem": {
+      "lines": [
+        "�Թŷ��ﱯ����",
+        "��������ʤ����"
+      ],
+      "author": "������",
+      "work": "��ʶ��ס���һ",
+      "sourceUrl": "https://yllhj.beijing.gov.cn/ztxx/bjhx/hhzs/202011/t20201104_2128451.shtml",
+      "verified": true,
+      "copyright": "�Ŵ�ʫ�ʣ�ԭ�����������򣻽���ѡԭ�ģ��������ִ����Ļ�������",
+      "cueFrame": 12,
+      "lineStaggerFrames": 6,
+      "attributionCueFrame": 24,
+      "placement": "lower-left"
+    }
+  },
+  {
+    "id": "term-14-chushu",
+    "index": 14,
+    "start": 2325,
+    "end": 2415,
+    "section": "main",
+    "chapter": "��",
+    "title": "����",
+    "subtitle": "������ʼ�˳�������һ���ת����",
+    "kicker": "�� �� �ƾ� 150��",
+    "theme": "dark",
+    "layout": "bottom",
+    "visual": "nature",
+    "weather": "none",
+    "camera": {
+      "type": "track-right",
+      "amount": 0.65
+    },
+    "transition": {
+      "type": "dissolve",
+      "frames": 7
+    },
+    "layers": [
+      {
+        "assetId": "term-14-bg",
+        "role": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1,
+        "fit": "cover",
+        "parallax": 1
+      }
+    ],
+    "words": [],
+    "music": {
+      "source_start_seconds": 154.5,
+      "source_end_seconds": 157.5,
+      "pulse_seconds": 0.5,
+      "duration_pulses": 6.0,
+      "entry_on_measured_grid": true
+    },
+    "accentFrames": [],
+    "accentStrength": 0.01,
+    "labelCueFrames": {
+      "kicker": 0,
+      "title": 0,
+      "subtitle": 7
+    },
+    "poem": {
+      "lines": [
+        "����������"
+      ],
+      "author": "�׾���",
+      "work": "���������л�",
+      "sourceUrl": "https://www.bjqtm.com/xcjy/dwxc/%E5%AE%9D%E5%8D%9A%E5%BE%AE%E8%AF%BE%E5%A0%82%E9%87%91%E6%96%87%E8%AF%9D%E8%8A%82%E6%B0%94-%E5%A4%84%E6%9A%91",
+      "verified": true,
+      "copyright": "�Ŵ�ʫ�ʣ�ԭ�����������򣻽���ѡԭ�ģ��������ִ����Ļ�������",
+      "cueFrame": 12,
+      "lineStaggerFrames": 6,
+      "attributionCueFrame": 24,
+      "placement": "upper-left"
+    }
+  },
+  {
+    "id": "term-15-bailu",
+    "index": 15,
+    "start": 2415,
+    "end": 2550,
+    "section": "main",
+    "chapter": "��",
+    "title": "��¶",
+    "subtitle": "ҹ�½��ͣ��峿��ľ��ס¶�顣",
+    "kicker": "�� �� �ƾ� 165��",
+    "theme": "dark",
+    "layout": "left",
+    "visual": "nature",
+    "weather": "mist",
+    "camera": {
+      "type": "reveal-hold",
+      "amount": 1
+    },
+    "transition": {
+      "type": "focus",
+      "frames": 7
+    },
+    "layers": [
+      {
+        "assetId": "term-15-bg",
+        "role": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1,
+        "fit": "cover",
+        "parallax": 1
+      },
+      {
+        "assetId": "term-15-reeds",
+        "role": "subject",
+        "x": 0.51,
+        "y": 0.2,
+        "w": 0.46,
+        "h": 0.65,
+        "fit": "contain",
+        "parallax": 0.38,
+        "motion": {
+          "x0": 0.012,
+          "x1": -0.014,
+          "y0": 0.004,
+          "y1": -0.004,
+          "scale0": 0.99,
+          "scale1": 1.025,
+          "sway": 1.0
+        }
+      },
+      {
+        "assetId": "term-15-dewgrass",
+        "role": "foreground",
+        "x": 0.43,
+        "y": 0.56,
+        "w": 0.58,
+        "h": 0.4,
+        "fit": "contain",
+        "parallax": 1.5,
+        "motion": {
+          "x0": 0.012,
+          "x1": -0.014,
+          "y0": 0.004,
+          "y1": -0.004,
+          "scale0": 0.99,
+          "scale1": 1.025,
+          "sway": 1.0
+        }
+      }
+    ],
+    "words": [],
+    "music": {
+      "source_start_seconds": 157.5,
+      "source_end_seconds": 162.0,
+      "pulse_seconds": 0.5,
+      "duration_pulses": 9.0,
+      "entry_on_measured_grid": true
+    },
+    "accentFrames": [
+      45
+    ],
+    "accentStrength": 0.018,
+    "labelCueFrames": {
+      "kicker": 0,
+      "title": 0,
+      "subtitle": 7
+    },
+    "poem": {
+      "lines": [
+        "¶�ӽ�ҹ��",
+        "���ǹ�����"
+      ],
+      "author": "�Ÿ�",
+      "work": "��ҹ�����",
+      "sourceUrl": "https://hb.cma.gov.cn/qxkp/qxkp/202202/t20220207_4494148.html",
+      "verified": true,
+      "copyright": "�Ŵ�ʫ�ʣ�ԭ�����������򣻽���ѡԭ�ģ��������ִ����Ļ�������",
+      "cueFrame": 12,
+      "lineStaggerFrames": 6,
+      "attributionCueFrame": 24,
+      "placement": "lower-left"
+    }
+  },
+  {
+    "id": "term-16-qiufen",
+    "index": 16,
+    "start": 2550,
+    "end": 2685,
+    "section": "main",
+    "chapter": "��",
+    "title": "���",
+    "subtitle": "��ҹ�ٶ�ƽ�֣���ɫ������졣",
+    "kicker": "�� �� �ƾ� 180��",
+    "theme": "dark",
+    "layout": "left",
+    "visual": "nature",
+    "weather": "none",
+    "camera": {
+      "type": "still",
+      "amount": 1
+    },
+    "transition": {
+      "type": "cut",
+      "frames": 0
+    },
+    "layers": [
+      {
+        "assetId": "term-16-bg",
+        "role": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1,
+        "fit": "cover",
+        "parallax": 1
+      }
+    ],
+    "words": [],
+    "music": {
+      "source_start_seconds": 162.0,
+      "source_end_seconds": 166.5,
+      "pulse_seconds": 0.5,
+      "duration_pulses": 9.0,
+      "entry_on_measured_grid": true
+    },
+    "accentFrames": [
+      45
+    ],
+    "accentStrength": 0.01,
+    "labelCueFrames": {
+      "kicker": 0,
+      "title": 0,
+      "subtitle": 7
+    },
+    "poem": {
+      "lines": [
+        "�������",
+        "����¶�����ڰ�"
+      ],
+      "author": "л��",
+      "work": "��筴����������",
+      "sourceUrl": "https://m.12371.gov.cn/content/2023-09/23/content_449476.html",
+      "verified": true,
+      "copyright": "�Ŵ�ʫ�ʣ�ԭ�����������򣻽���ѡԭ�ģ��������ִ����Ļ�������",
+      "cueFrame": 12,
+      "lineStaggerFrames": 6,
+      "attributionCueFrame": 24,
+      "placement": "lower-left"
+    }
+  },
+  {
+    "id": "term-17-hanlu",
+    "index": 17,
+    "start": 2685,
+    "end": 2820,
+    "section": "main",
+    "chapter": "��",
+    "title": "��¶",
+    "subtitle": "¶��������ľȾ���������ɫ��",
+    "kicker": "�� �� �ƾ� 195��",
+    "theme": "dark",
+    "layout": "left",
+    "visual": "nature",
+    "weather": "mist",
+    "camera": {
+      "type": "tilt-down",
+      "amount": 0.6
+    },
+    "transition": {
+      "type": "wipe-left",
+      "frames": 7
+    },
+    "layers": [
+      {
+        "assetId": "term-17-bg",
+        "role": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1,
+        "fit": "cover",
+        "parallax": 1
+      },
+      {
+        "assetId": "term-17-maple",
+        "role": "foreground",
+        "x": 0.54,
+        "y": 0.07,
+        "w": 0.47,
+        "h": 0.72,
+        "fit": "contain",
+        "parallax": 1.5,
+        "motion": {
+          "x0": 0.012,
+          "x1": -0.014,
+          "y0": 0.004,
+          "y1": -0.004,
+          "scale0": 0.99,
+          "scale1": 1.025,
+          "sway": 1.0
+        }
+      }
+    ],
+    "words": [],
+    "music": {
+      "source_start_seconds": 166.5,
+      "source_end_seconds": 171.0,
+      "pulse_seconds": 0.5,
+      "duration_pulses": 9.0,
+      "entry_on_measured_grid": true
+    },
+    "accentFrames": [
+      45
+    ],
+    "accentStrength": 0.018,
+    "labelCueFrames": {
+      "kicker": 0,
+      "title": 0,
+      "subtitle": 7
+    },
+    "poem": {
+      "lines": [
+        "�������綯",
+        "���ຮ¶��"
+      ],
+      "author": "�׾���",
+      "work": "����",
+      "sourceUrl": "https://www.shidianguji.com/mingju/7623272193846034483",
+      "verified": true,
+      "copyright": "�Ŵ�ʫ�ʣ�ԭ�����������򣻽���ѡԭ�ģ��������ִ����Ļ�������",
+      "cueFrame": 12,
+      "lineStaggerFrames": 6,
+      "attributionCueFrame": 24,
+      "placement": "lower-left"
+    }
+  },
+  {
+    "id": "term-18-shuangjiang",
+    "index": 18,
+    "start": 2820,
+    "end": 2910,
+    "section": "main",
+    "chapter": "��",
+    "title": "˪��",
+    "subtitle": "���⽥���ľ���峿���ϱ�˪��",
+    "kicker": "�� �� �ƾ� 210��",
+    "theme": "dark",
+    "layout": "left",
+    "visual": "nature",
+    "weather": "none",
+    "camera": {
+      "type": "track-left",
+      "amount": 0.65
+    },
+    "transition": {
+      "type": "dissolve",
+      "frames": 7
+    },
+    "layers": [
+      {
+        "assetId": "term-18-bg",
+        "role": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1,
+        "fit": "cover",
+        "parallax": 1
+      },
+      {
+        "assetId": "term-18-persimmon",
+        "role": "foreground",
+        "x": 0.5,
+        "y": -0.2,
+        "w": 0.55,
+        "h": 0.9,
+        "fit": "contain",
+        "parallax": 1.5,
+        "motion": {
+          "x0": -0.012,
+          "x1": 0.014,
+          "y0": 0.004,
+          "y1": -0.004,
+          "scale0": 0.99,
+          "scale1": 1.025,
+          "sway": 1.0
+        }
+      }
+    ],
+    "words": [],
+    "music": {
+      "source_start_seconds": 171.0,
+      "source_end_seconds": 174.0,
+      "pulse_seconds": 0.5,
+      "duration_pulses": 6.0,
+      "entry_on_measured_grid": true
+    },
+    "accentFrames": [],
+    "accentStrength": 0.018,
+    "labelCueFrames": {
+      "kicker": 0,
+      "title": 0,
+      "subtitle": 7
+    },
+    "poem": {
+      "lines": [
+        "��ľҡ��¶Ϊ˪"
+      ],
+      "author": "��ا",
+      "work": "����ж��ס���һ",
+      "sourceUrl": "https://www.bjxch.gov.cn/file/20191108/1573199211783080701.pdf",
+      "verified": true,
+      "copyright": "�Ŵ�ʫ�ʣ�ԭ�����������򣻽���ѡԭ�ģ��������ִ����Ļ�������",
+      "cueFrame": 12,
+      "lineStaggerFrames": 6,
+      "attributionCueFrame": 24,
+      "placement": "lower-left"
+    }
+  },
+  {
+    "id": "term-19-lidong",
+    "index": 19,
+    "start": 2910,
+    "end": 3045,
+    "section": "main",
+    "chapter": "��",
+    "title": "����",
+    "subtitle": "�ļ��ߵ��������￪ʼ�ղء�",
+    "kicker": "�� �� �ƾ� 225��",
+    "theme": "dark",
+    "layout": "bottom",
+    "visual": "nature",
+    "weather": "none",
+    "camera": {
+      "type": "still",
+      "amount": 1
+    },
+    "transition": {
+      "type": "cut",
+      "frames": 0
+    },
+    "layers": [
+      {
+        "assetId": "term-19-bg",
+        "role": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1,
+        "fit": "cover",
+        "parallax": 1
+      }
+    ],
+    "words": [],
+    "music": {
+      "source_start_seconds": 174.0,
+      "source_end_seconds": 178.5,
+      "pulse_seconds": 0.5,
+      "duration_pulses": 9.0,
+      "entry_on_measured_grid": true
+    },
+    "accentFrames": [
+      45
+    ],
+    "accentStrength": 0.01,
+    "labelCueFrames": {
+      "kicker": 0,
+      "title": 0,
+      "subtitle": 7
+    },
+    "poem": {
+      "lines": [
+        "��紵����ͥ��",
+        "��Ҷ��������"
+      ],
+      "author": "���ɵ�",
+      "work": "����",
+      "sourceUrl": "https://www.sqlzw.gov.cn/sitesources/nysjwjw/page_pc/xcjd/wh/article5698d5bb9e8f41ccb35c541a293116f5.html",
+      "verified": true,
+      "copyright": "�Ŵ�ʫ�ʣ�ԭ�����������򣻽���ѡԭ�ģ��������ִ����Ļ�������",
+      "cueFrame": 12,
+      "lineStaggerFrames": 6,
+      "attributionCueFrame": 24,
+      "placement": "upper-left"
+    }
+  },
+  {
+    "id": "term-20-xiaoxue",
+    "index": 20,
+    "start": 3045,
+    "end": 3135,
+    "section": "main",
+    "chapter": "��",
+    "title": "Сѩ",
+    "subtitle": "ѩʱ�����������ȵ�������ߴ���",
+    "kicker": "�� �� �ƾ� 240��",
+    "theme": "dark",
+    "layout": "left",
+    "visual": "nature",
+    "weather": "snow",
+    "camera": {
+      "type": "pull-back",
+      "amount": 1
+    },
+    "transition": {
+      "type": "dissolve",
+      "frames": 7
+    },
+    "layers": [
+      {
+        "assetId": "term-20-bg",
+        "role": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1,
+        "fit": "cover",
+        "parallax": 1
+      },
+      {
+        "assetId": "term-20-bamboo",
+        "role": "foreground",
+        "x": 0.55,
+        "y": 0.06,
+        "w": 0.45,
+        "h": 0.84,
+        "fit": "contain",
+        "parallax": 1.5,
+        "motion": {
+          "x0": -0.012,
+          "x1": 0.014,
+          "y0": 0.004,
+          "y1": -0.004,
+          "scale0": 0.99,
+          "scale1": 1.025,
+          "sway": 1.0
+        }
+      }
+    ],
+    "words": [],
+    "music": {
+      "source_start_seconds": 178.5,
+      "source_end_seconds": 181.5,
+      "pulse_seconds": 0.5,
+      "duration_pulses": 6.0,
+      "entry_on_measured_grid": true
+    },
+    "accentFrames": [],
+    "accentStrength": 0.018,
+    "labelCueFrames": {
+      "kicker": 0,
+      "title": 0,
+      "subtitle": 7
+    },
+    "poem": {
+      "lines": [
+        "�����������֦"
+      ],
+      "author": "����",
+      "work": "��ѩ",
+      "sourceUrl": "https://dxs.moe.gov.cn/zx/a/jj/220210/1747122.shtml",
+      "verified": true,
+      "copyright": "�Ŵ�ʫ�ʣ�ԭ�����������򣻽���ѡԭ�ģ��������ִ����Ļ�������",
+      "cueFrame": 12,
+      "lineStaggerFrames": 6,
+      "attributionCueFrame": 24,
+      "placement": "lower-left"
+    }
+  },
+  {
+    "id": "term-21-daxue",
+    "index": 21,
+    "start": 3135,
+    "end": 3270,
+    "section": "main",
+    "chapter": "��",
+    "title": "��ѩ",
+    "subtitle": "ѩ�⽥Ũ��ɽ�����ϸ���Ķ�װ��",
+    "kicker": "�� �� �ƾ� 255��",
+    "theme": "dark",
+    "layout": "left",
+    "visual": "nature",
+    "weather": "snow",
+    "camera": {
+      "type": "tilt-up",
+      "amount": 0.6
+    },
+    "transition": {
+      "type": "wipe-right",
+      "frames": 7
+    },
+    "layers": [
+      {
+        "assetId": "term-21-bg",
+        "role": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1,
+        "fit": "cover",
+        "parallax": 1
+      },
+      {
+        "assetId": "term-21-roof",
+        "role": "subject",
+        "x": 0.53,
+        "y": 0.62,
+        "w": 0.43,
+        "h": 0.4,
+        "fit": "contain",
+        "parallax": 0.38,
+        "motion": {
+          "x0": 0.012,
+          "x1": -0.014,
+          "y0": 0.004,
+          "y1": -0.004,
+          "scale0": 0.99,
+          "scale1": 1.025,
+          "sway": 0.55
+        }
+      },
+      {
+        "assetId": "term-21-pine",
+        "role": "foreground",
+        "x": 0.51,
+        "y": 0.01,
+        "w": 0.5,
+        "h": 0.55,
+        "fit": "contain",
+        "parallax": 1.5,
+        "motion": {
+          "x0": 0.012,
+          "x1": -0.014,
+          "y0": 0.004,
+          "y1": -0.004,
+          "scale0": 0.99,
+          "scale1": 1.025,
+          "sway": 1.0
+        }
+      }
+    ],
+    "words": [],
+    "music": {
+      "source_start_seconds": 181.5,
+      "source_end_seconds": 186.0,
+      "pulse_seconds": 0.5,
+      "duration_pulses": 9.0,
+      "entry_on_measured_grid": true
+    },
+    "accentFrames": [
+      45
+    ],
+    "accentStrength": 0.018,
+    "labelCueFrames": {
+      "kicker": 0,
+      "title": 0,
+      "subtitle": 7
+    },
+    "poem": {
+      "lines": [
+        "����һҹ������",
+        "ǧ�������滨��"
+      ],
+      "author": "᯲�",
+      "work": "��ѩ�������йٹ龩",
+      "sourceUrl": "https://www.nationalreading.gov.cn/ydzg/plgc/202508/t20250815_926664.html",
+      "verified": true,
+      "copyright": "�Ŵ�ʫ�ʣ�ԭ�����������򣻽���ѡԭ�ģ��������ִ����Ļ�������",
+      "cueFrame": 12,
+      "lineStaggerFrames": 6,
+      "attributionCueFrame": 24,
+      "placement": "lower-left"
+    }
+  },
+  {
+    "id": "term-22-dongzhi",
+    "index": 22,
+    "start": 3270,
+    "end": 3405,
+    "section": "main",
+    "chapter": "��",
+    "title": "����",
+    "subtitle": "�����������̣�̫����ʼ������",
+    "kicker": "�� �� �ƾ� 270��",
+    "theme": "dark",
+    "layout": "left",
+    "visual": "nature",
+    "weather": "none",
+    "camera": {
+      "type": "still",
+      "amount": 1
+    },
+    "transition": {
+      "type": "dissolve",
+      "frames": 7
+    },
+    "layers": [
+      {
+        "assetId": "term-22-bg",
+        "role": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1,
+        "fit": "cover",
+        "parallax": 1
+      }
+    ],
+    "words": [],
+    "music": {
+      "source_start_seconds": 186.0,
+      "source_end_seconds": 190.5,
+      "pulse_seconds": 0.5,
+      "duration_pulses": 9.0,
+      "entry_on_measured_grid": true
+    },
+    "accentFrames": [
+      45
+    ],
+    "accentStrength": 0.01,
+    "labelCueFrames": {
+      "kicker": 0,
+      "title": 0,
+      "subtitle": 7
+    },
+    "poem": {
+      "lines": [
+        "��ʱ���������",
+        "��������������"
+      ],
+      "author": "�Ÿ�",
+      "work": "С��",
+      "sourceUrl": "https://www.beijing.gov.cn/renwen/zt/essjq/hsjq/202209/t20220908_2811456.html",
+      "verified": true,
+      "copyright": "�Ŵ�ʫ�ʣ�ԭ�����������򣻽���ѡԭ�ģ��������ִ����Ļ�������",
+      "cueFrame": 12,
+      "lineStaggerFrames": 6,
+      "attributionCueFrame": 24,
+      "placement": "lower-left"
+    }
+  },
+  {
+    "id": "term-23-xiaohan",
+    "index": 23,
+    "start": 3405,
+    "end": 3495,
+    "section": "main",
+    "chapter": "��",
+    "title": "С��",
+    "subtitle": "���⽥����÷���ں�֦�俪�š�",
+    "kicker": "�� �� �ƾ� 285��",
+    "theme": "dark",
+    "layout": "left",
+    "visual": "nature",
+    "weather": "none",
+    "camera": {
+      "type": "track-right",
+      "amount": 0.65
+    },
+    "transition": {
+      "type": "match-in",
+      "frames": 7
+    },
+    "layers": [
+      {
+        "assetId": "term-23-bg",
+        "role": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1,
+        "fit": "cover",
+        "parallax": 1
+      },
+      {
+        "assetId": "term-23-whiteplum",
+        "role": "foreground",
+        "x": 0.4,
+        "y": 0.22,
+        "w": 0.62,
+        "h": 0.92,
+        "fit": "contain",
+        "parallax": 1.5,
+        "motion": {
+          "x0": 0.012,
+          "x1": -0.014,
+          "y0": 0.004,
+          "y1": -0.004,
+          "scale0": 0.99,
+          "scale1": 1.025,
+          "sway": 1.0
+        }
+      }
+    ],
+    "words": [],
+    "music": {
+      "source_start_seconds": 190.5,
+      "source_end_seconds": 193.5,
+      "pulse_seconds": 0.5,
+      "duration_pulses": 6.0,
+      "entry_on_measured_grid": true
+    },
+    "accentFrames": [],
+    "accentStrength": 0.018,
+    "labelCueFrames": {
+      "kicker": 0,
+      "title": 0,
+      "subtitle": 7
+    },
+    "poem": {
+      "lines": [
+        "�躮���Կ�"
+      ],
+      "author": "����ʯ",
+      "work": "÷��",
+      "sourceUrl": "https://yllhj.beijing.gov.cn/ztxx/bjhx/hhzs/201902/t20190222_118661.shtml",
+      "verified": true,
+      "copyright": "�Ŵ�ʫ�ʣ�ԭ�����������򣻽���ѡԭ�ģ��������ִ����Ļ�������",
+      "cueFrame": 12,
+      "lineStaggerFrames": 6,
+      "attributionCueFrame": 24,
+      "placement": "lower-left"
+    }
+  },
+  {
+    "id": "term-24-dahan",
+    "index": 24,
+    "start": 3495,
+    "end": 3630,
+    "section": "main",
+    "chapter": "��",
+    "title": "��",
+    "subtitle": "�꺮���ˣ����������Ŀ�����",
+    "kicker": "�� �� �ƾ� 300��",
+    "theme": "dark",
+    "layout": "bottom",
+    "visual": "nature",
+    "weather": "mist",
+    "camera": {
+      "type": "pull-back",
+      "amount": 1
+    },
+    "transition": {
+      "type": "focus",
+      "frames": 7
+    },
+    "layers": [
+      {
+        "assetId": "term-24-bg",
+        "role": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1,
+        "fit": "cover",
+        "parallax": 1
+      }
+    ],
+    "words": [],
+    "music": {
+      "source_start_seconds": 193.5,
+      "source_end_seconds": 198.0,
+      "pulse_seconds": 0.5,
+      "duration_pulses": 9.0,
+      "entry_on_measured_grid": true
+    },
+    "accentFrames": [
+      45
+    ],
+    "accentStrength": 0.01,
+    "labelCueFrames": {
+      "kicker": 0,
+      "title": 0,
+      "subtitle": 7
+    },
+    "poem": {
+      "lines": [
+        "��ѩδ��",
+        "�ջ����ܳ�"
+      ],
+      "author": "½��",
+      "work": "��",
+      "sourceUrl": "https://paper.people.com.cn/zgnyb/pc/attachement/202501/20/460e9077-87be-47d8-8262-b688d3720d3f.pdf",
+      "verified": true,
+      "copyright": "�Ŵ�ʫ�ʣ�ԭ�����������򣻽���ѡԭ�ģ��������ִ����Ļ�������",
+      "cueFrame": 12,
+      "lineStaggerFrames": 6,
+      "attributionCueFrame": 24,
+      "placement": "upper-left"
+    }
+  },
+  {
+    "id": "ending",
+    "start": 3630,
+    "end": 3840,
+    "section": "ending",
+    "chapter": "����",
+    "title": "��ʮ�Ľ���",
+    "subtitle": "���µĲ�ֻ��ʱ�䣬Ҳ���������ദ�ķ�ʽ��",
+    "kicker": "",
+    "theme": "dark",
+    "visual": "calendar-ending",
+    "camera": {
+      "type": "still"
+    },
+    "transition": {
+      "type": "dissolve",
+      "frames": 7
+    },
+    "layers": [
+      {
+        "assetId": "term-04-bg",
+        "role": "background",
+        "x": 0.0,
+        "y": 0,
+        "w": 0.25,
+        "h": 1
+      },
+      {
+        "assetId": "term-10-bg",
+        "role": "background",
+        "x": 0.25,
+        "y": 0,
+        "w": 0.25,
+        "h": 1
+      },
+      {
+        "assetId": "term-16-bg",
+        "role": "background",
+        "x": 0.5,
+        "y": 0,
+        "w": 0.25,
+        "h": 1
+      },
+      {
+        "assetId": "term-22-bg",
+        "role": "background",
+        "x": 0.75,
+        "y": 0,
+        "w": 0.25,
+        "h": 1
+      }
+    ],
+    "words": [],
+    "accentFrames": [],
+    "music": {
+      "source_start_seconds": 198.0,
+      "arrangement_release_frame": 45,
+      "subtitle_frame": 45,
+      "tail_fade_seconds": 2.0
+    }
+  }
+]

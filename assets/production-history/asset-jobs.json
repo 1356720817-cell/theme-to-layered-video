@@ -1,0 +1,494 @@
+[
+  {
+    "id": "term-03-bg",
+    "index": 3,
+    "slug": "jingzhe",
+    "name": "����",
+    "role": "background",
+    "file": "assets/03-jingzhe-bg.png",
+    "alpha": false,
+    "prompt": "Macro-level view of dark moist spring soil and a shallow earthen hollow, delicate roots and warm morning light, distant blurred field, no foreground sprout or insect. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. "
+  },
+  {
+    "id": "term-03-sprout",
+    "index": 3,
+    "slug": "jingzhe",
+    "name": "����",
+    "role": "foreground",
+    "file": "assets/03-jingzhe-sprout.png",
+    "alpha": true,
+    "layout": [
+      0.47,
+      0.25,
+      0.5,
+      0.7
+    ],
+    "prompt": "One botanically credible tiny cereal sprout with two folded green leaves rising from a small irregular clump of soil, a single small harmless ground beetle beside it; isolated nature photography cutout, no backdrop. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. "
+  },
+  {
+    "id": "term-04-bg",
+    "index": 4,
+    "slug": "chunfen",
+    "name": "����",
+    "role": "background",
+    "file": "assets/04-chunfen-bg.png",
+    "alpha": false,
+    "prompt": "A broad northern Chinese river plain at spring dawn, sun exactly near the horizon, delicate green fields and a lone distant tree, balanced warm light and cool shade, clear spacious sky, contemplative natural photograph. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. "
+  },
+  {
+    "id": "term-05-bg",
+    "index": 5,
+    "slug": "qingming",
+    "name": "����",
+    "role": "background",
+    "file": "assets/05-qingming-bg.png",
+    "alpha": false,
+    "prompt": "A clear early-April river winding through a Chinese rural landscape, fresh green banks and distant willow trees, a modest stone footpath and low hills; no close grass, no boat in the water, no large foreground trees. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. "
+  },
+  {
+    "id": "term-05-boat",
+    "index": 5,
+    "slug": "qingming",
+    "name": "����",
+    "role": "subject",
+    "file": "assets/05-qingming-boat.png",
+    "alpha": true,
+    "layout": [
+      0.44,
+      0.43,
+      0.34,
+      0.26
+    ],
+    "prompt": "A small traditional unpainted Chinese wooden river skiff viewed from a low three-quarter side angle, one seated boatman in plain contemporary rural clothes holding a long wooden oar; correct boat structure and calm posture, isolated transparent cutout, no water or shoreline. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. "
+  },
+  {
+    "id": "term-05-grass",
+    "index": 5,
+    "slug": "qingming",
+    "name": "����",
+    "role": "foreground",
+    "file": "assets/05-qingming-grass.png",
+    "alpha": true,
+    "layout": [
+      0.34,
+      0.67,
+      0.7,
+      0.34
+    ],
+    "prompt": "A loose low cluster of tender riverside grasses and a few small white wildflowers, realistic early spring botany, side-lit from upper right, isolated transparent foreground strip, no ground or scenery. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. "
+  },
+  {
+    "id": "term-06-bg",
+    "index": 6,
+    "slug": "guyu",
+    "name": "����",
+    "role": "background",
+    "file": "assets/06-guyu-bg.png",
+    "alpha": false,
+    "prompt": "Early rice terraces in a southern Chinese valley after a warm spring rain, shallow reflective paddies with young planted rows in the middle distance, mist opening above the ridges, no close rice plants in foreground, wet texture and soft light. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. "
+  },
+  {
+    "id": "term-06-seedlings",
+    "index": 6,
+    "slug": "guyu",
+    "name": "����",
+    "role": "foreground",
+    "file": "assets/06-guyu-seedlings.png",
+    "alpha": true,
+    "layout": [
+      0.51,
+      0.36,
+      0.48,
+      0.62
+    ],
+    "prompt": "A small cluster of freshly transplanted young rice seedlings with narrow upright bright-green leaves and wet roots held in a small natural mud clump, separate plants botanically clear, transparent foreground cutout, no field or sky. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. "
+  },
+  {
+    "id": "term-07-bg",
+    "index": 7,
+    "slug": "lixia",
+    "name": "����",
+    "role": "background",
+    "file": "assets/07-lixia-bg.png",
+    "alpha": false,
+    "prompt": "Looking upward through a lush early-summer bamboo grove with a narrow stream and dense green canopy, shafts of soft sun and rich leaf textures, a complete cinematic nature composition with no people. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. "
+  },
+  {
+    "id": "term-08-bg",
+    "index": 8,
+    "slug": "xiaoman",
+    "name": "С��",
+    "role": "background",
+    "file": "assets/08-xiaoman-bg.png",
+    "alpha": false,
+    "prompt": "An expansive field of green wheat entering grain fill in central China, a low horizon and wind-softened rows, warm late-May morning, not ripe golden harvest wheat, no sharp close wheat heads in foreground. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. "
+  },
+  {
+    "id": "term-08-wheat",
+    "index": 8,
+    "slug": "xiaoman",
+    "name": "С��",
+    "role": "foreground",
+    "file": "assets/08-xiaoman-wheat.png",
+    "alpha": true,
+    "layout": [
+      0.44,
+      0.17,
+      0.56,
+      0.8
+    ],
+    "prompt": "Five naturally varied green wheat ears during grain filling, kernels visibly plump but not fully ripe, long awns and stems, botanically accurate, detailed real plant cutout against true transparency, no field or ground. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. "
+  },
+  {
+    "id": "term-09-bg",
+    "index": 9,
+    "slug": "mangzhong",
+    "name": "â��",
+    "role": "background",
+    "file": "assets/09-mangzhong-bg.png",
+    "alpha": false,
+    "prompt": "A southern Chinese flooded rice paddy during early-June transplanting, several tiny distant farmers bending naturally to plant rows, clear realistic hand scale at distance, broad field depth under soft daylight, no close wheat or harvesting tools. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. "
+  },
+  {
+    "id": "term-09-wheatbundle",
+    "index": 9,
+    "slug": "mangzhong",
+    "name": "â��",
+    "role": "subject",
+    "file": "assets/09-mangzhong-wheatbundle.png",
+    "alpha": true,
+    "layout": [
+      0.48,
+      0.16,
+      0.44,
+      0.73
+    ],
+    "prompt": "A tied sheaf of fully ripe golden wheat with thick seed heads, cut stems and simple straw binding, upright three-quarter editorial display, realistic agricultural texture, isolated true-alpha cutout, no field, no hands. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. "
+  },
+  {
+    "id": "term-09-sickle",
+    "index": 9,
+    "slug": "mangzhong",
+    "name": "â��",
+    "role": "foreground",
+    "file": "assets/09-mangzhong-sickle.png",
+    "alpha": true,
+    "layout": [
+      0.58,
+      0.66,
+      0.35,
+      0.2
+    ],
+    "prompt": "One modest traditional agricultural sickle with a worn wooden handle and curved dark steel blade, correct practical construction, oblique horizontal position, studio-quality realistic cutout, true transparent background, no hands or text. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. "
+  },
+  {
+    "id": "term-10-bg",
+    "index": 10,
+    "slug": "xiazhi",
+    "name": "����",
+    "role": "background",
+    "file": "assets/10-xiazhi-bg.png",
+    "alpha": false,
+    "prompt": "Wide northern Chinese plain under a high summer sun, strong green fields and brilliant clean blue sky, subtle heat haze and short midday tree shadows, no giant sun or fantasy objects, cinematic restrained natural photography. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. "
+  },
+  {
+    "id": "term-11-bg",
+    "index": 11,
+    "slug": "xiaoshu",
+    "name": "С��",
+    "role": "background",
+    "file": "assets/11-xiaoshu-bg.png",
+    "alpha": false,
+    "prompt": "A quiet Chinese lotus pond in early July, broad water surface and distant green lotus leaves, low humid afternoon light with small specular highlights, no close lotus leaf or large foreground flower. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. "
+  },
+  {
+    "id": "term-11-lotus",
+    "index": 11,
+    "slug": "xiaoshu",
+    "name": "С��",
+    "role": "foreground",
+    "file": "assets/11-xiaoshu-lotus.png",
+    "alpha": true,
+    "layout": [
+      0.48,
+      0.26,
+      0.53,
+      0.67
+    ],
+    "prompt": "Two large healthy lotus leaves on curved stems and one small unopened lotus bud, a tiny anatomically plausible dragonfly resting near one leaf edge, realistic waxy leaf texture and soft daylight, isolated true-transparent cutout, no water or scenery. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. "
+  },
+  {
+    "id": "term-12-bg",
+    "index": 12,
+    "slug": "dashu",
+    "name": "����",
+    "role": "background",
+    "file": "assets/12-dashu-bg.png",
+    "alpha": false,
+    "prompt": "Summer rice fields just before a monsoon shower in central China, heavy bright-edged storm clouds above intensely green rows, visible humid haze and distant rain shaft, natural dramatic contrast, no disaster, no lightning striking crops, full cinematic landscape. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. "
+  },
+  {
+    "id": "term-13-bg",
+    "index": 13,
+    "slug": "liqiu",
+    "name": "����",
+    "role": "background",
+    "file": "assets/13-liqiu-bg.png",
+    "alpha": false,
+    "prompt": "Late-summer rural field in northern China at warm sunrise, much vegetation still green with the first amber crop rows in distance, soft golden atmosphere, no fully red autumn forest, no close fruit in foreground. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. "
+  },
+  {
+    "id": "term-13-pomegranate",
+    "index": 13,
+    "slug": "liqiu",
+    "name": "����",
+    "role": "foreground",
+    "file": "assets/13-liqiu-pomegranate.png",
+    "alpha": true,
+    "layout": [
+      0.55,
+      0.1,
+      0.45,
+      0.76
+    ],
+    "prompt": "A slender pomegranate branch carrying one naturally ripening fruit with green-to-soft-red skin and a few healthy green leaves, no cut fruit, realistic anatomy and restrained warm rim light, isolated true-alpha cutout. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. "
+  },
+  {
+    "id": "term-14-bg",
+    "index": 14,
+    "slug": "chushu",
+    "name": "����",
+    "role": "background",
+    "file": "assets/14-chushu-bg.png",
+    "alpha": false,
+    "prompt": "A spacious Chinese mountain valley after late-summer heat, high drifting white clouds and blue air, a silver river and rippling tall grasses, warm ground and slightly cool distance, a complete wide cinematic composition. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. "
+  },
+  {
+    "id": "term-15-bg",
+    "index": 15,
+    "slug": "bailu",
+    "name": "��¶",
+    "role": "background",
+    "file": "assets/15-bailu-bg.png",
+    "alpha": false,
+    "prompt": "Cool early-September dawn in a low meadow beside distant water, blue mist between low hills and a narrow gold horizon, no close dew grass or reed heads, spacious quiet negative area at left. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. "
+  },
+  {
+    "id": "term-15-reeds",
+    "index": 15,
+    "slug": "bailu",
+    "name": "��¶",
+    "role": "subject",
+    "file": "assets/15-bailu-reeds.png",
+    "alpha": true,
+    "layout": [
+      0.51,
+      0.2,
+      0.46,
+      0.65
+    ],
+    "prompt": "A sparse group of slender late-summer reeds with soft pale seed heads, natural varying heights, cool dawn light, isolated true-transparent cutout, no landscape or ground. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. "
+  },
+  {
+    "id": "term-15-dewgrass",
+    "index": 15,
+    "slug": "bailu",
+    "name": "��¶",
+    "role": "foreground",
+    "file": "assets/15-bailu-dewgrass.png",
+    "alpha": true,
+    "layout": [
+      0.43,
+      0.56,
+      0.58,
+      0.4
+    ],
+    "prompt": "Three arching fresh grass blades carrying clear dew beads, macro-realistic water optics and sharp leaf edges, blue dawn highlights, horizontal foreground cluster isolated on true alpha, no blurry backdrop. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. "
+  },
+  {
+    "id": "term-16-bg",
+    "index": 16,
+    "slug": "qiufen",
+    "name": "���",
+    "role": "background",
+    "file": "assets/16-qiufen-bg.png",
+    "alpha": false,
+    "prompt": "Aerial oblique panorama of golden rice terraces ready for autumn harvest in China, alternating sunlit and shaded bands, an uncluttered horizon and a small river, natural rich gold and olive color, believable field geometry and complete composition. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. "
+  },
+  {
+    "id": "term-17-bg",
+    "index": 17,
+    "slug": "hanlu",
+    "name": "��¶",
+    "role": "background",
+    "file": "assets/17-hanlu-bg.png",
+    "alpha": false,
+    "prompt": "A cool October mountain lake in China, distant forest in russet and muted gold, light blue morning mist and still water, no close red maple branch in foreground, photographic layered depth. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. "
+  },
+  {
+    "id": "term-17-maple",
+    "index": 17,
+    "slug": "hanlu",
+    "name": "��¶",
+    "role": "foreground",
+    "file": "assets/17-hanlu-maple.png",
+    "alpha": true,
+    "layout": [
+      0.54,
+      0.07,
+      0.47,
+      0.72
+    ],
+    "prompt": "A natural fine maple twig with five red and russet autumn leaves, a few small cold dew droplets, realistic leaf veins and irregular edges, cool side light, isolated true-transparent cutout, no backdrop. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. "
+  },
+  {
+    "id": "term-18-bg",
+    "index": 18,
+    "slug": "shuangjiang",
+    "name": "˪��",
+    "role": "background",
+    "file": "assets/18-shuangjiang-bg.png",
+    "alpha": false,
+    "prompt": "A northern Chinese orchard edge at dawn in late October, a delicate white frost coating low grasses and dark soil, distant bare orchard silhouettes, soft pale light, no close fruit or branch, realistic frost crystals not snow. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. "
+  },
+  {
+    "id": "term-18-persimmon",
+    "index": 18,
+    "slug": "shuangjiang",
+    "name": "˪��",
+    "role": "foreground",
+    "file": "assets/18-shuangjiang-persimmon.png",
+    "alpha": true,
+    "layout": [
+      0.49,
+      0.06,
+      0.53,
+      0.77
+    ],
+    "prompt": "A slender persimmon branch with two ripe orange persimmons and three curled autumn leaves, a light coating of tiny frost crystals on leaf edges, photorealistic fruit skin and natural branch anatomy, isolated true-alpha cutout. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. "
+  },
+  {
+    "id": "term-19-bg",
+    "index": 19,
+    "slug": "lidong",
+    "name": "����",
+    "role": "background",
+    "file": "assets/19-lidong-bg.png",
+    "alpha": false,
+    "prompt": "A quiet harvested Chinese field at the beginning of winter, stubble rows and a few bare trees reflected in a narrow irrigation canal, overcast pale sky and subdued brown earth, no deep snow, contemplative wide natural photograph. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. "
+  },
+  {
+    "id": "term-20-bg",
+    "index": 20,
+    "slug": "xiaoxue",
+    "name": "Сѩ",
+    "role": "background",
+    "file": "assets/20-xiaoxue-bg.png",
+    "alpha": false,
+    "prompt": "A modest northern Chinese brick courtyard in the first light snowfall, thin snow on gray tiled eaves while wet stone paving is still visible, softly warm window and restrained cold sky, no close bamboo or foliage, no text or decorative signs. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. "
+  },
+  {
+    "id": "term-20-bamboo",
+    "index": 20,
+    "slug": "xiaoxue",
+    "name": "Сѩ",
+    "role": "foreground",
+    "file": "assets/20-xiaoxue-bamboo.png",
+    "alpha": true,
+    "layout": [
+      0.55,
+      0.06,
+      0.45,
+      0.84
+    ],
+    "prompt": "A graceful small spray of bamboo leaves with a very light dusting of fresh snow, several narrow leaves still green, realistic soft snowy edges, cold diffuse light, isolated true-alpha foreground cutout. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. "
+  },
+  {
+    "id": "term-21-bg",
+    "index": 21,
+    "slug": "daxue",
+    "name": "��ѩ",
+    "role": "background",
+    "file": "assets/21-daxue-bg.png",
+    "alpha": false,
+    "prompt": "A deep snow-covered Chinese mountain valley at blue hour, layered ridges and small distant conifer forest under softly falling snow, a clear mid-right space for a separate rural roof element, no near pine branch or large building. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. "
+  },
+  {
+    "id": "term-21-roof",
+    "index": 21,
+    "slug": "daxue",
+    "name": "��ѩ",
+    "role": "subject",
+    "file": "assets/21-daxue-roof.png",
+    "alpha": true,
+    "layout": [
+      0.49,
+      0.49,
+      0.4,
+      0.32
+    ],
+    "prompt": "A small old Chinese gray-tile village roof with thick fresh snow along its eaves and a fragment of plain white wall below, soft warm light from one modest window, angled architectural cutout with true transparency, no village background or text. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. "
+  },
+  {
+    "id": "term-21-pine",
+    "index": 21,
+    "slug": "daxue",
+    "name": "��ѩ",
+    "role": "foreground",
+    "file": "assets/21-daxue-pine.png",
+    "alpha": true,
+    "layout": [
+      0.51,
+      0.01,
+      0.5,
+      0.55
+    ],
+    "prompt": "A close horizontal pine bough with dark green needles and several irregular pillows of fresh snow, natural branch structure, soft cold diffuse light, true-transparent cutout, no background, no ornaments. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. "
+  },
+  {
+    "id": "term-22-bg",
+    "index": 22,
+    "slug": "dongzhi",
+    "name": "����",
+    "role": "background",
+    "file": "assets/22-dongzhi-bg.png",
+    "alpha": false,
+    "prompt": "A winter sun low on the southern horizon beyond a quiet Chinese rural plain, long tree shadows stretching toward the viewer over frozen ground, calm amber sunset within deep blue cold air, complete spacious photographic composition, no buildings close to camera. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. "
+  },
+  {
+    "id": "term-23-bg",
+    "index": 23,
+    "slug": "xiaohan",
+    "name": "С��",
+    "role": "background",
+    "file": "assets/23-xiaohan-bg.png",
+    "alpha": false,
+    "prompt": "A frosty Chinese garden corner in pale January dawn, dark blurred rocks and a cold pond in the distance, quiet blue-gray atmosphere, no visible close plum blossoms or branches, gentle natural photographic depth. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. "
+  },
+  {
+    "id": "term-23-whiteplum",
+    "index": 23,
+    "slug": "xiaohan",
+    "name": "С��",
+    "role": "foreground",
+    "file": "assets/23-xiaohan-whiteplum.png",
+    "alpha": true,
+    "layout": [
+      0.46,
+      0.14,
+      0.54,
+      0.74
+    ],
+    "prompt": "One elegant dark plum branch with four small open ivory-white plum blossoms and several tightly closed buds, botanically accurate five petals and fine stamens, tiny frost flecks, soft cold light, isolated true-transparent cutout; distinct from a red-bud-only twig. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. "
+  },
+  {
+    "id": "term-24-bg",
+    "index": 24,
+    "slug": "dahan",
+    "name": "��",
+    "role": "background",
+    "file": "assets/24-dahan-bg.png",
+    "alpha": false,
+    "prompt": "A wide frozen river in a northern Chinese valley at the end of winter, textured translucent ice and white snow banks, a tiny distant village with a slender smoke plume, a faint pale-gold dawn at horizon suggesting the cycle will return, no near flowers or green foliage, contemplative realistic cinematic landscape. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. "
+  }
+]

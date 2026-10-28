@@ -1,0 +1,18 @@
+{
+  "source_song": "���� (The History) �� Jannik",
+  "expected_source_offset_seconds": 77,
+  "sample_rate": 12000,
+  "comparison_video_seconds": [
+    28,
+    120
+  ],
+  "method": "PCM cross-correlation against decoded original, sample decimation 10; compressed AAC differences are expected. This verifies source excerpt offset, not human listening or aesthetic beat selection.",
+  "best_alignment": {
+    "source_shift_samples": 0,
+    "source_shift_ms": 0.0,
+    "correlation": 0.9998583124689236,
+    "gain": 0.3889311622782729
+  },
+  "source_offset_verified": true,
+  "human_full_listening_review": false
+}

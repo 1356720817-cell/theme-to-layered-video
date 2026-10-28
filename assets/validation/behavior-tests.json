@@ -1,0 +1,119 @@
+{
+  "passed": true,
+  "test_count": 28,
+  "tests": [
+    {
+      "test": "initialization selects cinematic production engine",
+      "passed": true
+    },
+    {
+      "test": "missing reviews block motion",
+      "passed": true
+    },
+    {
+      "test": "agent cannot substitute for required user music confirmation",
+      "passed": true
+    },
+    {
+      "test": "valid version-bound fixture passes motion gate",
+      "passed": true
+    },
+    {
+      "test": "changed audio gain invalidates music confirmation",
+      "passed": true
+    },
+    {
+      "test": "changed music bytes invalidate confirmation",
+      "passed": true
+    },
+    {
+      "test": "changed audition invalidates music confirmation",
+      "passed": true
+    },
+    {
+      "test": "inconsistent climax mapping rejected",
+      "passed": true
+    },
+    {
+      "test": "audition ending before climax rejected",
+      "passed": true
+    },
+    {
+      "test": "each-shot policy blocks missing confirmations",
+      "passed": true
+    },
+    {
+      "test": "each-shot policy accepts complete version-bound fixture",
+      "passed": true
+    },
+    {
+      "test": "asset replacement invalidates affected shot approval",
+      "passed": true
+    },
+    {
+      "test": "unique contiguous ready fixture passes project audit",
+      "passed": true
+    },
+    {
+      "test": "out-of-shot poetry cue is rejected",
+      "passed": true
+    },
+    {
+      "test": "out-of-shot accent cue is rejected",
+      "passed": true
+    },
+    {
+      "test": "opaque file falsely declared alpha is rejected",
+      "passed": true
+    },
+    {
+      "test": "renderer change invalidates appearance confirmation",
+      "passed": true
+    },
+    {
+      "test": "music confirmation cannot be silently delegated",
+      "passed": true
+    },
+    {
+      "test": "renamed duplicate image is rejected",
+      "passed": true
+    },
+    {
+      "test": "timeline gap rejected",
+      "passed": true
+    },
+    {
+      "test": "short audio rejected without authorized padding",
+      "passed": true
+    },
+    {
+      "test": "excerpt beyond real source rejected",
+      "passed": true
+    },
+    {
+      "test": "continuous source-to-film climax map computed",
+      "passed": true
+    },
+    {
+      "test": "copied approved track matches actual final packets",
+      "passed": true
+    },
+    {
+      "test": "transcoded approved track passes decoded comparison",
+      "passed": true
+    },
+    {
+      "test": "wrong gain rejected despite matching melody",
+      "passed": true
+    },
+    {
+      "test": "wrong song rejected",
+      "passed": true
+    },
+    {
+      "test": "missing final render and QC blocks delivery",
+      "passed": true
+    }
+  ],
+  "scope": "Synthetic behavioral fixtures only. No real user confirmations, new image quality, full production rerender, external accounts, or human listening are validated."
+}

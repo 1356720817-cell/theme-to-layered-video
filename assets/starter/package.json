@@ -1,0 +1,37 @@
+{
+  "name": "theme-layered-video-project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Topic-independent editable layered video",
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.538",
+    "@remotion/renderer": "4.0.538",
+    "@remotion/cli": "4.0.538",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.538"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.538",
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "eslint": "10.12.0",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "lint": "eslint src && tsc --noEmit",
+    "preview": "node preview.mjs",
+    "render": "node render.mjs",
+    "finish": "node mux.mjs"
+  },
+  "allowScripts": {
+    "esbuild": false
+  },
+  "overrides": {
+    "zod": "4.6.7"
+  }
+}

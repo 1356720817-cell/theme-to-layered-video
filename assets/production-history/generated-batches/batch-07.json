@@ -1,0 +1,58 @@
+[
+  {
+    "id": "term-06-seedlings",
+    "index": 6,
+    "slug": "guyu",
+    "name": "����",
+    "role": "foreground",
+    "file": "assets/06-guyu-seedlings.png",
+    "alpha": true,
+    "layout": [
+      0.51,
+      0.36,
+      0.48,
+      0.62
+    ],
+    "prompt": "A small cluster of freshly transplanted young rice seedlings with narrow upright bright-green leaves and wet roots held in a small natural mud clump, separate plants botanically clear, transparent foreground cutout, no field or sky. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. ",
+    "source": "[�������ɻ�ο�·��δ�湫�����ṩ]"
+  },
+  {
+    "id": "term-07-bg",
+    "index": 7,
+    "slug": "lixia",
+    "name": "����",
+    "role": "background",
+    "file": "assets/07-lixia-bg.png",
+    "alpha": false,
+    "prompt": "Looking upward through a lush early-summer bamboo grove with a narrow stream and dense green canopy, shafts of soft sun and rich leaf textures, a complete cinematic nature composition with no people. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. ",
+    "source": "[�������ɻ�ο�·��δ�湫�����ṩ]"
+  },
+  {
+    "id": "term-08-bg",
+    "index": 8,
+    "slug": "xiaoman",
+    "name": "С��",
+    "role": "background",
+    "file": "assets/08-xiaoman-bg.png",
+    "alpha": false,
+    "prompt": "An expansive field of green wheat entering grain fill in central China, a low horizon and wind-softened rows, warm late-May morning, not ripe golden harvest wheat, no sharp close wheat heads in foreground. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. ",
+    "source": "[�������ɻ�ο�·��δ�湫�����ṩ]"
+  },
+  {
+    "id": "term-08-wheat",
+    "index": 8,
+    "slug": "xiaoman",
+    "name": "С��",
+    "role": "foreground",
+    "file": "assets/08-xiaoman-wheat.png",
+    "alpha": true,
+    "layout": [
+      0.44,
+      0.17,
+      0.56,
+      0.8
+    ],
+    "prompt": "Five naturally varied green wheat ears during grain filling, kernels visibly plump but not fully ripe, long awns and stems, botanically accurate, detailed real plant cutout against true transparency, no field or ground. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. ",
+    "source": "[�������ɻ�ο�·��δ�湫�����ṩ]"
+  }
+]

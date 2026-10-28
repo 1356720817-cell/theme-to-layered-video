@@ -1,0 +1,13 @@
+{
+  "main_terms_with_poetry": 24,
+  "independent_poem_entries": 24,
+  "single_line_short_shots": 6,
+  "unchanged_scene_times_layers_cameras_transitions_and_original_text": true,
+  "unchanged_approved_audio_file_sha256": "d91b331a60e84778a0b9e65768ebef01d3d8d89e83580241f4ec58639e8ba0fd",
+  "final_audio_packets_match_v4": true,
+  "poetry_source_index": "poetry-sources.md",
+  "source_review_note": "Verse text and attribution were reviewed against the recorded sources; this script checks coverage, timing and consistency, not literary authorship.",
+  "visual_layout_review_required": false,
+  "human_full_listening_review": false,
+  "visual_layout_review_completed": true
+}

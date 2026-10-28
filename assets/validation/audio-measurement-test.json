@@ -1,0 +1,12 @@
+{
+  "file": "[�������ɻ�ο�·��δ�湫�����ṩ]",
+  "sha256": "b10afc916a58dd0e47eb3e5f0b17df5c6a9d669ccb892bdd5cdb5a9cc589987c",
+  "interval_start_seconds": 0.5,
+  "interval_length_seconds": 2.0,
+  "integrated_loudness_LUFS": "-23.09",
+  "input_true_peak_dBTP": "-16.69",
+  "loudness_range_LU": "0.20",
+  "rms_level_dBFS": "-22.314496",
+  "true_peak_above_zero": false,
+  "scope": "Actual input measurement only. No normalized audio saved. The analysis filter targets are not universal delivery requirements. Same-song gain comparisons must use corresponding intervals; final loudness still needs actual audition."
+}

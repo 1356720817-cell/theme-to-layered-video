@@ -1,0 +1,59 @@
+{
+  "fixture_only": true,
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "frames": 420,
+    "seconds": 14
+  },
+  "lint_and_typescript_passed": true,
+  "actual_render_and_mux_passed": true,
+  "full_decode_passed": true,
+  "audio_packet_copy_verified": true,
+  "final_sample_frames_reviewed": 16,
+  "current_delivery_gate_passed": {
+    "passed": true,
+    "stage": "deliver",
+    "errors": [],
+    "scope": "Evidence freshness and recorded gates only; not identity authentication, aesthetics, factual verification, or full listening."
+  },
+  "stale_input_rejected": {
+    "passed": false,
+    "stage": "deliver",
+    "errors": [
+      "Stale review after input changes: preview",
+      "Stale review after input changes: visual",
+      "Production render is draft or stale.",
+      "Mux evidence does not bind current final video/inputs.",
+      "Media QC input binding is stale.",
+      "Lint/TypeScript evidence is missing or stale."
+    ],
+    "scope": "Evidence freshness and recorded gates only; not identity authentication, aesthetics, factual verification, or full listening."
+  },
+  "restored_inputs_passed": {
+    "passed": true,
+    "stage": "deliver",
+    "errors": [],
+    "scope": "Evidence freshness and recorded gates only; not identity authentication, aesthetics, factual verification, or full listening."
+  },
+  "user_approvals": "SIMULATED test fixture only; not actual user consent",
+  "human_full_listening_review": false,
+  "scope": "Real production-derived template rendered with actual case images. Tests integration and visible frame samples, not fresh-theme research/image generation or full-film aesthetic equivalence.",
+  "editable_archive_reexport": {
+    "passed": true,
+    "archive": "cinematic-engine-regression-project-v2.zip",
+    "extracted_to_new_directory": true,
+    "actual_render_and_mux": true,
+    "lint_and_typescript": true,
+    "full_decode": true,
+    "final_audio_packets_match": true,
+    "reexport_final_sha256": "88235fc6d4981ca759a8fb10259881618684cac1084d2d261b561b38f31f524b",
+    "same_sha256_as_original_smoke": true,
+    "dependencies": "Reused installed lock-compatible node_modules by junction; a fresh network npm ci was not tested."
+  },
+  "fixes_observed": [
+    "Omit a needless -ss 0 to preserve AAC priming packets when copying an already prepared master.",
+    "Include approved audition/preview evidence in the editable archive so version-bound reviews still resolve after extraction."
+  ]
+}
