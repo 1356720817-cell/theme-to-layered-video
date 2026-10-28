@@ -13,9 +13,28 @@
     "file": "solar-terms-finished-visual-full-128s.mp4",
     "seconds": 128,
     "sha256": "60d5420614aa92486554f60044170b974f66d271caea57ba6db1ad3f8c7b5087",
-    "download_url": "https://github.com/1356720817-cell/theme-to-layered-video/releases/download/v2.0.0/solar-terms-finished-visual-full-128s.mp4",
-    "availability": "�����������״�ʹ��ʱ��ָ��У������",
-    "encoding": "1080p H.264 visual-only reference, re-encoded for distribution"
+    "availability": "��ֿ��Ϊ3���ṩ���״�ʹ��ʱ��ָ��ƴ�Ӳ�У��SHA-256",
+    "encoding": "1080p H.264 visual-only reference; binary segments are byte-exact parts of the complete file",
+    "parts": [
+      {
+        "file": "solar-terms-finished-visual-full-128s.mp4.part001",
+        "size": 20971520,
+        "sha256": "8e65c902fcaf8c84451be6024661d2a1cc1a43573027eef8a7d6f6a74e93ab3c",
+        "download_url": "https://raw.githubusercontent.com/1356720817-cell/theme-to-layered-video/main/assets/benchmarks/solar-terms-finished-visual-full-128s.mp4.part001"
+      },
+      {
+        "file": "solar-terms-finished-visual-full-128s.mp4.part002",
+        "size": 20971520,
+        "sha256": "1bf1a3f37b054166ec3874133b64404662c26be2e6253f1911d99a1996e14108",
+        "download_url": "https://raw.githubusercontent.com/1356720817-cell/theme-to-layered-video/main/assets/benchmarks/solar-terms-finished-visual-full-128s.mp4.part002"
+      },
+      {
+        "file": "solar-terms-finished-visual-full-128s.mp4.part003",
+        "size": 14692733,
+        "sha256": "cf9f74d96553a7a10d9a3bec79444adec0061fe50c167925af63956b950e5263",
+        "download_url": "https://raw.githubusercontent.com/1356720817-cell/theme-to-layered-video/main/assets/benchmarks/solar-terms-finished-visual-full-128s.mp4.part003"
+      }
+    ]
   },
   "local_audio_references": [],
   "case": "../solar-terms-case",
