@@ -1,615 +1,1 @@
-{
-  "assets": [
-    {
-      "id": "spring-01-background",
-      "file": "assets/01-lichun-background-candidate.png",
-      "ownerShot": "spring-01-lichun",
-      "entityId": "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ïªï¿½ï¿½",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "prompt": "Use case: photorealistic-natural. Asset type: 16:9 background layer for the ï¿½ï¿½ï¿½ï¿½ scene of a premium Chinese seasonal documentary; this layer will move independently behind a separate transparent foreground asset. Primary request: A shallow winter stream beginning to thaw in the Yellow River basin. Broken thin ice, dark wet stones, clear moving water, distant low hills and a pale sunrise. No foreground branch or foreground plant; keep the near half mostly water and stone so another layer can sit over it. Composition/framing: wide 16:9, layered middle-distance and far-distance, quiet darker negative space in the left third for later title overlay, horizon in upper third. Lighting/mood: cool blue-gray dawn with one restrained warm gold reflection; the season is still cold, spring is only beginning. Style/medium: high-end natural history photography, realistic ice and water, subtle atmosphere, restrained cinematic contrast. Constraints: one unique early-spring scene; no plum tree, no twig, no branch, no flowers, no people, no buildings, no text, no calligraphy, no numbers, no logo, no watermark, no frame; no fantasy colors or CGI gloss.",
-      "rights": "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É£ï¿½ï¿½Ã»ï¿½ï¿½ï¿½È·ï¿½Ï»ï¿½ï¿½ï¿½",
-      "alpha": false
-    },
-    {
-      "id": "spring-01-plum-foreground",
-      "file": "assets/01-lichun-foreground-candidate.png",
-      "ownerShot": "spring-01-lichun",
-      "entityId": "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã·Ö¦",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "prompt": "Use case: background-extraction. Asset type: independent transparent foreground layer for the ï¿½ï¿½ï¿½ï¿½ scene; it will be animated separately over a winter stream background. Primary request: One realistic plum twig, dark textured bark with a small number of tightly closed red-brown buds and two tiny just-swelling buds, no open blossoms, graceful natural branch extending diagonally from lower right toward upper left. Style/medium: finely detailed botanical nature photography cutout, correct twig anatomy, crisp natural edges, soft dawn rim light consistent with a cold early-spring scene. Composition/framing: single isolated twig occupying the lower-right half, enough empty space around it to animate with parallax. Constraints: true transparent background with alpha; subject only; no pot, vase, ground, water, scenery, labels, text, logo, watermark, border; no extra branches, no dense blossom clusters, no leaves.",
-      "rights": "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É£ï¿½ï¿½Ã»ï¿½ï¿½ï¿½È·ï¿½Ï»ï¿½ï¿½ï¿½",
-      "alpha": true
-    },
-    {
-      "id": "spring-02-background",
-      "file": "assets/02-yushui-background-candidate.png",
-      "ownerShot": "spring-02-yushui",
-      "entityId": "ï¿½ï¿½Ë®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Êªï¿½ï¿½",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "prompt": "Use case: photorealistic-natural. Asset type: 16:9 background layer for the ï¿½ï¿½Ë® scene in a premium Chinese seasonal documentary; a separate transparent leaf foreground will move above it. Primary request: Early spring rain over a low riverside field in the Yellow River basin. A shallow muddy watercourse and wet earth absorb gentle rain; distant field ridges show only the first low green shoots. The air is soft with mist, and small rain rings dimple a puddle. Keep the near foreground clear of leaves, branches, reeds, or large objects so a separate close-up layer can be composited. Composition/framing: wide 16:9 landscape, left third darker and visually quiet for Chinese title overlay, middle ground wet field and narrow watercourse, distant muted low hills under cloud. Lighting/mood: overcast silver-gray morning, soft green reflected from new growth, quiet and nourishing rather than stormy. Style/medium: high-end natural history photography, realistic rain, soil and water, restrained cinematic color. Constraints: one unique ï¿½ï¿½Ë® scene only; early spring after thaw; no plum branch, no blossom cluster, no snow, no saturated summer green, no people, no buildings, no text, no calligraphy, no numbers, no logo, no watermark, no border, no CGI sheen.",
-      "rights": "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É£ï¿½ï¿½Ã»ï¿½ï¿½ï¿½È·ï¿½Ï»ï¿½ï¿½ï¿½",
-      "alpha": false
-    },
-    {
-      "id": "spring-02-willow-foreground",
-      "file": "assets/02-yushui-foreground-candidate.png",
-      "ownerShot": "spring-02-yushui",
-      "entityId": "ï¿½ï¿½Ë®ï¿½ï¿½ï¿½ï¿½Â¶ï¿½ï¿½ï¿½ï¿½Ò¶",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "prompt": "Use case: background-extraction. Asset type: independent transparent foreground layer for the ï¿½ï¿½Ë® scene, animated separately over a rainy field. Primary request: A delicate cluster of fresh willow leaves with several clear raindrops and one drop just falling from a leaf tip; young light-green leaves, natural narrow shapes, no open flowers, rendered as a realistic close botanical cutout. Composition/framing: leaves hang downward from a thin stem entering from the upper-right edge and occupy only the right third; leave open transparent space to the left; natural asymmetry for subtle independent sway. Style/medium: macro nature photography, crisp leaf veins and water surface reflections, cool cloudy daylight, realistic edge detail. Constraints: true transparent background with alpha; isolated willow leaves and thin stem only; no landscape, no sky, no branch fork, no vase, no words, no logo, no watermark, no border; distinct from a plum twig asset.",
-      "rights": "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É£ï¿½ï¿½Ã»ï¿½ï¿½ï¿½È·ï¿½Ï»ï¿½ï¿½ï¿½",
-      "alpha": true
-    },
-    {
-      "id": "term-03-bg",
-      "file": "assets/03-jingzhe-bg.png",
-      "ownerShot": "term-03-jingzhe",
-      "entityId": "ï¿½ï¿½ï¿½Ý¡ï¿½bg",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "Macro-level view of dark moist spring soil and a shallow earthen hollow, delicate roots and warm morning light, distant blurred field, no foreground sprout or insect. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": false
-    },
-    {
-      "id": "term-03-sprout",
-      "file": "assets/03-jingzhe-sprout.png",
-      "ownerShot": "term-03-jingzhe",
-      "entityId": "ï¿½ï¿½ï¿½Ý¡ï¿½sprout",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "One botanically credible tiny cereal sprout with two folded green leaves rising from a small irregular clump of soil, a single small harmless ground beetle beside it; isolated nature photography cutout, no backdrop. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": true
-    },
-    {
-      "id": "term-04-bg",
-      "file": "assets/04-chunfen-bg.png",
-      "ownerShot": "term-04-chunfen",
-      "entityId": "ï¿½ï¿½ï¿½Ö¡ï¿½bg",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "A broad northern Chinese river plain at spring dawn, sun exactly near the horizon, delicate green fields and a lone distant tree, balanced warm light and cool shade, clear spacious sky, contemplative natural photograph. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": false
-    },
-    {
-      "id": "term-05-bg",
-      "file": "assets/05-qingming-bg.png",
-      "ownerShot": "term-05-qingming",
-      "entityId": "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½bg",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "A clear early-April river winding through a Chinese rural landscape, fresh green banks and distant willow trees, a modest stone footpath and low hills; no close grass, no boat in the water, no large foreground trees. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": false
-    },
-    {
-      "id": "term-05-boat",
-      "file": "assets/05-qingming-boat.png",
-      "ownerShot": "term-05-qingming",
-      "entityId": "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½boat",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "A small traditional unpainted Chinese wooden river skiff viewed from a low three-quarter side angle, one seated boatman in plain contemporary rural clothes holding a long wooden oar; correct boat structure and calm posture, isolated transparent cutout, no water or shoreline. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": true
-    },
-    {
-      "id": "term-05-grass",
-      "file": "assets/05-qingming-grass.png",
-      "ownerShot": "term-05-qingming",
-      "entityId": "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½grass",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "A loose low cluster of tender riverside grasses and a few small white wildflowers, realistic early spring botany, side-lit from upper right, isolated transparent foreground strip, no ground or scenery. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": true
-    },
-    {
-      "id": "term-06-bg",
-      "file": "assets/06-guyu-bg.png",
-      "ownerShot": "term-06-guyu",
-      "entityId": "ï¿½ï¿½ï¿½ê¡¤bg",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "Early rice terraces in a southern Chinese valley after a warm spring rain, shallow reflective paddies with young planted rows in the middle distance, mist opening above the ridges, no close rice plants in foreground, wet texture and soft light. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": false
-    },
-    {
-      "id": "term-06-seedlings",
-      "file": "assets/06-guyu-seedlings.png",
-      "ownerShot": "term-06-guyu",
-      "entityId": "ï¿½ï¿½ï¿½ê¡¤seedlings",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "A small cluster of freshly transplanted young rice seedlings with narrow upright bright-green leaves and wet roots held in a small natural mud clump, separate plants botanically clear, transparent foreground cutout, no field or sky. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": true
-    },
-    {
-      "id": "term-07-bg",
-      "file": "assets/07-lixia-bg.png",
-      "ownerShot": "term-07-lixia",
-      "entityId": "ï¿½ï¿½ï¿½Ä¡ï¿½bg",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "Looking upward through a lush early-summer bamboo grove with a narrow stream and dense green canopy, shafts of soft sun and rich leaf textures, a complete cinematic nature composition with no people. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": false
-    },
-    {
-      "id": "term-08-bg",
-      "file": "assets/08-xiaoman-bg.png",
-      "ownerShot": "term-08-xiaoman",
-      "entityId": "Ð¡ï¿½ï¿½ï¿½ï¿½bg",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "An expansive field of green wheat entering grain fill in central China, a low horizon and wind-softened rows, warm late-May morning, not ripe golden harvest wheat, no sharp close wheat heads in foreground. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": false
-    },
-    {
-      "id": "term-08-wheat",
-      "file": "assets/08-xiaoman-wheat.png",
-      "ownerShot": "term-08-xiaoman",
-      "entityId": "Ð¡ï¿½ï¿½ï¿½ï¿½wheat",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "Five naturally varied green wheat ears during grain filling, kernels visibly plump but not fully ripe, long awns and stems, botanically accurate, detailed real plant cutout against true transparency, no field or ground. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": true
-    },
-    {
-      "id": "term-09-bg",
-      "file": "assets/09-mangzhong-bg.png",
-      "ownerShot": "term-09-mangzhong",
-      "entityId": "Ã¢ï¿½Ö¡ï¿½bg",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "A southern Chinese flooded rice paddy during early-June transplanting, several tiny distant farmers bending naturally to plant rows, clear realistic hand scale at distance, broad field depth under soft daylight, no close wheat or harvesting tools. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": false
-    },
-    {
-      "id": "term-09-sickle",
-      "file": "assets/09-mangzhong-sickle.png",
-      "ownerShot": "term-09-mangzhong",
-      "entityId": "Ã¢ï¿½Ö¡ï¿½sickle",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "One modest traditional agricultural sickle with a worn wooden handle and curved dark steel blade, correct practical construction, oblique horizontal position, studio-quality realistic cutout, true transparent background, no hands or text. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": true
-    },
-    {
-      "id": "term-09-wheatbundle",
-      "file": "assets/09-mangzhong-wheatbundle.png",
-      "ownerShot": "term-09-mangzhong",
-      "entityId": "Ã¢ï¿½Ö¡ï¿½wheatbundle",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "A tied sheaf of fully ripe golden wheat with thick seed heads, cut stems and simple straw binding, upright three-quarter editorial display, realistic agricultural texture, isolated true-alpha cutout, no field, no hands. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": true
-    },
-    {
-      "id": "term-10-bg",
-      "file": "assets/10-xiazhi-bg.png",
-      "ownerShot": "term-10-xiazhi",
-      "entityId": "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½bg",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "Wide northern Chinese plain under a high summer sun, strong green fields and brilliant clean blue sky, subtle heat haze and short midday tree shadows, no giant sun or fantasy objects, cinematic restrained natural photography. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": false
-    },
-    {
-      "id": "term-11-bg",
-      "file": "assets/11-xiaoshu-bg.png",
-      "ownerShot": "term-11-xiaoshu",
-      "entityId": "Ð¡ï¿½î¡¤bg",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "A quiet Chinese lotus pond in early July, broad water surface and distant green lotus leaves, low humid afternoon light with small specular highlights, no close lotus leaf or large foreground flower. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": false
-    },
-    {
-      "id": "term-11-lotus",
-      "file": "assets/11-xiaoshu-lotus.png",
-      "ownerShot": "term-11-xiaoshu",
-      "entityId": "Ð¡ï¿½î¡¤lotus",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "Two large healthy lotus leaves on curved stems and one small unopened lotus bud, a tiny anatomically plausible dragonfly resting near one leaf edge, realistic waxy leaf texture and soft daylight, isolated true-transparent cutout, no water or scenery. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": true
-    },
-    {
-      "id": "term-12-bg",
-      "file": "assets/12-dashu-bg.png",
-      "ownerShot": "term-12-dashu",
-      "entityId": "ï¿½ï¿½ï¿½î¡¤bg",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "Summer rice fields just before a monsoon shower in central China, heavy bright-edged storm clouds above intensely green rows, visible humid haze and distant rain shaft, natural dramatic contrast, no disaster, no lightning striking crops, full cinematic landscape. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": false
-    },
-    {
-      "id": "term-13-bg",
-      "file": "assets/13-liqiu-bg.png",
-      "ownerShot": "term-13-liqiu",
-      "entityId": "ï¿½ï¿½ï¿½ï¡¤bg",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "Late-summer rural field in northern China at warm sunrise, much vegetation still green with the first amber crop rows in distance, soft golden atmosphere, no fully red autumn forest, no close fruit in foreground. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": false
-    },
-    {
-      "id": "term-13-pomegranate",
-      "file": "assets/13-liqiu-pomegranate.png",
-      "ownerShot": "term-13-liqiu",
-      "entityId": "ï¿½ï¿½ï¿½ï¡¤pomegranate",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "A slender pomegranate branch carrying one naturally ripening fruit with green-to-soft-red skin and a few healthy green leaves, no cut fruit, realistic anatomy and restrained warm rim light, isolated true-alpha cutout. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": true
-    },
-    {
-      "id": "term-14-bg",
-      "file": "assets/14-chushu-bg.png",
-      "ownerShot": "term-14-chushu",
-      "entityId": "ï¿½ï¿½ï¿½î¡¤bg",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "A spacious Chinese mountain valley after late-summer heat, high drifting white clouds and blue air, a silver river and rippling tall grasses, warm ground and slightly cool distance, a complete wide cinematic composition. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": false
-    },
-    {
-      "id": "term-15-bg",
-      "file": "assets/15-bailu-bg.png",
-      "ownerShot": "term-15-bailu",
-      "entityId": "ï¿½ï¿½Â¶ï¿½ï¿½bg",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "Cool early-September dawn in a low meadow beside distant water, blue mist between low hills and a narrow gold horizon, no close dew grass or reed heads, spacious quiet negative area at left. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": false
-    },
-    {
-      "id": "term-15-dewgrass",
-      "file": "assets/15-bailu-dewgrass.png",
-      "ownerShot": "term-15-bailu",
-      "entityId": "ï¿½ï¿½Â¶ï¿½ï¿½dewgrass",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "Three arching fresh grass blades carrying clear dew beads, macro-realistic water optics and sharp leaf edges, blue dawn highlights, horizontal foreground cluster isolated on true alpha, no blurry backdrop. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": true
-    },
-    {
-      "id": "term-15-reeds",
-      "file": "assets/15-bailu-reeds.png",
-      "ownerShot": "term-15-bailu",
-      "entityId": "ï¿½ï¿½Â¶ï¿½ï¿½reeds",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "A sparse group of slender late-summer reeds with soft pale seed heads, natural varying heights, cool dawn light, isolated true-transparent cutout, no landscape or ground. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": true
-    },
-    {
-      "id": "term-16-bg",
-      "file": "assets/16-qiufen-bg.png",
-      "ownerShot": "term-16-qiufen",
-      "entityId": "ï¿½ï¿½Ö¡ï¿½bg",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "Aerial oblique panorama of golden rice terraces ready for autumn harvest in China, alternating sunlit and shaded bands, an uncluttered horizon and a small river, natural rich gold and olive color, believable field geometry and complete composition. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": false
-    },
-    {
-      "id": "term-17-bg",
-      "file": "assets/17-hanlu-bg.png",
-      "ownerShot": "term-17-hanlu",
-      "entityId": "ï¿½ï¿½Â¶ï¿½ï¿½bg",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "A cool October mountain lake in China, distant forest in russet and muted gold, light blue morning mist and still water, no close red maple branch in foreground, photographic layered depth. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": false
-    },
-    {
-      "id": "term-17-maple",
-      "file": "assets/17-hanlu-maple.png",
-      "ownerShot": "term-17-hanlu",
-      "entityId": "ï¿½ï¿½Â¶ï¿½ï¿½maple",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "A natural fine maple twig with five red and russet autumn leaves, a few small cold dew droplets, realistic leaf veins and irregular edges, cool side light, isolated true-transparent cutout, no backdrop. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": true
-    },
-    {
-      "id": "term-18-bg",
-      "file": "assets/18-shuangjiang-bg.png",
-      "ownerShot": "term-18-shuangjiang",
-      "entityId": "Ëªï¿½ï¿½ï¿½ï¿½bg",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "A northern Chinese orchard edge at dawn in late October, a delicate white frost coating low grasses and dark soil, distant bare orchard silhouettes, soft pale light, no close fruit or branch, realistic frost crystals not snow. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": false
-    },
-    {
-      "id": "term-18-persimmon",
-      "file": "assets/18-shuangjiang-persimmon.png",
-      "ownerShot": "term-18-shuangjiang",
-      "entityId": "Ëªï¿½ï¿½ï¿½ï¿½persimmon",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "A slender persimmon branch with two ripe orange persimmons and three curled autumn leaves, a light coating of tiny frost crystals on leaf edges, photorealistic fruit skin and natural branch anatomy, isolated true-alpha cutout. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": true
-    },
-    {
-      "id": "term-19-bg",
-      "file": "assets/19-lidong-bg.png",
-      "ownerShot": "term-19-lidong",
-      "entityId": "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½bg",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "A quiet harvested Chinese field at the beginning of winter, stubble rows and a few bare trees reflected in a narrow irrigation canal, overcast pale sky and subdued brown earth, no deep snow, contemplative wide natural photograph. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": false
-    },
-    {
-      "id": "term-20-bamboo",
-      "file": "assets/20-xiaoxue-bamboo.png",
-      "ownerShot": "term-20-xiaoxue",
-      "entityId": "Ð¡Ñ©ï¿½ï¿½bamboo",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "A graceful small spray of bamboo leaves with a very light dusting of fresh snow, several narrow leaves still green, realistic soft snowy edges, cold diffuse light, isolated true-alpha foreground cutout. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": true
-    },
-    {
-      "id": "term-20-bg",
-      "file": "assets/20-xiaoxue-bg.png",
-      "ownerShot": "term-20-xiaoxue",
-      "entityId": "Ð¡Ñ©ï¿½ï¿½bg",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "A modest northern Chinese brick courtyard in the first light snowfall, thin snow on gray tiled eaves while wet stone paving is still visible, softly warm window and restrained cold sky, no close bamboo or foliage, no text or decorative signs. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": false
-    },
-    {
-      "id": "term-21-bg",
-      "file": "assets/21-daxue-bg.png",
-      "ownerShot": "term-21-daxue",
-      "entityId": "ï¿½ï¿½Ñ©ï¿½ï¿½bg",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "A deep snow-covered Chinese mountain valley at blue hour, layered ridges and small distant conifer forest under softly falling snow, a clear mid-right space for a separate rural roof element, no near pine branch or large building. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": false
-    },
-    {
-      "id": "term-21-pine",
-      "file": "assets/21-daxue-pine.png",
-      "ownerShot": "term-21-daxue",
-      "entityId": "ï¿½ï¿½Ñ©ï¿½ï¿½pine",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "A close horizontal pine bough with dark green needles and several irregular pillows of fresh snow, natural branch structure, soft cold diffuse light, true-transparent cutout, no background, no ornaments. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": true
-    },
-    {
-      "id": "term-21-roof",
-      "file": "assets/21-daxue-roof.png",
-      "ownerShot": "term-21-daxue",
-      "entityId": "ï¿½ï¿½Ñ©ï¿½ï¿½roof",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "A small old Chinese gray-tile village roof with thick fresh snow along its eaves and a fragment of plain white wall below, soft warm light from one modest window, angled architectural cutout with true transparency, no village background or text. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": true
-    },
-    {
-      "id": "term-22-bg",
-      "file": "assets/22-dongzhi-bg.png",
-      "ownerShot": "term-22-dongzhi",
-      "entityId": "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½bg",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "A winter sun low on the southern horizon beyond a quiet Chinese rural plain, long tree shadows stretching toward the viewer over frozen ground, calm amber sunset within deep blue cold air, complete spacious photographic composition, no buildings close to camera. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": false
-    },
-    {
-      "id": "term-23-bg",
-      "file": "assets/23-xiaohan-bg.png",
-      "ownerShot": "term-23-xiaohan",
-      "entityId": "Ð¡ï¿½ï¿½ï¿½ï¿½bg",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "A frosty Chinese garden corner in pale January dawn, dark blurred rocks and a cold pond in the distance, quiet blue-gray atmosphere, no visible close plum blossoms or branches, gentle natural photographic depth. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": false
-    },
-    {
-      "id": "term-23-whiteplum",
-      "file": "assets/23-xiaohan-whiteplum.png",
-      "ownerShot": "term-23-xiaohan",
-      "entityId": "Ð¡ï¿½ï¿½ï¿½ï¿½whiteplum",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "One elegant dark plum branch with four small open ivory-white plum blossoms and several tightly closed buds, botanically accurate five petals and fine stamens, tiny frost flecks, soft cold light, isolated true-transparent cutout; distinct from a red-bud-only twig. Independent foreground/subject asset for an editable layered motion film. TRUE TRANSPARENT BACKGROUND with actual alpha; subject only, no background wash or vignette. Photorealistic crisp natural boundaries, no text/logo/watermark/border. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": true
-    },
-    {
-      "id": "term-24-bg",
-      "file": "assets/24-dahan-bg.png",
-      "ownerShot": "term-24-dahan",
-      "entityId": "ï¿½óº®¡ï¿½bg",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "A wide frozen river in a northern Chinese valley at the end of winter, textured translucent ice and white snow banks, a tiny distant village with a slender smoke plume, a faint pale-gold dawn at horizon suggesting the cycle will return, no near flowers or green foliage, contemplative realistic cinematic landscape. Premium cinematic nature photography for a 1920x1080 Chinese 24 solar terms motion film. WIDE 16:9. Distinct realistic scene, fine material detail, quiet darker left third for later typography. No generated text, symbols, logo, watermark, border or CGI gloss. ",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": false
-    },
-    {
-      "id": "opening-ice",
-      "file": "assets/opening-ice.png",
-      "ownerShot": "opening",
-      "status": "ready",
-      "kind": "image",
-      "depiction": "generated",
-      "source": "image_gen",
-      "source_file": "[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É»ï¿½Î¿ï¿½Â·ï¿½ï¿½Î´ï¿½æ¹«ï¿½ï¿½ï¿½ï¿½ï¿½á¹©]",
-      "prompt": "Use case: photorealistic-natural. Unique opening background for a cinematic Chinese 24 solar terms short film. Extreme low-angle close view of a frozen pond edge: clear thin ice, trapped air bubbles, frost-coated dark stones and a few dry winter grasses at the far right, a very narrow trickle of water beginning to move under the ice, cold blue-gray dawn with a distant warm line of light. Visually striking tactile winter detail, no plum twig, no leaves or blooms, no giant landscape horizon. Wide 16:9 composition, dark quiet left half for a two-line Chinese question to be overlaid later. Natural history photography, high texture fidelity, plausible water and ice optics, restrained light. No text, symbols, watermark, logo, border, fantasy effect or CGI gloss. This exact scene is used only in the opening, and is distinct from all later seasonal assets.",
-      "rights": "ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½ï¿½image_genï¿½ï¿½ï¿½ï¿½",
-      "alpha": false
-    }
-  ]
-}
+YªçŠx-®éÜj×¢ëiºÚ+Š§j[h‘éÜ¢éí×Ž9Ý:-jZ.¶›­–)Þ³W°Ð¢&76WG2#¢°Ð¢°Ð¢&–B#¢'7&–ærÓÖ&6¶w&÷VæB"ÀÐ¢&f–ÆR#¢&76WG2óÖÆ–6‡VâÖ&6¶w&÷VæBÖ6æF–FFRçær"ÀÐ¢&÷væW%6†÷B#¢'7&–ærÓÖÆ–6‡Vâ"ÀÐ¢&VçF—G”–B#¢.z¸¾iŠ\+~X‰Þ‰èÞkª®kX"ÀÐ¢'7FGW2#¢'&VG’"ÀÐ¢&¶–æB#¢&–ÖvR"ÀÐ¢&FW–7F–öâ#¢&vVæW&FVB"ÀÐ¢'6÷W&6R#¢&–ÖvUövVâ"ÀÐ¢'&ö×B#¢%W6R66S¢†÷F÷&VÆ—7F–2ÖæGW&Ââ76WBG—S¢c£’&6¶w&÷VæBÆ–W"f÷"F†Rz¸¾iŠR66VæRöb&VÖ—VÒ6†–æW6R6V6öæÂFö7VÖVçF'“²F†—2Æ–W"v–ÆÂÖ÷fR–æFWVæFVçFÇ’&V†–æB6W&FRG&ç7&VçBf÷&Vw&÷VæB76WBâ&–Ö'’&WVW7C¢6†ÆÆ÷rv–çFW"7G&VÒ&Vv–ææ–ærFòF†r–âF†R–VÆÆ÷r&—fW"&6–ââ'&ö¶VâF†–â–6RÂF&²vWB7FöæW2Â6ÆV"Ö÷f–ærvFW"ÂF—7FçBÆ÷r†–ÆÇ2æBÆR7Vç&—6Râæòf÷&Vw&÷VæB'&æ6‚÷"f÷&Vw&÷VæBÆçC²¶VWF†RæV"†ÆbÖ÷7FÇ’vFW"æB7FöæR6òæ÷F†W"Æ–W"6â6—B÷fW"—Bâ6ö×÷6—F–öâög&Ö–æs¢v–FRc£’ÂÆ–W&VBÖ–FFÆRÖF—7Fæ6RæBf"ÖF—7Fæ6RÂV–WBF&¶W"æVvF—fR76R–âF†RÆVgBF†—&Bf÷"ÆFW"F—FÆR÷fW&Æ’Â†÷&—¦öâ–âWW"F†—&BâÆ–v‡F–æröÖööC¢6ööÂ&ÇVRÖw&’Fvâv—F‚öæR&W7G&–æVBv&ÒvöÆB&VfÆV7F–öã²F†R6V6öâ—27F–ÆÂ6öÆBÂ7&–ær—2öæÇ’&Vv–ææ–ærâ7G–ÆRöÖVF—VÓ¢†–v‚ÖVæBæGW&Â†—7F÷'’†÷Föw&‡’Â&VÆ—7F–2–6RæBvFW"Â7V'FÆRFÖ÷7†W&RÂ&W7G&–æVB6–æVÖF–26öçG&7Bâ6öç7G&–çG3¢öæRVæ—VRV&Ç’×7&–ær66VæS²æòÇVÒG&VRÂæòGv–rÂæò'&æ6‚ÂæòfÆ÷vW'2ÂæòV÷ÆRÂæò'V–ÆF–æw2ÂæòFW‡BÂæò6ÆÆ–w&‡’ÂæòçVÖ&W'2ÂæòÆövòÂæòvFW&Ö&²Âæòg&ÖS²æòfçF7’6öÆ÷'2÷"4t’vÆ÷72â"ÀÐ¢'&–v‡G2#¢.iÊÎjÊyIþh‰ûÉ¾yJŽh‹~[{.zîŠêNyK¾™Ú""ÀÐ¢&Ç†#¢fÇ6PÐ¢ÒÀÐ¢°Ð¢&–B#¢'7&–ærÓ×ÇVÒÖf÷&Vw&÷VæB"ÀÐ¢&f–ÆR#¢&76WG2óÖÆ–6‡VâÖf÷&Vw&÷VæBÖ6æF–FFRçær"ÀÐ¢&÷væW%6†÷B#¢'7&–ærÓÖÆ–6‡Vâ"ÀÐ¢&VçF—G”–B#¢.z¸¾iŠ\+~j(^iéÒ"ÀÐ¢'7FGW2#¢'&VG’"ÀÐ¢&¶–æB#¢&–ÖvR"ÀÐ¢&FW–7F–öâ#¢&vVæW&FVB"ÀÐ¢'6÷W&6R#¢&–ÖvUövVâ"ÀÐ¢'&ö×B#¢%W6R66S¢&6¶w&÷VæBÖW‡G&7F–öââ76WBG—S¢–æFWVæFVçBG&ç7&VçBf÷&Vw&÷VæBÆ–W"f÷"F†Rz¸¾iŠR66VæS²—Bv–ÆÂ&Ræ–ÖFVB6W&FVÇ’÷fW"v–çFW"7G&VÒ&6¶w&÷VæBâ&–Ö'’&WVW7C¢öæR&VÆ—7F–2ÇVÒGv–rÂF&²FW‡GW&VB&&²v—F‚6ÖÆÂçVÖ&W"öbF–v‡FÇ’6Æ÷6VB&VBÖ'&÷vâ'VG2æBGvòF–ç’§W7B×7vVÆÆ–ær'VG2Âæò÷Vâ&Æ÷76ö×2Âw&6VgVÂæGW&Â'&æ6‚W‡FVæF–ærF–vöæÆÇ’g&öÒÆ÷vW"&–v‡BF÷v&BWW"ÆVgBâ7G–ÆRöÖVF—VÓ¢f–æVÇ’FWF–ÆVB&÷Fæ–6ÂæGW&R†÷Föw&‡’7WF÷WBÂ6÷'&V7BGv–ræFö×’Â7&—7æGW&ÂVFvW2Â6ögBFvâ&–ÒÆ–v‡B6öç6—7FVçBv—F‚6öÆBV&Ç’×7&–ær66VæRâ6ö×÷6—F–öâög&Ö–æs¢6–ævÆR—6öÆFVBGv–rö67W––ærF†RÆ÷vW"×&–v‡B†ÆbÂVæ÷Vv‚V×G’76R&÷VæB—BFòæ–ÖFRv—F‚&ÆÆ‚â6öç7G&–çG3¢G'VRG&ç7&VçB&6¶w&÷VæBv—F‚Ç†²7V&¦V7BöæÇ“²æò÷BÂf6RÂw&÷VæBÂvFW"Â66VæW'’ÂÆ&VÇ2ÂFW‡BÂÆövòÂvFW&Ö&²Â&÷&FW#²æòW‡G&'&æ6†W2ÂæòFVç6R&Æ÷76öÒ6ÇW7FW'2ÂæòÆVfW2â"ÀÐ¢'&–v‡G2#¢.iÊÎjÊyIþh‰ûÉ¾yJŽh‹~[{.zîŠêNyK¾™Ú""ÀÐ¢&Ç†#¢G'VPÐ¢ÒÀÐ¢°Ð¢&–B#¢'7&–ærÓ"Ö&6¶w&÷VæB"ÀÐ¢&f–ÆR#¢&76WG2ó"×—W6‡V’Ö&6¶w&÷VæBÖ6æF–FFRçær"ÀÐ¢&÷væW%6†÷B#¢'7&–ærÓ"×—W6‡V’"ÀÐ¢&VçF—G”–B#¢.™ºŽkL+~X‰ÞiŠ^k›þyK"ÀÐ¢'7FGW2#¢'&VG’"ÀÐ¢&¶–æB#¢&–ÖvR"ÀÐ¢&FW–7F–öâ#¢&vVæW&FVB"ÀÐ¢'6÷W&6R#¢&–ÖvUövVâ"ÀÐ¢'&ö×B#¢%W6R66S¢†÷F÷&VÆ—7F–2ÖæGW&Ââ76WBG—S¢c£’&6¶w&÷VæBÆ–W"f÷"F†R™ºŽkB66VæR–â&VÖ—VÒ6†–æW6R6V6öæÂFö7VÖVçF'“²6W&FRG&ç7&VçBÆVbf÷&Vw&÷VæBv–ÆÂÖ÷fR&÷fR—Bâ&–Ö'’&WVW7C¢V&Ç’7&–ær&–â÷fW"Æ÷r&—fW'6–FRf–VÆB–âF†R–VÆÆ÷r&—fW"&6–ââ6†ÆÆ÷r×VFG’vFW&6÷W'6RæBvWBV'F‚'6÷&"vVçFÆR&–ã²F—7FçBf–VÆB&–FvW26†÷röæÇ’F†Rf—'7BÆ÷rw&VVâ6†ö÷G2âF†R—"—26ögBv—F‚Ö—7BÂæB6ÖÆÂ&–â&–æw2F–×ÆRVFFÆRâ¶VWF†RæV"f÷&Vw&÷VæB6ÆV"öbÆVfW2Â'&æ6†W2Â&VVG2Â÷"Æ&vRö&¦V7G26ò6W&FR6Æ÷6R×WÆ–W"6â&R6ö×÷6—FVBâ6ö×÷6—F–öâög&Ö–æs¢v–FRc£’ÆæG66RÂÆVgBF†—&BF&¶W"æBf—7VÆÇ’V–WBf÷"6†–æW6RF—FÆR÷fW&Æ’ÂÖ–FFÆRw&÷VæBvWBf–VÆBæBæ'&÷rvFW&6÷W'6RÂF—7FçB×WFVBÆ÷r†–ÆÇ2VæFW"6Æ÷VBâÆ–v‡F–æröÖööC¢÷fW&67B6–ÇfW"Öw&’Ö÷&æ–ærÂ6ögBw&VVâ&VfÆV7FVBg&öÒæWrw&÷wF‚ÂV–WBæBæ÷W&—6†–ær&F†W"F†â7F÷&×’â7G–ÆRöÖVF—VÓ¢†–v‚ÖVæBæGW&Â†—7F÷'’†÷Föw&‡’Â&VÆ—7F–2&–âÂ6ö–ÂæBvFW"Â&W7G&–æVB6–æVÖF–26öÆ÷"â6öç7G&–çG3¢öæRVæ—VR™ºŽkB66VæRöæÇ“²V&Ç’7&–ærgFW"F†s²æòÇVÒ'&æ6‚Âæò&Æ÷76öÒ6ÇW7FW"Âæò6æ÷rÂæò6GW&FVB7VÖÖW"w&VVâÂæòV÷ÆRÂæò'V–ÆF–æw2ÂæòFW‡BÂæò6ÆÆ–w&‡’ÂæòçVÖ&W'2ÂæòÆövòÂæòvFW&Ö&²Âæò&÷&FW"Âæò4t’6†VVââ"ÀÐ¢'&–v‡G2#¢.iÊÎjÊyIþh‰ûÉ¾yJŽh‹~[{.zîŠêNyK¾™Ú""ÀÐ¢&Ç†#¢fÇ6PÐ¢ÒÀÐ¢°Ð¢&–B#¢'7&–ærÓ"×v–ÆÆ÷rÖf÷&Vw&÷VæB"ÀÐ¢&f–ÆR#¢&76WG2ó"×—W6‡V’Öf÷&Vw&÷VæBÖ6æF–FFRçær"ÀÐ¢&÷væW%6†÷B#¢'7&–ærÓ"×—W6‡V’"ÀÐ¢&VçF—G”–B#¢.™ºŽkL+~[Šn™Ë.Zºžiû>Xûb"ÀÐ¢'7FGW2#¢'&VG’"ÀÐ¢&¶–æB#¢&–ÖvR"ÀÐ¢&FW–7F–öâ#¢&vVæW&FVB"ÀÐ¢'6÷W&6R#¢&–ÖvUövVâ"ÀÐ¢'&ö×B#¢%W6R66S¢&6¶w&÷VæBÖW‡G&7F–öââ76WBG—S¢–æFWVæFVçBG&ç7&VçBf÷&Vw&÷VæBÆ–W"f÷"F†R™ºŽkB66VæRÂæ–ÖFVB6W&FVÇ’÷fW"&–ç’f–VÆBâ&–Ö'’&WVW7C¢FVÆ–6FR6ÇW7FW"öbg&W6‚v–ÆÆ÷rÆVfW2v—F‚6WfW&Â6ÆV"&–æG&÷2æBöæRG&÷§W7BfÆÆ–ærg&öÒÆVbF—²–÷VærÆ–v‡BÖw&VVâÆVfW2ÂæGW&Âæ'&÷r6†W2Âæò÷VâfÆ÷vW'2Â&VæFW&VB2&VÆ—7F–26Æ÷6R&÷Fæ–6Â7WF÷WBâ6ö×÷6—F–öâög&Ö–æs¢ÆVfW2†ærF÷vçv&Bg&öÒF†–â7FVÒVçFW&–ærg&öÒF†RWW"×&–v‡BVFvRæBö67W’öæÇ’F†R&–v‡BF†—&C²ÆVfR÷VâG&ç7&VçB76RFòF†RÆVgC²æGW&Â7–ÖÖWG'’f÷"7V'FÆR–æFWVæFVçB7v’â7G–ÆRöÖVF—VÓ¢Ö7&òæGW&R†÷Föw&‡’Â7&—7ÆVbfV–ç2æBvFW"7W&f6R&VfÆV7F–öç2Â6ööÂ6Æ÷VG’F–Æ–v‡BÂ&VÆ—7F–2VFvRFWF–Ââ6öç7G&–çG3¢G'VRG&ç7&VçB&6¶w&÷VæBv—F‚Ç†²—6öÆFVBv–ÆÆ÷rÆVfW2æBF†–â7FVÒöæÇ“²æòÆæG66RÂæò6·’Âæò'&æ6‚f÷&²Âæòf6RÂæòv÷&G2ÂæòÆövòÂæòvFW&Ö&²Âæò&÷&FW#²F—7F–æ7Bg&öÒÇVÒGv–r76WBâ"ÀÐ¢'&–v‡G2#¢.iÊÎjÊyIþh‰ûÉ¾yJŽh‹~[{.zîŠêNyK¾™Ú""ÀÐ¢&Ç†#¢G'VPÐ¢ÒÀÐ¢°Ð¢&–B#¢'FW&ÒÓ2Ö&r"ÀÐ¢&f–ÆR#¢&76WG2ó2Ö¦–æw¦†RÖ&rçær"ÀÐ¢&÷væW%6†÷B#¢'FW&ÒÓ2Ö¦–æw¦†R"ÀÐ¢&VçF—G”–B#¢.h8®‰»+v&r"ÀÐ¢'7FGW2#¢'&VG’"ÀÐ¢&¶–æB#¢&–ÖvR"ÀÐ¢&FW–7F–öâ#¢&vVæW&FVB"ÀÐ¢'6÷W&6R#¢&–ÖvUövVâ"ÀÐ¢'6÷W&6Uöf–ÆR#¢%¾iÊÎiË®yIþh‰h‰nXø.ˆ>‹zþ[èNiÊ®™¨þXZÎ[ÈXÈ^hùKéµÒ"ÀÐ¢'&ö×B#¢$Ö7&òÖÆWfVÂf–WröbF&²Öö—7B7&–ær6ö–ÂæB6†ÆÆ÷rV'F†Vâ†öÆÆ÷rÂFVÆ–6FR&ö÷G2æBv&ÒÖ÷&æ–ærÆ–v‡BÂF—7FçB&ÇW'&VBf–VÆBÂæòf÷&Vw&÷VæB7&÷WB÷"–ç6V7Bâ&VÖ—VÒ6–æVÖF–2æGW&R†÷Föw&‡’f÷"“#ƒƒ6†–æW6R#B6öÆ"FW&×2Ö÷F–öâf–ÆÒât”DRc£’âF—7F–æ7B&VÆ—7F–266VæRÂf–æRÖFW&–ÂFWF–ÂÂV–WBF&¶W"ÆVgBF†—&Bf÷"ÆFW"G—öw&‡’âæòvVæW&FVBFW‡BÂ7–Ö&öÇ2ÂÆövòÂvFW&Ö&²Â&÷&FW"÷"4t’vÆ÷72â"ÀÐ¢'&–v‡G2#¢.iÊÎšžyºîKÛþyJŽXh^{Úæ–ÖvUövVîyIþh‰"ÀÐ¢&Ç†#¢fÇ6PÐ¢ÒÀÐ¢°Ð¢&–B#¢'FW&ÒÓ2×7&÷WB"ÀÐ¢&f–ÆR#¢&76WG2ó2Ö¦–æw¦†R×7&÷WBçær"ÀÐ¢&÷væW%6†÷B#¢'FW&ÒÓ2Ö¦–æw¦†R"ÀÐ¢&VçF—G”–B#¢.h8®‰»+w7&÷WB"ÀÐ¢'7FGW2#¢'&VG’"ÀÐ¢&¶–æB#¢&–ÖvR"ÀÐ¢&FW–7F–öâ#¢&vVæW&FVB"ÀÐ¢'6÷W&6R#¢&–ÖvUövVâ"ÀÐ¢'6÷W&6Uöf–ÆR#¢%¾iÊÎiË®yIþh‰h‰nXø.ˆ>‹zþ[èNiÊ®™¨þXZÎ[ÈXÈ^hùKéµÒ"ÀÐ¢'&ö×B#¢$öæR&÷Fæ–6ÆÇ’7&VF–&ÆRF–ç’6W&VÂ7&÷WBv—F‚GvòföÆFVBw&VVâÆVfW2&—6–ærg&öÒ6ÖÆÂ—'&VwVÆ"6ÇV×öb6ö–ÂÂ6–ævÆR6ÖÆÂ†&ÖÆW72w&÷VæB&VWFÆR&W6–FR—C²—6öÆFVBæGW&R†÷Föw&‡’7WF÷WBÂæò&6¶G&÷â–æFWVæFVçBf÷&Vw&÷VæB÷7V&¦V7B76WBf÷"âVF—F&ÆRÆ–W&VBÖ÷F–öâf–ÆÒâE%TRE$å5$TåB$4´u$õTäBv—F‚7GVÂÇ†²7V&¦V7BöæÇ’Âæò&6¶w&÷VæBv6‚÷"f–væWGFRâ†÷F÷&VÆ—7F–27&—7æGW&Â&÷VæF&–W2ÂæòFW‡BöÆövò÷vFW&Ö&²ö&÷&FW"â"ÀÐ¢'&–v‡G2#¢.iÊÎšžyºîKÛþyJŽXh^{Úæ–ÖvUövVîyIþh‰"ÀÐ¢&Ç†#¢G'VPÐ¢ÒÀÐ¢°Ð¢&–B#¢'FW&ÒÓBÖ&r"ÀÐ¢&f–ÆR#¢&76WG2óBÖ6‡VæfVâÖ&rçær"ÀÐ¢&÷væW%6†÷B#¢'FW&ÒÓBÖ6‡VæfVâ"ÀÐ¢&VçF—G”–B#¢.iŠ^Xˆl+v&r"ÀÐ¢'7FGW2#¢'&VG’"ÀÐ¢&¶–æB#¢&–ÖvR"ÀÐ¢&FW–7F–öâ#¢&vVæW&FVB"ÀÐ¢'6÷W&6R#¢&–ÖvUövVâ"ÀÐ¢'6÷W&6Uöf–ÆR#¢%¾iÊÎiË®yIþh‰h‰nXø.ˆ>‹zþ[èNiÊ®™¨þXZÎ[ÈXÈ^hùKéµÒ"ÀÐ¢'&ö×B#¢$'&öBæ÷'F†W&â6†–æW6R&—fW"Æ–âB7&–ærFvâÂ7VâW†7FÇ’æV"F†R†÷&—¦öâÂFVÆ–6FRw&VVâf–VÆG2æBÆöæRF—7FçBG&VRÂ&Ææ6VBv&ÒÆ–v‡BæB6ööÂ6†FRÂ6ÆV"76–÷W26·’Â6öçFV×ÆF—fRæGW&Â†÷Föw&‚â&VÖ—VÒ6–æVÖF–2æGW&R†÷Föw&‡’f÷"“#ƒƒ6†–æW6R#B6öÆ"FW&×2Ö÷F–öâf–ÆÒât”DRc£’âF—7F–æ7B&VÆ—7F–266VæRÂf–æRÖFW&–ÂFWF–ÂÂV–WBF&¶W"ÆVgBF†—&Bf÷"ÆFW"G—öw&‡’âæòvVæW&FVBFW‡BÂ7–Ö&öÇ2ÂÆövòÂvFW&Ö&²Â&÷&FW"÷"4t’vÆ÷72â"ÀÐ¢'&–v‡G2#¢.iÊÎšžyºîKÛþyJŽXh^{Úæ–ÖvUövVîyIþh‰"ÀÐ¢&Ç†#¢fÇ6PÐ¢ÒÀÐ¢°Ð¢&–B#¢'FW&ÒÓRÖ&r"ÀÐ¢&f–ÆR#¢&76WG2óR×–ævÖ–ærÖ&rçær"ÀÐ¢&÷væW%6†÷B#¢'FW&ÒÓR×–ævÖ–ær"ÀÐ¢&VçF—G”–B#¢.kˆ^iˆì+v&r"ÀÐ¢'7FGW2#¢'&VG’"ÀÐ¢&¶–æB#¢&–ÖvR"ÀÐ¢&FW–7F–öâ#¢&vVæW&FVB"ÀÐ¢'6÷W&6R#¢&–ÖvUövVâ"ÀÐ¢'6÷W&6Uöf–ÆR#¢%¾iÊÎiË®yIþh‰h‰nXø.ˆ>‹zþ[èNiÊ®™¨þXZÎ[ÈXÈ^hùKéµÒ"ÀÐ¢'&ö×B#¢$6ÆV"V&Ç’Ô&–Â&—fW"v–æF–ærF‡&÷Vv‚6†–æW6R'W&ÂÆæG66RÂg&W6‚w&VVâ&æ·2æBF—7FçBv–ÆÆ÷rG&VW2ÂÖöFW7B7FöæRfö÷GF‚æBÆ÷r†–ÆÇ3²æò6Æ÷6Rw&72Âæò&öB–âF†RvFW"ÂæòÆ&vRf÷&Vw&÷VæBG&VW2â&VÖ—VÒ6–æVÖF–2æGW&R†÷Föw&‡’f÷"“#ƒƒ6†–æW6R#B6öÆ"FW&×2Ö÷F–öâf–ÆÒât”DRc£’âF—7F–æ7B&VÆ—7F–266VæRÂf–æRÖFW&–ÂFWF–ÂÂV–WBF&¶W"ÆVgBF†—&Bf÷"ÆFW"G—öw&‡’âæòvVæW&FVBFW‡BÂ7–Ö&öÇ2ÂÆövòÂvFW&Ö&²Â&÷&FW"÷"4t’vÆ÷72â"ÀÐ¢'&–v‡G2#¢.iÊÎšžyºîKÛþyJŽXh^{Úæ–ÖvUövVîyIþh‰"ÀÐ¢&Ç†#¢fÇ6PÐ¢ÒÀÐ¢°Ð¢&–B#¢'FW&ÒÓRÖ&öB"ÀÐ¢&f–ÆR#¢&76WG2óR×–ævÖ–ærÖ&öBçær"ÀÐ¢&÷væW%6†÷B#¢'FW&ÒÓR×–ævÖ–ær"ÀÐ¢&VçF—G”–B#¢.kˆ^iˆì+v&öB"ÀÐ¢'7FGW2#¢'&VG’"ÀÐ¢&¶–æB#¢&–ÖvR"ÀÐ¢&FW–7F–öâ#¢&vVæW&FVB"ÀÐ¢'6÷W&6R#¢&–ÖvUövVâ"ÀÐ¢'6÷W&6Uöf–ÆR#¢%¾iÊÎiË®yIþh‰h‰nXø.ˆ>‹zþ[èNiÊ®™¨þXZÎ[ÈXÈ^hùKéµÒ"ÀÐ¢'&ö×B#¢$6ÖÆÂG&F—F–öæÂVç–çFVB6†–æW6RvööFVâ&—fW"6¶–fbf–WvVBg&öÒÆ÷rF‡&VR×V'FW"6–FRævÆRÂöæR6VFVB&öFÖâ–âÆ–â6öçFV×÷&'’'W&Â6Æ÷F†W2†öÆF–ærÆöærvööFVâö#²6÷'&V7B&öB7G'V7GW&RæB6ÆÒ÷7GW&RÂ—6öÆFVBG&ç7&VçB7WF÷WBÂæòvFW"÷"6†÷&VÆ–æRâ–æFWVæFVçBf÷&Vw&÷VæB÷7V&¦V7B76WBf÷"âVF—F&ÆRÆ–W&VBÖ÷F–öâf–ÆÒâE%TRE$å5$TåB$4´u$õTäBv—F‚7GVÂÇ†²7V&¦V7BöæÇ’Âæò&6¶w&÷VæBv6‚÷"f–væWGFRâ†÷F÷&VÆ—7F–27&—7æGW&Â&÷VæF&–W2ÂæòFW‡BöÆövò÷vFW&Ö&²ö&÷&FW"â"ÀÐ¢'&–v‡G2#¢.iÊÎšžyºîKÛþyJŽXh^{Úæ–ÖvUövVîyIþh‰"ÀÐ¢&Ç†#¢G'VPÐ¢ÒÀÐ¢°Ð¢&–B#¢'FW&ÒÓRÖw&72"ÀÐ¢&f–ÆR#¢&76WG2óR×–ævÖ–ærÖw&72çær"ÀÐ¢&÷væW%6†÷B#¢'FW&ÒÓR×–ævÖ–ær"ÀÐ¢&VçF—G”–B#¢.kˆ^iˆì+vw&72"ÀÐ¢'7FGW2#¢'&VG’"ÀÐ¢&¶–æB#¢&–ÖvR"ÀÐ¢&FW–7F–öâ#¢&vVæW&FVB"ÀÐ¢'6÷W&6R#¢&–ÖvUövVâ"ÀÐ¢'6÷W&6Uöf–ÆR#¢%¾iÊÎiË®yIþh‰h‰nXø.ˆ>‹zþ[èNiÊ®™¨þXZÎ[ÈXÈ^hùKéµÒ"ÀÐ¢'&ö×B#¢$Æö÷6RÆ÷r6ÇW7FW"öbFVæFW"&—fW'6–FRw&76W2æBfWr6ÖÆÂv†—FRv–ÆFfÆ÷vW'2Â&VÆ—7F–2V&Ç’7&–ær&÷Fç’Â6–FRÖÆ—Bg&öÒWW"&–v‡BÂ—6öÆFVBG&ç7&VçBf÷&Vw&÷VæB7G&—Âæòw&÷VæB÷"66VæW'’â–æFWVæFVçBf÷&Vw&÷VæB÷7V&¦V7B76WBf÷"âVF—F&ÆRÆ–W&VBÖ÷F–öâf–ÆÒâE%TRE$å5$TåB$4´u$õTäBv—F‚7GVÂÇ†²7V&¦V7BöæÇ’Âæò&6¶w&÷VæBv6‚÷"f–væWGFRâ†÷F÷&VÆ—7F–27&—7æGW&Â&÷VæF&–W2ÂæòFW‡BöÆövò÷vFW&Ö&²ö&÷&FW"â"ÀÐ¢'&–v‡G2#¢.iÊÎšžyºîKÛþyJŽXh^{Úæ–ÖvUövVîyIþh‰"ÀÐ¢&Ç†#¢G'VPÐ¢ÒÀÐ¢°Ð¢&–B#¢'FW&ÒÓbÖ&r"ÀÐ¢&f–ÆR#¢&76WG2óbÖwW—RÖ&rçær"ÀÐ¢&÷væW%6†÷B#¢'FW&ÒÓbÖwW—R"ÀÐ¢&VçF—G”–B#¢.‹~™ºŒ+v&r"ÀÐ¢'7FGW2#¢'&VG’"ÀÐ¢&¶–æB#¢&–ÖvR"ÀÐ¢&FW–7F–öâ#¢&vVæW&FVB"ÀÐ¢'6÷W&6R#¢&–ÖvUövVâ"ÀÐ¢'6÷W&6Uöf–ÆR#¢%¾iÊÎiË®yIþh‰h‰nXø.ˆ>‹zþ[èNiÊ®™¨þXZÎ[ÈXÈ^hùKéµÒ"ÀÐ¢'&ö×B#¢$V&Ç’&–6RFW'&6W2–â6÷WF†W&â6†–æW6RfÆÆW’gFW"v&Ò7&–ær&–âÂ6†ÆÆ÷r&VfÆV7F—fRFF–W2v—F‚–÷VærÆçFVB&÷w2–âF†RÖ–FFÆRF—7Fæ6RÂÖ—7B÷Væ–ær&÷fRF†R&–FvW2Âæò6Æ÷6R&–6RÆçG2–âf÷&Vw&÷VæBÂvWBFW‡GW&RæB6ögBÆ–v‡Bâ&VÖ—VÒ6–æVÖF–2æGW&R†÷Föw&‡’f÷"“#ƒƒ6†–æW6R#B6öÆ"FW&×2Ö÷F–öâf–ÆÒât”DRc£’âF—7F–æ7B&VÆ—7F–266VæRÂf–æRÖFW&–ÂFWF–ÂÂV–WBF&¶W"ÆVgBF†—&Bf÷"ÆFW"G—öw&‡’âæòvVæW&FVBFW‡BÂ7–Ö&öÇ2ÂÆövòÂvFW&Ö&²Â&÷&FW"÷"4t’vÆ÷72â"ÀÐ¢'&–v‡G2#¢.iÊÎšžyºîKÛþyJŽXh^{Úæ–ÖvUövVîyIþh‰"ÀÐ¢&Ç†#¢fÇ6PÐ¢ÒÀÐ¢°Ð¢&–B#¢'FW&ÒÓb×6VVFÆ–æw2"ÀÐ¢&f–ÆR#¢&76WG2óbÖwW—R×6VVFÆ–æw2çær"ÀÐ¢&÷væW%6†÷B#¢'FW&ÒÓbÖwW—R"ÀÐ¢&VçF—G”–B#¢.‹~™ºŒ+w6VVFÆ–æw2"ÀÐ¢'7FGW2#¢'&VG’"ÀÐ¢&¶–æB#¢&–ÖvR"ÀÐ¢&FW–7F–öâ#¢&vVæW&FVB"ÀÐ¢'6÷W&6R#¢&–ÖvUövVâ"ÀÐ¢'6÷W&6Uöf–ÆR#¢%¾iÊÎiË®yIþh‰h‰nXø.ˆ>‹zþ[èNiÊ®™¨þXZÎ[ÈXÈ^hùKéµÒ"ÀÐ¢'&ö×B#¢$6ÖÆÂ6ÇW7FW"öbg&W6†Ç’G&ç7ÆçFVB–÷Vær&–6R6VVFÆ–æw2v—F‚æ'&÷rW&–v‡B'&–v‡BÖw&VVâÆVfW2æBvWB&ö÷G2†VÆB–â6ÖÆÂæGW&Â×VB6ÇV×Â6W&FRÆçG2&÷Fæ–6ÆÇ’6ÆV"ÂG&ç7&VçBf÷&Vw&÷VæB7WF÷WBÂæòf–VÆB÷"6·’â–æFWVæFVçBf÷&Vw&÷VæB÷7V&¦V7B76WBf÷"âVF—F&ÆRÆ–W&VBÖ÷F–öâf–ÆÒâE%TRE$å5$TåB$4´u$õTäBv—F‚7GVÂÇ†²7V&¦V7BöæÇ’Âæò&6¶w&÷VæBv6‚÷"f–væWGFRâ†÷F÷&VÆ—7F–27&—7æGW&Â&÷VæF&–W2ÂæòFW‡BöÆövò÷vFW&Ö&²ö&÷&FW"â"ÀÐ¢'&–v‡G2#¢.iÊÎšžyºîKÛþyJŽXh^{Úæ–ÖvUövVîyIþh‰"ÀÐ¢&Ç†#¢G'VPÐ¢ÒÀÐ¢°Ð¢&–B#¢'FW&ÒÓrÖ&r"ÀÐ¢&f–ÆR#¢&76WG2órÖÆ—†–Ö&rçær"ÀÐ¢&÷væW%6†÷B#¢'FW&ÒÓrÖÆ—†–"ÀÐ¢&VçF—G”–B#¢.z¸¾ZHü+v&r"ÀÐ¢'7FGW2#¢'&VG’"ÀÐ¢&¶–æB#¢&–ÖvR"ÀÐ¢&FW–7F–öâ#¢&vVæW&FVB"ÀÐ¢'6÷W&6R#¢&–ÖvUövVâ"ÀÐ¢'6÷W&6Uöf–ÆR#¢%¾iÊÎiË®yIþh‰h‰nXø.ˆ>‹zþ[èNiÊ®™¨þXZÎ[ÈXÈ^hùKéµÒ"ÀÐ¢'&ö×B#¢$Æöö¶–ærWv&BF‡&÷Vv‚ÇW6‚V&Ç’×7VÖÖW"&Ö&öòw&÷fRv—F‚æ'&÷r7G&VÒæBFVç6Rw&VVâ6æ÷’Â6†gG2öb6ögB7VâæB&–6‚ÆVbFW‡GW&W2Â6ö×ÆWFR6–æVÖF–2æGW&R6ö×÷6—F–öâv—F‚æòV÷ÆRâ&VÖ—VÒ6–æVÖF–2æGW&R†÷Föw&‡’f÷"“#ƒƒ6†–æW6R#B6öÆ"FW&×2Ö÷F–öâf–ÆÒât”DRc£’âF—7F–æ7B&VÆ—7F–266VæRÂf–æRÖFW&–ÂFWF–ÂÂV–WBF&¶W"ÆVgBF†—&Bf÷"ÆFW"G—öw&‡’âæòvVæW&FVBFW‡BÂ7–Ö&öÇ2ÂÆövòÂvFW&Ö&²Â&÷&FW"÷"4t’vÆ÷72â"ÀÐ¢'&–v‡G2#¢.iÊÎšžyºîKÛþyJŽXh^{Úæ–ÖvUövVîyIþh‰"ÀÐ¢&Ç†#¢fÇ6PÐ¢ÒÀÐ¢°Ð¢&–B#¢'FW&ÒÓ‚Ö&r"ÀÐ¢&f–ÆR#¢&76WG2ó‚×†–öÖâÖ&rçær"ÀÐ¢&÷væW%6†÷B#¢'FW&ÒÓ‚×†–öÖâ"ÀÐ¢&VçF—G”–B#¢.[þkº+v&r"ÀÐ¢'7FGW2#¢'&VG’"ÀÐ¢&¶–æB#¢&–ÖvR"ÀÐ¢&FW–7F–öâ#¢&vVæW&FVB"ÀÐ¢'6÷W&6R#¢&–ÖvUövVâ"ÀÐ¢'6÷W&6Uöf–ÆR#¢%¾iÊÎiË®yIþh‰h‰nXø.ˆ>‹zþ[èNiÊ®™¨þXZÎ[ÈXÈ^hùKéµÒ"ÀÐ¢'&ö×B#¢$âW‡ç6—fRf–VÆBöbw&VVâv†VBVçFW&–ærw&–âf–ÆÂ–â6VçG&Â6†–æÂÆ÷r†÷&—¦öâæBv–æB×6ögFVæVB&÷w2Âv&ÒÆFRÔÖ’Ö÷&æ–ærÂæ÷B&—RvöÆFVâ†'fW7Bv†VBÂæò6†'6Æ÷6Rv†VB†VG2–âf÷&Vw&÷VæBâ&VÖ—VÒ6–æVÖF–2æGW&R†÷Föw&‡’f÷"“#ƒƒ6†–æW6R#B6öÆ"FW&×2Ö÷F–öâf–ÆÒât”DRc£’âF—7F–æ7B&VÆ—7F–266VæRÂf–æRÖFW&–ÂFWF–ÂÂV–WBF&¶W"ÆVgBF†—&Bf÷"ÆFW"G—öw&‡’âæòvVæW&FVBFW‡BÂ7–Ö&öÇ2ÂÆövòÂvFW&Ö&²Â&÷&FW"÷"4t’vÆ÷72â"ÀÐ¢'&–v‡G2#¢.iÊÎšžyºîKÛþyJŽXh^{Úæ–ÖvUövVîyIþh‰"ÀÐ¢&Ç†#¢fÇ6PÐ¢ÒÀÐ¢°Ð¢&–B#¢'FW&ÒÓ‚×v†VB"ÀÐ¢&f–ÆR#¢&76WG2ó‚×†–öÖâ×v†VBçær"ÀÐ¢&÷væW%6†÷B#¢'FW&ÒÓ‚×†–öÖâ"ÀÐ¢&VçF—G”–B#¢.[þkº+wv†VB"ÀÐ¢'7FGW2#¢'&VG’"ÀÐ¢&¶–æB#¢&–ÖvR"ÀÐ¢&FW–7F–öâ#¢&vVæW&FVB"ÀÐ¢'6÷W&6R#¢&–ÖvUövVâ"ÀÐ¢'6÷W&6Uöf–ÆR#¢%¾iÊÎiË®yIþh‰h‰nXø.ˆ>‹zþ[èNiÊ®™¨þXZÎ[ÈXÈ^hùKéµÒ"ÀÐ¢'&ö×B#¢$f—fRæGW&ÆÇ’f&–VBw&VVâv†VBV'2GW&–ærw&–âf–ÆÆ–ærÂ¶W&æVÇ2f—6–&Ç’ÇV×'WBæ÷BgVÆÇ’&—RÂÆöærvç2æB7FV×2Â&÷Fæ–6ÆÇ’67W&FRÂFWF–ÆVB&VÂÆçB7WF÷WBv–ç7BG'VRG&ç7&Væ7’Âæòf–VÆB÷"w&÷VæBâ–æFWVæFVçBf÷&Vw&÷VæB÷7V&¦V7B76WBf÷"âVF—F&ÆRÆ–W&VBÖ÷F–öâf–ÆÒâE%TRE$å5$TåB$4´u$õTäBv—F‚7GVÂÇ†²7V&¦V7BöæÇ’Âæò&6¶w&÷VæBv6‚÷"f–væWGFRâ†÷F÷&VÆ—7F–27&—7æGW&Â&÷VæF&–W2ÂæòFW‡BöÆövò÷vFW&Ö&²ö&÷&FW"â"ÀÐ¢'&–v‡G2#¢.iÊÎšžyºîKÛþyJŽXh^{Úæ–ÖvUövVîyIþh‰"ÀÐ¢&Ç†#¢G'VPÐ¢ÒÀÐ¢°Ð¢&–B#¢'FW&ÒÓ’Ö&r"ÀÐ¢&f–ÆR#¢&76WG2ó’ÖÖæw¦†öærÖ&rçær"ÀÐ¢&÷væW%6†÷B#¢'FW&ÒÓ’ÖÖæw¦†öær"ÀÐ¢&VçF—G”–B#¢.ˆ©.zxÜ+v&r"ÀÐ¢'7FGW2#¢'&VG’"ÀÐ¢&¶–æB#¢&–ÖvR"ÀÐ¢&FW–7F–öâ#¢&vVæW&FVB"ÀÐ¢'6÷W&6R#¢&–ÖvUövVâ"ÀÐ¢'6÷W&6Uöf–ÆR#¢%¾iÊÎiË®yIþh‰h‰nXø.ˆ>‹zþ[èNiÊ®™¨þXZÎ[ÈXÈ^hùKéµÒ"ÀÐ¢'&ö×B#¢$6÷WF†W&â6†–æW6RfÆööFVB&–6RFG’GW&–ærV&Ç’Ô§VæRG&ç7ÆçF–ærÂ6WfW&ÂF–ç’F—7FçBf&ÖW'2&VæF–æræGW&ÆÇ’FòÆçB&÷w2Â6ÆV"&VÆ—7F–2†æB66ÆRBF—7Fæ6RÂ'&öBf–VÆBFWF‚VæFW"6ögBF–Æ–v‡BÂæò6Æ÷6Rv†VB÷"†'fW7F–ærFööÇ2â&VÖ—VÒ6–æVÖF–2æGW&R†÷Föw&‡’f÷"“#ƒƒ6†–æW6R#B6öÆ"FW&×2Ö÷F–öâf–ÆÒât”DRc£’âF—7F–æ7B&VÆ—7F–266VæRÂf–æRÖFW&–ÂFWF–ÂÂV–WBF&¶W"ÆVgBF†—&Bf÷"ÆFW"G—öw&‡’âæòvVæW&FVBFW‡BÂ7–Ö&öÇ2ÂÆövòÂvFW&Ö&²Â&÷&FW"÷"4t’vÆ÷72â"ÀÐ¢'&–v‡G2#¢.iÊÎšžyºîKÛþyJŽXh^{Úæ–ÖvUövVîyIþh‰"ÀÐ¢&Ç†#¢fÇ6PÐ¢ÒÀÐ¢°Ð¢&–B#¢'FW&ÒÓ’×6–6¶ÆR"ÀÐ¢&f–ÆR#¢&76WG2ó’ÖÖæw¦†öær×6–6¶ÆRçær"ÀÐ¢&÷væW%6†÷B#¢'FW&ÒÓ’ÖÖæw¦†öær"ÀÐ¢&VçF—G”–B#¢.ˆ©.zxÜ+w6–6¶ÆR"ÀÐ¢'7FGW2#¢'&VG’"ÀÐ¢&¶–æB#¢&–ÖvR"ÀÐ¢&FW–7F–öâ#¢&vVæW&FVB"ÀÐ¢'6÷W&6R#¢&–ÖvUövVâ"ÀÐ¢'6÷W&6Uöf–ÆR#¢%¾iÊÎiË®yIþh‰h‰nXø.ˆ>‹zþ[èNiÊ®™¨þXZÎ[ÈXÈ^hùKéµÒ"ÀÐ¢'&ö×B#¢$öæRÖöFW7BG&F—F–öæÂw&–7VÇGW&Â6–6¶ÆRv—F‚v÷&âvööFVâ†æFÆRæB7W'fVBF&²7FVVÂ&ÆFRÂ6÷'&V7B&7F–6Â6öç7G'V7F–öâÂö&Æ—VR†÷&—¦öçFÂ÷6—F–öâÂ7GVF–ò×VÆ—G’&VÆ—7F–27WF÷WBÂG'VRG&ç7&VçB&6¶w&÷VæBÂæò†æG2÷"FW‡Bâ–æFWVæFVçBf÷&Vw&÷VæB÷7V&¦V7B76WBf÷"âVF—F&ÆRÆ–W&VBÖ÷F–öâf–ÆÒâE%TRE$å5$TåB$4´u$õTäBv—F‚7GVÂÇ†²7V&¦V7BöæÇ’Âæò&6¶w&÷VæBv6‚÷"f–væWGFRâ†÷F÷&VÆ—7F–27&—7æGW&Â&÷VæF&–W2ÂæòFW‡BöÆövò÷vFW&Ö&²ö&÷&FW"â"ÀÐ¢'&–v‡G2#¢.iÊÎšžyºîKÛþyJŽXh^{Úæ–ÖvUövVîyIþh‰"ÀÐ¢&Ç†#¢G'VPÐ¢ÒÀÐ¢°Ð¢&–B#¢'FW&ÒÓ’×v†VF'VæFÆR"ÀÝ¸ç{h‘éì¶»§q«^tYÙWÙÙ[¹å'ù¢$‹Bˆ˜[HŽˆ˜[ÙCBˆKBˆÃBˆšYŽˆ\›KLMKX™È‹Bˆ™š[HŽˆ˜\ÜÙ]ËÌMKX˜Z[KX™Ëœ™È‹Bˆ›ÝÛ™\”ÚÝŽˆ\›KLMKX˜Z[H‹Bˆ™[]RYŽˆ¹æozg,°­Ø™È‹BˆœÝ]\ÈŽˆœ™XYH‹BˆšÚ[™Žˆš[XYÙH‹Bˆ™\XÝ[ÛˆŽˆ™Ù[™\˜]Y‹BˆœÛÝ\˜ÙHŽˆš[XYÙWÙÙ[ˆ‹BˆœÛÝ\˜ÙWÙš[HŽˆ–ù§+9§.¹å'ù¢$9¢%¹càº  ú-ëùo¡9§*ºf£ùak9o 9c!y£ä9/¦×H‹Bˆœ›Û\ŽˆÛÛÛX\›KTÙ\[X™\ˆ]Ûˆ[ˆHÝÈYXYÝÈ™\ÚYH\Ý[Ø]\‹›YHZ\Ý™]ÙY[ˆÝÈ[È[™H˜\œ›ÝÈÛÛÜš^›Û‹›ÈÛÜÙH]ÈÜ˜\ÜÈÜˆ™YYXYËÜXÚ[Ý\È]ZY]™YØ]]™H\™XH]Yˆ™[Z][HÚ[™[X]XÈ˜]\™HÝÙÜ˜\H›ÜˆHNLŒLÚ[™\ÙHÛÛ\ˆ\›\È[Ý[Ûˆš[KˆÒQHMŽŽKˆ\Ý[˜Ý™X[\ÝXÈØÙ[™Kš[™HX]\šX[]Z[]ZY]\šÙ\ˆY\™›Üˆ]\ˆ\ÙÜ˜\Kˆ›ÈÙ[™\˜]Y^Þ[X›ÛËÙÛËØ]\›X\šË›Ü™\ˆÜˆÑÒHÛÜÜËˆ‹BˆœšYÚÈŽˆ¹§+:hnyæë¹/oùå*9a¡yïkš[XYÙWÙÙ[¹å'ù¢$‹Bˆ˜[HŽˆ˜[ÙCBˆKBˆÃBˆšYŽˆ\›KLMKY]ÙÜ˜\ÜÈ‹Bˆ™š[HŽˆ˜\ÜÙ]ËÌMKX˜Z[KY]ÙÜ˜\ÜËœ™È‹Bˆ›ÝÛ™\”ÚÝŽˆ\›KLMKX˜Z[H‹Bˆ™[]RYŽˆ¹æozg,°­Ù]ÙÜ˜\ÜÈ‹BˆœÝ]\ÈŽˆœ™XYH‹BˆšÚ[™Žˆš[XYÙH‹Bˆ™\XÝ[ÛˆŽˆ™Ù[™\˜]Y‹BˆœÛÝ\˜ÙHŽˆš[XYÙWÙÙ[ˆ‹BˆœÛÝ\˜ÙWÙš[HŽˆ–ù§+9§.¹å'ù¢$9¢%¹càº  ú-ëùo¡9§*ºf£ùak9o 9c!y£ä9/¦×H‹Bˆœ›Û\Žˆ•™YH\˜Ú[™Èœ™\ÚÜ˜\ÜÈ›Y\ÈØ\œžZ[™ÈÛX\ˆ]È™XYËXXÜ›Ë\™X[\ÝXÈØ]\ˆÜXÜÈ[™Ú\œXYˆYÙ\Ë›YH]ÛˆYÚYÚËÜš^›Û[›Ü™YÜ›Ý[™Û\Ý\ˆ\ÛÛ]YÛˆYH[K›È›\œžH˜XÚÙ›Üˆ[™\[™[›Ü™YÜ›Ý[™ÜÝXš™XÝ\ÜÙ]›Üˆ[ˆY]X›H^Y\™Y[Ý[Ûˆš[Kˆ•QHS”ÔT‘S•PÒÑÔ“ÕS‘Ú]XÝX[[NÈÝXš™XÝÛ›K›È˜XÚÙÜ›Ý[™Ø\ÚÜˆšYÛ™]KˆÝÜ™X[\ÝXÈÜš\Ü˜]\˜[›Ý[™\šY\Ë›È^ÛÙÛËÝØ]\›X\šËØ›Ü™\‹ˆ‹BˆœšYÚÈŽˆ¹§+:hnyæë¹/oùå*9a¡yïkš[XYÙWÙÙ[¹å'ù¢$‹Bˆ˜[HŽˆYCBˆKBˆÃBˆšYŽˆ\›KLMK\™YYÈ‹Bˆ™š[HŽˆ˜\ÜÙ]ËÌMKX˜Z[K\™YYËœ™È‹Bˆ›ÝÛ™\”ÚÝŽˆ\›KLMKX˜Z[H‹Bˆ™[]RYŽˆ¹æozg,°­Ü™YYÈ‹BˆœÝ]\ÈŽˆœ™XYH‹BˆšÚ[™Žˆš[XYÙH‹Bˆ™\XÝ[ÛˆŽˆ™Ù[™\˜]Y‹BˆœÛÝ\˜ÙHŽˆš[XYÙWÙÙ[ˆ‹BˆœÛÝ\˜ÙWÙš[HŽˆ–ù§+9§.¹å'ù¢$9¢%¹càº  ú-ëùo¡9§*ºf£ùak9o 9c!y£ä9/¦×H‹Bˆœ›Û\ŽˆHÜ\œÙHÜ›Ý\ÙˆÛ[™\ˆ]K\Ý[[Y\ˆ™YYÈÚ]ÛÙ[HÙYYXYË˜]\˜[˜\žZ[™ÈZYÚËÛÛÛ]ÛˆYÚ\ÛÛ]YYK]˜[œÜ\™[Ý]Ý]›È[™ØØ\HÜˆÜ›Ý[™ˆ[™\[™[›Ü™YÜ›Ý[™ÜÝXš™XÝ\ÜÙ]›Üˆ[ˆY]X›H^Y\™Y[Ý[Ûˆš[Kˆ•QHS”ÔT‘S•PÒÑÔ“ÕS‘Ú]XÝX[[NÈÝXš™XÝÛ›K›È˜XÚÙÜ›Ý[™Ø\ÚÜˆšYÛ™]KˆÝÜ™X[\ÝXÈÜš\Ü˜]\˜[›Ý[™\šY\Ë›È^ÛÙÛËÝØ]\›X\šËØ›Ü™\‹ˆ‹BˆœšYÚÈŽˆ¹§+:hnyæë¹/oùå*9a¡yïkš[XYÙWÙÙ[¹å'ù¢$‹Bˆ˜[HŽˆYCBˆKBˆÃBˆšYŽˆ\›KLM‹X™È‹Bˆ™š[HŽˆ˜\ÜÙ]ËÌM‹\Z]Y™[‹X™Ëœ™È‹Bˆ›ÝÛ™\”ÚÝŽˆ\›KLM‹\Z]Y™[ˆ‹Bˆ™[]RYŽˆ¹éâùb!°­Ø™È‹BˆœÝ]\ÈŽˆœ™XYH‹BˆšÚ[™Žˆš[XYÙH‹Bˆ™\XÝ[ÛˆŽˆ™Ù[™\˜]Y‹BˆœÛÝ\˜ÙHŽˆš[XYÙWÙÙ[ˆ‹BˆœÛÝ\˜ÙWÙš[HŽˆ–ù§+9§.¹å'ù¢$9¢%¹càº  ú-ëùo¡9§*ºf£ùak9o 9c!y£ä9/¦×H‹Bˆœ›Û\ŽˆY\šX[Ø›\]YH[›Ü˜[XHÙˆÛÛ[ˆšXÙH\œ˜XÙ\È™XYH›Üˆ]][[ˆ\™\Ý[ˆÚ[˜K[\›˜][™ÈÝ[›][™ÚYY˜[™Ë[ˆ[˜Û]\™YÜš^›Ûˆ[™HÛX[š]™\‹˜]\˜[šXÚÛÛ[™Û]™HÛÛÜ‹™[Y]˜X›HšY[Ù[ÛY]žH[™ÛÛ\]HÛÛ\ÜÚ][Û‹ˆ™[Z][HÚ[™[X]XÈ˜]\™HÝÙÜ˜\H›ÜˆHNLŒLÚ[™\ÙHÛÛ\ˆ\›\È[Ý[Ûˆš[KˆÒQHMŽŽKˆ\Ý[˜Ý™X[\ÝXÈØÙ[™Kš[™HX]\šX[]Z[]ZY]\šÙ\ˆY\™›Üˆ]\ˆ\ÙÜ˜\Kˆ›ÈÙ[™\˜]Y^Þ[X›ÛËÙÛËØ]\›X\šË›Ü™\ˆÜˆÑÒHÛÜÜËˆ‹BˆœšYÚÈŽˆ¹§+:hnyæë¹/oùå*9a¡yïkš[XYÙWÙÙ[¹å'ù¢$‹Bˆ˜[HŽˆ˜[ÙCBˆKBˆÃBˆšYŽˆ\›KLMËX™È‹Bˆ™š[HŽˆ˜\ÜÙ]ËÌMËZ[›KX™Ëœ™È‹Bˆ›ÝÛ™\”ÚÝŽˆ\›KLMËZ[›H‹Bˆ™[]RYŽˆ¹käºg,°­Ø™È‹BˆœÝ]\ÈŽˆœ™XYH‹BˆšÚ[™Žˆš[XYÙH‹Bˆ™\XÝ[ÛˆŽˆ™Ù[™\˜]Y‹BˆœÛÝ\˜ÙHŽˆš[XYÙWÙÙ[ˆ‹BˆœÛÝ\˜ÙWÙš[HŽˆ–ù§+9§.¹å'ù¢$9¢%¹càº  ú-ëùo¡9§*ºf£ùak9o 9c!y£ä9/¦×H‹Bˆœ›Û\ŽˆHÛÛÛØÝØ™\ˆ[Ý[Z[ˆZÙH[ˆÚ[˜K\Ý[›Ü™\Ý[ˆ\ÜÙ][™]]YÛÛYÚ›YH[Ü›š[™ÈZ\Ý[™Ý[Ø]\‹›ÈÛÜÙH™YX\Hœ˜[˜Ú[ˆ›Ü™YÜ›Ý[™ÝÙÜ˜\XÈ^Y\™Y\ˆ™[Z][HÚ[™[X]XÈ˜]\™HÝÙÜ˜\H›ÜˆHNLŒLÚ[™\ÙHÛÛ\ˆ\›\È[Ý[Ûˆš[KˆÒQHMŽŽKˆ\Ý[˜Ý™X[\ÝXÈØÙ[™Kš[™HX]\šX[]Z[]ZY]\šÙ\ˆY\™›Üˆ]\ˆ\ÙÜ˜\Kˆ›ÈÙ[™\˜]Y^Þ[X›ÛËÙÛËØ]\›X\šË›Ü™\ˆÜˆÑÒHÛÜÜËˆ‹BˆœšYÚÈŽˆ¹§+:hnyæë¹/oùå*9a¡yïkš[XYÙWÙÙ[¹å'ù¢$‹Bˆ˜[HŽˆ˜[ÙCBˆKBˆÃBˆšYŽˆ\›KLMË[X\H‹Bˆ™š[HŽˆ˜\ÜÙ]ËÌMËZ[›K[X\Kœ™È‹Bˆ›ÝÛ™\”ÚÝŽˆ\›KLMËZ[›H‹Bˆ™[]RYŽˆ¹käºg,°­ÛX\H‹BˆœÝ]\ÈŽˆœ™XYH‹BˆšÚ[™Žˆš[XYÙH‹Bˆ™\XÝ[ÛˆŽˆ™Ù[™\˜]Y‹BˆœÛÝ\˜ÙHŽˆš[XYÙWÙÙ[ˆ‹BˆœÛÝ\˜ÙWÙš[HŽˆ–ù§+9§.¹å'ù¢$9¢%¹càº  ú-ëùo¡9§*ºf£ùak9o 9c!y£ä9/¦×H‹Bˆœ›Û\ŽˆH˜]\˜[š[™HX\HÚYÈÚ]š]™H™Y[™\ÜÙ]]][[ˆX]™\ËH™]ÈÛX[ÛÛ]È›Ü]Ë™X[\ÝXÈXYˆ™Z[œÈ[™\œ™YÝ[\ˆYÙ\ËÛÛÛÚYHYÚ\ÛÛ]YYK]˜[œÜ\™[Ý]Ý]›È˜XÚÙ›Üˆ[™\[™[›Ü™YÜ›Ý[™ÜÝXš™XÝ\ÜÙ]›Üˆ[ˆY]X›H^Y\™Y[Ý[Ûˆš[Kˆ•QHS”ÔT‘S•PÒÑÔ“ÕS‘Ú]XÝX[[NÈÝXš™XÝÛ›K›È˜XÚÙÜ›Ý[™Ø\ÚÜˆšYÛ™]KˆÝÜ™X[\ÝXÈÜš\Ü˜]\˜[›Ý[™\šY\Ë›È^ÛÙÛËÝØ]\›X\šËØ›Ü™\‹ˆ‹BˆœšYÚÈŽˆ¹§+:hnyæë¹/oùå*9a¡yïkš[XYÙWÙÙ[¹å'ù¢$‹Bˆ˜[HŽˆYCBˆKBˆÃBˆšYŽˆ\›KLNX™È‹Bˆ™š[HŽˆ˜\ÜÙ]ËÌN\ÚX[™ÚšX[™ËX™Ëœ™È‹Bˆ›ÝÛ™\”ÚÝŽˆ\›KLN\ÚX[™ÚšX[™È‹Bˆ™[]RYŽˆºg':fcp­Ø™È‹BˆœÝ]\ÈŽˆœ™XYH‹BˆšÚ[™Žˆš[XYÙH‹Bˆ™\XÝ[ÛˆŽˆ™Ù[™\˜]Y‹BˆœÛÝ\˜ÙHŽˆš[XYÙWÙÙ[ˆ‹BˆœÛÝ\˜ÙWÙš[HŽˆ–ù§+9§.¹å'ù¢$9¢%¹càº  ú-ëùo¡9§*ºf£ùak9o 9c!y£ä9/¦×H‹Bˆœ›Û\ŽˆH›Ü\›ˆÚ[™\ÙHÜ˜Ú\™YÙH]]Ûˆ[ˆ]HØÝØ™\‹H[XØ]HÚ]Hœ›ÜÝÛØ][™ÈÝÈÜ˜\ÜÙ\È[™\šÈÛÚ[\Ý[˜\™HÜ˜Ú\™Ú[ÝY]\ËÛÙ[HYÚ›ÈÛÜÙHœZ]Üˆœ˜[˜Ú™X[\ÝXÈœ›ÜÝÜž\Ý[È›ÝÛ›ÝËˆ™[Z][HÚ[™[X]XÈ˜]\™HÝÙÜ˜\H›ÜˆHNLŒLÚ[™\ÙHÛÛ\ˆ\›\È[Ý[Ûˆš[KˆÒQHMŽŽKˆ\Ý[˜Ý™X[\ÝXÈØÙ[™Kš[™HX]\šX[]Z[]ZY]\šÙ\ˆY\™›Üˆ]\ˆ\ÙÜ˜\Kˆ›ÈÙ[™\˜]Y^Þ[X›ÛËÙÛËØ]\›X\šË›Ü™\ˆÜˆÑÒHÛÜÜËˆ‹BˆœšYÚÈŽˆ¹§+:hnyæë¹/oùå*9a¡yïkš[XYÙWÙÙ[¹å'ù¢$‹Bˆ˜[HŽˆ˜[ÙCBˆKBˆÃBˆšYŽˆ\›KLN\\œÚ[[[Ûˆ‹Bˆ™š[HŽˆ˜\ÜÙ]ËÌN\ÚX[™ÚšX[™Ë\\œÚ[[[Û‹œ™È‹Bˆ›ÝÛ™\”ÚÝŽˆ\›KLN\ÚX[™ÚšX[™È‹Bˆ™[]RYŽˆºg':fcp­Ü\œÚ[[[Ûˆ‹BˆœÝ]\ÈŽˆœ™XYH‹BˆšÚ[™Žˆš[XYÙH‹Bˆ™\XÝ[ÛˆŽˆ™Ù[™\˜]Y‹BˆœÛÝ\˜ÙHŽˆš[XYÙWÙÙ[ˆ‹BˆœÛÝ\˜ÙWÙš[HŽˆ–ù§+9§.¹å'ù¢$9¢%¹càº  ú-ëùo¡9§*ºf£ùak9o 9c!y£ä9/¦×H‹Bˆœ›Û\ŽˆHÛ[™\ˆ\œÚ[[[Ûˆœ˜[˜ÚÚ]ÛÈš\HÜ˜[™ÙH\œÚ[[[ÛœÈ[™™YHÝ\›Y]][[ˆX]™\ËHYÚÛØ][™ÈÙˆ[žHœ›ÜÝÜž\Ý[ÈÛˆXYˆYÙ\ËÝÜ™X[\ÝXÈœZ]ÚÚ[ˆ[™˜]\˜[œ˜[˜Ú[˜]Û^K\ÛÛ]YYKX[HÝ]Ý]ˆ[™\[™[›Ü™YÜ›Ý[™ÜÝXš™XÝ\ÜÙ]›Üˆ[ˆY]X›H^Y\™Y[Ý[Ûˆš[Kˆ•QHS”ÔT‘S•PÒÑÔ“ÕS‘Ú]XÝX[[NÈÝXš™XÝÛ›K›È˜XÚÙÜ›Ý[™Ø\ÚÜˆšYÛ™]KˆÝÜ™X[\ÝXÈÜš\Ü˜]\˜[›Ý[™\šY\Ë›È^ÛÙÛËÝØ]\›X\šËØ›Ü™\‹ˆ‹BˆœšYÚÈŽˆ¹§+:hnyæë¹/oùå*9a¡yïkš[XYÙWÙÙ[¹å'ù¢$‹Bˆ˜[HŽˆYCBˆKBˆÃBˆšYŽˆ\›KLNKX™È‹Bˆ™š[HŽˆ˜\ÜÙ]ËÌNK[YÛ™ËX™Ëœ™È‹Bˆ›ÝÛ™\”ÚÝŽˆ\›KLNK[YÛ™È‹Bˆ™[]RYŽˆ¹êâùa«0­Ø™È‹BˆœÝ]\ÈŽˆœ™XYH‹BˆšÚ[™Žˆš[XYÙH‹Bˆ™\XÝ[ÛˆŽˆ™Ù[™\˜]Y‹BˆœÛÝ\˜ÙHŽˆš[XYÙWÙÙ[ˆ‹BˆœÛÝ\˜ÙWÙš[HŽˆ–ù§+9§.¹å'ù¢$9¢%¹càº  ú-ëùo¡9§*ºf£ùak9o 9c!y£ä9/¦×H‹Bˆœ›Û\ŽˆH]ZY]\™\ÝYÚ[™\ÙHšY[]H™YÚ[›š[™ÈÙˆÚ[\‹ÝX˜›H›ÝÜÈ[™H™]È˜\™H™Y\È™Y›XÝY[ˆH˜\œ›ÝÈ\œšYØ][ÛˆØ[˜[Ý™\˜Ø\Ý[HÚÞH[™ÝX™YYœ›ÝÛˆX\›ÈY\Û›ÝËÛÛ[\]]™HÚYH˜]\˜[ÝÙÜ˜\ˆ™[Z][HÚ[™[X]XÈ˜]\™HÝÙÜ˜\H›ÜˆHNLŒLÚ[™\ÙHÛÛ\ˆ\›\È[Ý[Ûˆš[KˆÒQHMŽŽKˆ\Ý[˜Ý™X[\ÝXÈØÙ[™Kš[™HX]\šX[]Z[]ZY]\šÙ\ˆY\™›Üˆ]\ˆ\ÙÜ˜\Kˆ›ÈÙ[™\˜]Y^Þ[X›ÛËÙÛËØ]\›X\šË›Ü™\ˆÜˆÑÒHÛÜÜËˆ‹BˆœšYÚÈŽˆ¹§+:hnyæë¹/oùå*9a¡yïkš[XYÙWÙÙ[¹å'ù¢$‹Bˆ˜[HŽˆ˜[ÙCBˆKBˆÃBˆšYŽˆ\›KLŒX˜[X›ÛÈ‹Bˆ™š[HŽˆ˜\ÜÙ]ËÌŒ^X[ÞYKX˜[X›ÛËœ™È‹Bˆ›ÝÛ™\”ÚÝŽˆ\›KLŒ^X[ÞYH‹Bˆ™[]RYŽˆ¹l#úfê°­Ø˜[X›ÛÈ‹BˆœÝ]\ÈŽˆœ™XYH‹BˆšÚ[™Žˆš[XYÙH‹Bˆ™\XÝ[ÛˆŽˆ™Ù[™\˜]Y‹BˆœÛÝ\˜ÙHŽˆš[XYÙWÙÙ[ˆ‹BˆœÛÝ\˜ÙWÙš[HŽˆ–ù§+9§.¹å'ù¢$9¢%¹càº  ú-ëùo¡9§*ºf£ùak9o 9c!y£ä9/¦×H‹Bˆœ›Û\ŽˆHÜ˜XÙY[ÛX[Ü˜^HÙˆ˜[X›ÛÈX]™\ÈÚ]H™\žHYÚ\Ý[™ÈÙˆœ™\ÚÛ›ÝËÙ]™\˜[˜\œ›ÝÈX]™\ÈÝ[Ü™Y[‹™X[\ÝXÈÛÙÛ›ÝÞHYÙ\ËÛÛY™\ÙHYÚ\ÛÛ]YYKX[H›Ü™YÜ›Ý[™Ý]Ý]ˆ[™\[™[›Ü™YÜ›Ý[™ÜÝXš™XÝ\ÜÙ]›Üˆ[ˆY]X›H^Y\™Y[Ý[Ûˆš[Kˆ•QHS”ÔT‘S•PÒÑÔ“ÕS‘Ú]XÝX[[NÈÝXš™XÝÛ›K›È˜XÚÙÜ›Ý[™Ø\ÚÜˆšYÛ™]KˆÝÜ™X[\ÝXÈÜš\Ü˜]\˜[›Ý[™\šY\Ë›È^ÛÙÛËÝØ]\›X\šËØ›Ü™\‹ˆ‹BˆœšYÚÈŽˆ¹§+:hnyæë¹/oùå*9a¡yïkš[XYÙWÙÙ[¹å'ù¢$‹Bˆ˜[HŽˆYCBˆKBˆÃBˆšYŽˆ\›KLŒX™È‹Bˆ™š[HŽˆ˜\ÜÙ]ËÌŒ^X[ÞYKX™Ëœ™È‹Bˆ›ÝÛ™\”ÚÝŽˆ\›KLŒ^X[ÞYH‹Bˆ™[]RYŽˆ¹l#úfê°­Ø™È‹BˆœÝ]\ÈŽˆœ™XYH‹BˆšÚ[™Žˆš[XYÙH‹Bˆ™\XÝ[ÛˆŽˆ™Ù[™\˜]Y‹BˆœÛÝ\˜ÙHŽˆš[XYÙWÙÙ[ˆ‹BˆœÛÝ\˜ÙWÙš[HŽˆ–ù§+9§.¹å'ù¢$9¢%¹càº  ú-ëùo¡9§*ºf£ùak9o 9c!y£ä9/¦×H‹Bˆœ›Û\ŽˆH[Ù\Ý›Ü\›ˆÚ[™\ÙHœšXÚÈÛÝ\X\™[ˆHš\œÝYÚÛ›ÝÙ˜[[ˆÛ›ÝÈÛˆÜ˜^H[YX]™\ÈÚ[HÙ]ÝÛ™H]š[™È\ÈÝ[š\ÚX›KÛÙHØ\›HÚ[™ÝÈ[™™\Ý˜Z[™YÛÛÚÞK›ÈÛÜÙH˜[X›ÛÈÜˆ›ÛXYÙK›È^ÜˆXÛÜ˜]]™HÚYÛœËˆ™[Z][HÚ[™[X]XÈ˜]\™HÝÙÜ˜\H›ÜˆHNLŒLÚ[™\ÙHÛÛ\ˆ\›\È[Ý[Ûˆš[KˆÒQHMŽŽKˆ\Ý[˜Ý™X[\ÝXÈØÙ[™Kš[™HX]\šX[]Z[]ZY]\šÙ\ˆY\™›Üˆ]\ˆ\ÙÜ˜\Kˆ›ÈÙ[™\˜]Y^Þ[X›ÛËÙÛËØ]\›X\šË›Ü™\ˆÜˆÑÒHÛÜÜËˆ‹BˆœšYÚÈŽˆ¹§+:hnyæë¹/oùå*9a¡yïkš[XYÙWÙÙ[¹å'ù¢$‹Bˆ˜[HŽˆ˜[ÙCBˆKBˆÃBˆšYŽˆ\›KLŒKX™È‹Bˆ™š[HŽˆ˜\ÜÙ]ËÌŒKY^YKX™Ëœ™È‹Bˆ›ÝÛ™\”ÚÝŽˆ\›KLŒKY^YH‹Bˆ™[]RYŽˆ¹i)úfê°­Ø™È‹BˆœÝ]\ÈŽˆœ™XYH‹BˆšÚ[™Žˆš[XYÙH‹Bˆ™\XÝ[ÛˆŽˆ™Ù[™\˜]Y‹BˆœÛÝ\˜ÙHŽˆš[XYÙWÙÙ[ˆ‹BˆœÛÝ\˜ÙWÙš[HŽˆ–ù§+9§.¹å'ù¢$9¢%¹càº  ú-ëùo¡9§*ºf£ùak9o 9c!y£ä9/¦×H‹Bˆœ›Û\ŽˆHY\Û›ÝËXÛÝ™\™YÚ[™\ÙH[Ý[Z[ˆ˜[^H]›YHÝ\‹^Y\™YšYÙ\È[™ÛX[\Ý[ÛÛšY™\ˆ›Ü™\Ý[™\ˆÛÙH˜[[™ÈÛ›ÝËHÛX\ˆZY\šYÚÜXÙH›ÜˆHÙ\\˜]H\˜[›ÛÙˆ[[Y[›È™X\ˆ[™Hœ˜[˜ÚÜˆ\™ÙHZ[[™Ëˆ™[Z][HÚ[™[X]XÈ˜]\™HÝÙÜ˜\H›ÜˆHNLŒLÚ[™\ÙHÛÛ\ˆ\›\È[Ý[Ûˆš[KˆÒQHMŽŽKˆ\Ý[˜Ý™X[\ÝXÈØÙ[™Kš[™HX]\šX[]Z[]ZY]\šÙ\ˆY\™›Üˆ]\ˆ\ÙÜ˜\Kˆ›ÈÙ[™\˜]Y^Þ[X›ÛËÙÛËØ]\›X\šË›Ü™\ˆÜˆÑÒHÛÜÜËˆ‹BˆœšYÚÈŽˆ¹§+:hnyæë¹/oùå*9a¡yïkš[XYÙWÙÙ[¹å'ù¢$‹Bˆ˜[HŽˆ˜[ÙCBˆKBˆÃBˆšYŽˆ\›KLŒK\[™H‹Bˆ™š[HŽˆ˜\ÜÙ]ËÌŒKY^YK\[™Kœ™È‹Bˆ›ÝÛ™\”ÚÝŽˆ\›KLŒKY^YH‹Bˆ™[]RYŽˆ¹i)úfê°­Ü[™H‹BˆœÝ]\ÈŽˆœ™XYH‹BˆšÚ[™Žˆš[XYÙH‹Bˆ™\XÝ[ÛˆŽˆ™Ù[™\˜]Y‹BˆœÛÝ\˜ÙHŽˆš[XYÙWÙÙ[ˆ‹BˆœÛÝ\˜ÙWÙš[HŽˆ–ù§+9§.¹å'ù¢$9¢%¹càº  ú-ëùo¡9§*ºf£ùak9o 9c!y£ä9/¦×H‹Bˆœ›Û\ŽˆHÛÜÙHÜš^›Û[[™H›ÝYÚÚ]\šÈÜ™Y[ˆ™YY\È[™Ù]™\˜[\œ™YÝ[\ˆ[ÝÜÈÙˆœ™\ÚÛ›ÝË˜]\˜[œ˜[˜ÚÝXÝ\™KÛÙÛÛY™\ÙHYÚYK]˜[œÜ\™[Ý]Ý]›È˜XÚÙÜ›Ý[™›ÈÜ›˜[Y[Ëˆ[™\[™[›Ü™YÜ›Ý[™ÜÝXš™XÝ\ÜÙ]›Üˆ[ˆY]X›H^Y\™Y[Ý[Ûˆš[Kˆ•QHS”ÔT‘S•PÒÑÔ“ÕS‘Ú]XÝX[[NÈÝXš™XÝÛ›K›È˜XÚÙÜ›Ý[™Ø\ÚÜˆšYÛ™]KˆÝÜ™X[\ÝXÈÜš\Ü˜]\˜[›Ý[™\šY\Ë›È^ÛÙÛËÝØ]\›X\šËØ›Ü™\‹ˆ‹BˆœšYÚÈŽˆ¹§+:hnyæë¹/oùå*9a¡yïkš[XYÙWÙÙ[¹å'ù¢$‹Bˆ˜[HŽˆYCBˆKBˆÃBˆšYŽˆ\›KLŒK\›ÛÙˆ‹Bˆ™š[HŽˆ˜\ÜÙ]ËÌŒKY^YK\›ÛÙ‹œ™È‹Bˆ›ÝÛ™\”ÚÝŽˆ\›KLŒKY^YH‹Bˆ™[]RYŽˆ¹i)úfê°­Ü›ÛÙˆ‹BˆœÝ]\ÈŽˆœ™XYH‹BˆšÚ[™Žˆš[XYÙH‹Bˆ™\XÝ[ÛˆŽˆ™Ù[™\˜]Y‹BˆœÛÝ\˜ÙHŽˆš[XYÙWÙÙ[ˆ‹BˆœÛÝ\˜ÙWÙš[HŽˆ–ù§+9§.¹å'ù¢$9¢%¹càº  ú-ëùo¡9§*ºf£ùak9o 9c!y£ä9/¦×H‹Bˆœ›Û\ŽˆHÛX[ÛÚ[™\ÙHÜ˜^K][Hš[YÙH›ÛÙˆÚ]XÚÈœ™\ÚÛ›ÝÈ[Û™È]ÈX]™\È[™Hœ˜YÛY[ÙˆZ[ˆÚ]HØ[™[ÝËÛÙØ\›HYÚœ›ÛHÛ™H[Ù\ÝÚ[™ÝË[™ÛY\˜Ú]XÝ\˜[Ý]Ý]Ú]YH˜[œÜ\™[˜ÞK›Èš[YÙH˜XÚÙÜ›Ý[™Üˆ^ˆ[™\[™[›Ü™YÜ›Ý[™ÜÝXš™XÝ\ÜÙ]›Üˆ[ˆY]X›H^Y\™Y[Ý[Ûˆš[Kˆ•QHS”ÔT‘S•PÒÑÔ“ÕS‘Ú]XÝX[[NÈÝXš™XÝÛ›K›È˜XÚÙÜ›Ý[™Ø\ÚÜˆšYÛ™]KˆÝÜ™X[\ÝXÈÜš\Ü˜]\˜[›Ý[™\šY\Ë›È^ÛÙÛËÝØ]\›X\šËØ›Ü™\‹ˆ‹BˆœšYÚÈŽˆ¹§+:hnyæë¹/oùå*9a¡yïkš[XYÙWÙÙ[¹å'ù¢$‹Bˆ˜[HŽˆYCBˆKBˆÃBˆšYŽˆ\›KLŒ‹X™È‹Bˆ™š[HŽˆ˜\ÜÙ]ËÌŒ‹YÛ™ÞšKX™Ëœ™È‹Bˆ›ÝÛ™\”ÚÝŽˆ\›KLŒ‹YÛ™ÞšH‹Bˆ™[]RYŽˆ¹a«:!ìð­Ø™È‹BˆœÝ]\ÈŽˆœ™XYH‹BˆšÚ[™Žˆš[XYÙH‹Bˆ™\XÝ[ÛˆŽˆ™Ù[™\˜]Y‹BˆœÛÝ\˜ÙHŽˆš[XYÙWÙÙ[ˆ‹BˆœÛÝ\˜ÙWÙš[HŽˆ–ù§+9§.¹å'ù¢$9¢%¹càº  ú-ëùo¡9§*ºf£ùak9o 9c!y£ä9/¦×H‹Bˆœ›Û\ŽˆHÚ[\ˆÝ[ˆÝÈÛˆHÛÝ]\›ˆÜš^›Ûˆ™^[Û™H]ZY]Ú[™\ÙH\˜[Z[‹Û™È™YHÚYÝÜÈÝ™]Ú[™ÈÝØ\™HšY]Ù\ˆÝ™\ˆœ›Þ™[ˆÜ›Ý[™Ø[H[X™\ˆÝ[œÙ]Ú][ˆY\›YHÛÛZ\‹ÛÛ\]HÜXÚ[Ý\ÈÝÙÜ˜\XÈÛÛ\ÜÚ][Û‹›ÈZ[[™ÜÈÛÜÙHÈØ[Y\˜Kˆ™[Z][HÚ[™[X]XÈ˜]\™HÝÙÜ˜\H›ÜˆHNLŒLÚ[™\ÙHÛÛ\ˆ\›\È[Ý[Ûˆš[KˆÒQHMŽŽKˆ\Ý[˜Ý™X[\ÝXÈØÙ[™Kš[™HX]\šX[]Z[]ZY]\šÙ\ˆY\™›Üˆ]\ˆ\ÙÜ˜\Kˆ›ÈÙ[™\˜]Y^Þ[X›ÛËÙÛËØ]\›X\šË›Ü™\ˆÜˆÑÒHÛÜÜËˆ‹BˆœšYÚÈŽˆ¹§+:hnyæë¹/oùå*9a¡yïkš[XYÙWÙÙ[¹å'ù¢$‹Bˆ˜[HŽˆ˜[ÙCBˆKBˆÃBˆšYŽˆ\›KLŒËX™È‹Bˆ™š[HŽˆ˜\ÜÙ]ËÌŒË^X[Ú[‹X™Ëœ™È‹Bˆ›ÝÛ™\”ÚÝŽˆ\›KLŒË^X[Ú[ˆ‹Bˆ™[]RYŽˆ¹l#ùkä°­Ø™È‹BˆœÝ]\ÈŽˆœ™XYH‹BˆšÚ[™Žˆš[XYÙH‹Bˆ™\XÝ[ÛˆŽˆ™Ù[™\˜]Y‹BˆœÛÝ\˜ÙHŽˆš[XYÙWÙÙ[ˆ‹BˆœÛÝ\˜ÙWÙš[HŽˆ–ù§+9§.¹å'ù¢$9¢%¹càº  ú-ëùo¡9§*ºf£ùak9o 9c!y£ä9/¦×H‹Bˆœ›Û\ŽˆHœ›ÜÝHÚ[™\ÙHØ\™[ˆÛÜ›™\ˆ[ˆ[H˜[X\žH]Û‹\šÈ›\œ™Y›ØÚÜÈ[™HÛÛÛ™[ˆH\Ý[˜ÙK]ZY]›YKYÜ˜^H][ÜÜ\™K›Èš\ÚX›HÛÜÙH[H›ÜÜÛÛ\ÈÜˆœ˜[˜Ú\ËÙ[H˜]\˜[ÝÙÜ˜\XÈ\ˆ™[Z][HÚ[™[X]XÈ˜]\™HÝÙÜ˜\H›ÜˆHNLŒLÚ[™\ÙHÛÛ\ˆ\›\È[Ý[Ûˆš[KˆÒQHMŽŽKˆ\Ý[˜Ý™X[\ÝXÈØÙ[™Kš[™HX]\šX[]Z[]ZY]\šÙ\ˆY\™›Üˆ]\ˆ\ÙÜ˜\Kˆ›ÈÙ[™\˜]Y^Þ[X›ÛËÙÛËØ]\›X\šË›Ü™\ˆÜˆÑÒHÛÜÜËˆ‹BˆœšYÚÈŽˆ¹§+:hnyæë¹/oùå*9a¡yïkš[XYÙWÙÙ[¹å'ù¢$‹Bˆ˜[HŽˆ˜[ÙCBˆKBˆÃBˆšYŽˆ\›KLŒË]Ú]\[H‹Bˆ™š[HŽˆ˜\ÜÙ]ËÌŒË^X[Ú[‹]Ú]\[Kœ™È‹Bˆ›ÝÛ™\”ÚÝŽˆ\›KLŒË^X[Ú[ˆ‹Bˆ™[]RYŽˆ¹l#ùkä°­ÝÚ]\[H‹BˆœÝ]\ÈŽˆœ™XYH‹BˆšÚ[™Žˆš[XYÙH‹Bˆ™\XÝ[ÛˆŽˆ™Ù[™\˜]Y‹BˆœÛÝ\˜ÙHŽˆš[XYÙWÙÙ[ˆ‹BˆœÛÝ\˜ÙWÙš[HŽˆ–ù§+9§.¹å'ù¢$9¢%¹càº  ú-ëùo¡9§*ºf£ùak9o 9c!y£ä9/¦×H‹Bˆœ›Û\Žˆ“Û™H[YØ[\šÈ[Hœ˜[˜ÚÚ]›Ý\ˆÛX[Ü[ˆ]›ÜžK]Ú]H[H›ÜÜÛÛ\È[™Ù]™\˜[YÚHÛÜÙYYË›Ý[šXØ[HXØÝ\˜]Hš]™H][È[™š[™HÝ[Y[œË[žHœ›ÜÝ›XÚÜËÛÙÛÛYÚ\ÛÛ]YYK]˜[œÜ\™[Ý]Ý]È\Ý[˜Ýœ›ÛHH™YXY[Û›HÚYËˆ[™\[™[›Ü™YÜ›Ý[™ÜÝXš™XÝ\ÜÙ]›Üˆ[ˆY]X›H^Y\™Y[Ý[Ûˆš[Kˆ•QHS”ÔT‘S•PÒÑÔ“ÕS‘Ú]XÝX[[NÈÝXš™XÝÛ›K›È˜XÚÙÜ›Ý[™Ø\ÚÜˆšYÛ™]KˆÝÜ™X[\ÝXÈÜš\Ü˜]\˜[›Ý[™\šY\Ë›È^ÛÙÛËÝØ]\›X\šËØ›Ü™\‹ˆ‹BˆœšYÚÈŽˆ¹§+:hnyæë¹/oùå*9a¡yïkš[XYÙWÙÙ[¹å'ù¢$‹Bˆ˜[HŽˆYCBˆKBˆÃBˆšYŽˆ\›KLX™È‹Bˆ™š[HŽˆ˜\ÜÙ]ËÌYZ[‹X™Ëœ™È‹Bˆ›ÝÛ™\”ÚÝŽˆ\›KLYZ[ˆ‹Bˆ™[]RYŽˆ¹i)ùkä°­Ø™È‹BˆœÝ]\ÈŽˆœ™XYH‹BˆšÚ[™Žˆš[XYÙH‹Bˆ™\XÝ[ÛˆŽˆ™Ù[™\˜]Y‹BˆœÛÝ\˜ÙHŽˆš[XYÙWÙÙ[ˆ‹BˆœÛÝ\˜ÙWÙš[HŽˆ–ù§+9§.¹å'ù¢$9¢%¹càº  ú-ëùo¡9§*ºf£ùak9o 9c!y£ä9/¦×H‹Bˆœ›Û\ŽˆHÚYHœ›Þ™[ˆš]™\ˆ[ˆH›Ü\›ˆÚ[™\ÙH˜[^H]H[™ÙˆÚ[\‹^\™Y˜[œÛXÙ[XÙH[™Ú]HÛ›ÝÈ˜[šÜËH[žH\Ý[š[YÙHÚ]HÛ[™\ˆÛ[ÚÙH[YKH˜Z[[KYÛÛ]Ûˆ]Üš^›ÛˆÝYÙÙ\Ý[™ÈHÞXÛHÚ[™]\›‹›È™X\ˆ›ÝÙ\œÈÜˆÜ™Y[ˆ›ÛXYÙKÛÛ[\]]™H™X[\ÝXÈÚ[™[X]XÈ[™ØØ\Kˆ™[Z][HÚ[™[X]XÈ˜]\™HÝÙÜ˜\H›ÜˆHNLŒLÚ[™\ÙHÛÛ\ˆ\›\È[Ý[Ûˆš[KˆÒQHMŽŽKˆ\Ý[˜Ý™X[\ÝXÈØÙ[™Kš[™HX]\šX[]Z[]ZY]\šÙ\ˆY\™›Üˆ]\ˆ\ÙÜ˜\Kˆ›ÈÙ[™\˜]Y^Þ[X›ÛËÙÛËØ]\›X\šË›Ü™\ˆÜˆÑÒHÛÜÜËˆ‹BˆœšYÚÈŽˆ¹§+:hnyæë¹/oùå*9a¡yïkš[XYÙWÙÙ[¹å'ù¢$‹Bˆ˜[HŽˆ˜[ÙCBˆKBˆÃBˆšYŽˆ›Ü[š[™ËZXÙH‹Bˆ™š[HŽˆ˜\ÜÙ]ËÛÜ[š[™ËZXÙKœ™È‹Bˆ›ÝÛ™\”ÚÝŽˆ›Ü[š[™È‹BˆœÝ]\ÈŽˆœ™XYH‹BˆšÚ[™Žˆš[XYÙH‹Bˆ™\XÝ[ÛˆŽˆ™Ù[™\˜]Y‹BˆœÛÝ\˜ÙHŽˆš[XYÙWÙÙ[ˆ‹BˆœÛÝ\˜ÙWÙš[HŽˆ–ù§+9§.¹å'ù¢$9¢%¹càº  ú-ëùo¡9§*ºf£ùak9o 9c!y£ä9/¦×H‹Bˆœ›Û\Žˆ•\ÙHØ\ÙNˆÝÜ™X[\ÝXË[˜]\˜[ˆ[š\]YHÜ[š[™È˜XÚÙÜ›Ý[™›ÜˆHÚ[™[X]XÈÚ[™\ÙHÛÛ\ˆ\›\ÈÚÜš[Kˆ^™[YHÝËX[™ÛHÛÜÙHšY]ÈÙˆHœ›Þ™[ˆÛ™YÙNˆÛX\ˆ[ˆXÙK˜\YZ\ˆX˜›\Ëœ›ÜÝXÛØ]Y\šÈÝÛ™\È[™H™]ÈžHÚ[\ˆÜ˜\ÜÙ\È]H˜\ˆšYÚH™\žH˜\œ›ÝÈšXÚÛHÙˆØ]\ˆ™YÚ[›š[™ÈÈ[Ý™H[™\ˆHXÙKÛÛ›YKYÜ˜^H]ÛˆÚ]H\Ý[Ø\›H[™HÙˆYÚˆš\ÝX[HÝšZÚ[™ÈXÝ[HÚ[\ˆ]Z[›È[HÚYË›ÈX]™\ÈÜˆ›ÛÛ\Ë›ÈÚX[[™ØØ\HÜš^›Û‹ˆÚYHMŽŽHÛÛ\ÜÚ][Û‹\šÈ]ZY]Y[ˆ›ÜˆHÛË[[™HÚ[™\ÙH]Y\Ý[ÛˆÈ™HÝ™\›ZY]\‹ˆ˜]\˜[\ÝÜžHÝÙÜ˜\KYÚ^\™HšY[]K]\ÚX›HØ]\ˆ[™XÙHÜXÜË™\Ý˜Z[™YYÚˆ›È^Þ[X›ÛËØ]\›X\šËÙÛË›Ü™\‹˜[\ÞHY™™XÝÜˆÑÒHÛÜÜËˆ\È^XÝØÙ[™H\È\ÙYÛ›H[ˆHÜ[š[™Ë[™\È\Ý[˜Ýœ›ÛH[]\ˆÙX\ÛÛ˜[\ÜÙ]Ëˆ‹BˆœšYÚÈŽˆ¹§+:hnyæë¹a¡yïkš[XYÙWÙÙ[¹å'ù¢$‹Bˆ˜[HŽˆ˜[ÙCBˆCBˆCBŸ

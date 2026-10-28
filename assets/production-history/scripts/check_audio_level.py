@@ -7,7 +7,7 @@ def decode(path):
  r=subprocess.run(['ffmpeg','-v','error','-i',str(path),'-vn','-ac','1','-ar','12000','-f','f32le','-'],check=True,capture_output=True)
  return np.frombuffer(r.stdout,dtype='<f4')
 old=decode(Path(args.previous));new=decode(root/'outputs/final.mp4');sr=12000
-# Both windows represent original source seconds 102�C198, so the music content is identical.
+# Both windows represent original source seconds 102–198, so the music content is identical.
 a=old[17*sr:113*sr];b=new[25*sr:121*sr]
 assert len(a)==len(b)==96*sr
 rms=lambda x:float(np.sqrt(np.mean(x.astype(np.float64)**2)))

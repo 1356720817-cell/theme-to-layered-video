@@ -21,8 +21,8 @@ def sheet(rows,path,cols=3,w=480,h=270):
  im.save(path,quality=94)
 for part in range(2):
  sub=shots[part*13:(part+1)*13]
- sheet([(105 if s['id']=='opening' else (s['start']+s['end'])//2,s['title']+' | '+str(len(s['layers']))+'��') for s in sub],work/f'final-review-{part+1}.jpg')
-sheet([(n,f'���� {n/30:.2f}s') for n in hook],work/'hook-final.jpg')
+ sheet([(105 if s['id']=='opening' else (s['start']+s['end'])//2,s['title']+' | '+str(len(s['layers']))+'层') for s in sub],work/f'final-review-{part+1}.jpg')
+sheet([(n,f'开场 {n/30:.2f}s') for n in hook],work/'hook-final.jpg')
 boundaries=shots[1:]
 for part in range(math.ceil(len(boundaries)/7)):
  rows=[(max(0,min(total_frames-1,s['start']+off)),s['title']+' '+str(off)) for s in boundaries[part*7:(part+1)*7] for off in [-1,0,3,8]]
@@ -41,7 +41,7 @@ for s in shots[1:]:
  if min(means[0],means[2])>15 and means[1]<min(means[0],means[2])*.30:dark_flashes.append({'shot':s['id'],'means':means})
 assert not dark_flashes,dark_flashes
 names=[s['title'] for s in shots if s['section']=='main']
-expected='���� ��ˮ ���� ���� ���� ���� ���� С�� â�� ���� С�� ���� ���� ���� ��¶ ��� ��¶ ˪�� ���� Сѩ ��ѩ ���� С�� ��'.split()
+expected='立春 雨水 惊蛰 春分 清明 谷雨 立夏 小满 芒种 夏至 小暑 大暑 立秋 处暑 白露 秋分 寒露 霜降 立冬 小雪 大雪 冬至 小寒 大寒'.split()
 assert names==expected
 raw=subprocess.run(['ffmpeg','-v','error','-i',str(video),'-vn','-f','f32le','-acodec','pcm_f32le','-'],check=True,capture_output=True).stdout
 pcm=np.frombuffer(raw,dtype='<f4').reshape(-1,2)

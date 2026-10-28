@@ -2,28 +2,28 @@ import json
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
 shots=json.loads((root/'public/shots.json').read_text(encoding='utf-8'))
-summary='120�룬1920��1080��30fps�����԰ס�����Jannik������ (The History)��ԭ��85�C205������Ƭ�Σ�ǰ17����Ȼ�̵棬��17���ڡ����ݡ�����߳���'
-(root/'brief.md').write_text('# V3�޶�\n\n�û���������ͷ̫�����߳����Ե�ͻأ��\n\n'+summary+'\n\n����ԭ������Ρ����ƽ��͸߳�ǰͣ�٣���ͨ��ƴ�Ӳ�ͬ�ֶ������������������ˮ�ľ�ͷ������ȡ�������������Ļص����������ֽ�������������ֶ��롣V1��V2������\n',encoding='utf-8')
-(root/'outline.md').write_text('# ��Ƭ���� V3\n\n'+summary+'\n\n0�C5��Ϊ��ͷ��5�C11��������11�C17����ˮ��17���������뾪�ݡ�����36�룬���ﶬ��24�룬�½ڴ�5/41/65/89�뿪ʼ������113���������β7�롣\n\n��������6�룬����3��4.5�뽻�档9����ͼ�㡢11��˫ͼ�㡢4����ͼ�����ľ�ͷ�������ƽ��������زģ���β��ȷ�عˡ�\n',encoding='utf-8')
-table='# �𾵽�������ͼ �� V3��Ȼ�̵��\n\n'+summary+'\n\n|����|��Ƭʱ��(��)|ԭ��ʱ��(��)|ͼ����|���|�л�|�İ�|\n|---|---:|---:|---:|---|---|---|\n'
+summary='120秒，1920×1080，30fps，无旁白。采用Jannik《浮光 (The History)》原曲85–205秒连续片段，前17秒自然铺垫，第17秒在“惊蛰”进入高潮。'
+(root/'brief.md').write_text('# V3修订\n\n用户反馈：开头太快进入高潮，显得突兀。\n\n'+summary+'\n\n保留原曲的轻段、逐步推进和高潮前停顿；不通过拼接不同乐段制造起伏。立春、雨水的镜头放慢，取消这两镜的重拍回弹，后续保持节气、画面和音乐对齐。V1、V2保留。\n',encoding='utf-8')
+(root/'outline.md').write_text('# 整片方案 V3\n\n'+summary+'\n\n0–5秒为开头；5–11秒立春，11–17秒雨水；17秒主落点进入惊蛰。春季36秒，夏秋冬各24秒，章节从5/41/65/89秒开始。正文113秒结束，结尾7秒。\n\n春季各镜6秒，后续3或4.5秒交替。9个单图层、11个双图层、4个三图层正文镜头，正常推进不复用素材，结尾明确回顾。\n',encoding='utf-8')
+table='# 逐镜节奏与用图 · V3自然铺垫版\n\n'+summary+'\n\n|节气|成片时间(秒)|原曲时间(秒)|图层数|相机|切换|文案|\n|---|---:|---:|---:|---|---|---|\n'
 for s in shots:
  if s['section']!='main':continue
  a=s['start']/30;b=s['end']/30
- table+=f"|{s['title']}|{a:.3f}�C{b:.3f}|{a+85:.3f}�C{b+85:.3f}|{len(s['layers'])}|{s['camera']['type']}|{s['transition']['type']}|{s['subtitle']}|\n"
+ table+=f"|{s['title']}|{a:.3f}–{b:.3f}|{a+85:.3f}–{b+85:.3f}|{len(s['layers'])}|{s['camera']['type']}|{s['transition']['type']}|{s['subtitle']}|\n"
 (root/'storyboard.md').write_text(table,encoding='utf-8')
-(root/'README-ʹ��˵��.md').write_text('''# ��ʮ�Ľ��� �� ������Ȼ�̵�� V3
+(root/'README-使用说明.md').write_text('''# 二十四节气 · 浮光自然铺垫版 V3
 
-120�룬1920��1080��30fps�����԰ף�����������������24������
+120秒，1920×1080，30fps，无旁白，完整介绍立春至大寒24节气。
 
-�����û�������������ԭ��85�봦����Ķ��俪ʼ������17���ƽ�����17���Ӧԭ��102����Ҫ�߳���㣬���롰���ݣ��ݷ���������������ǰ��������ȡ�����Ļص�����ͷ��6�롣��������6�룬���ﶬ��3��4.5�뽻�档�½ڴ�5��41��65��89�뿪ʼ������113���������β7�롣
+根据用户反馈，音乐由原曲85秒处较轻的段落开始，保留17秒推进；第17秒对应原曲102秒主要高潮落点，切入“惊蛰：蛰伏的生命醒来”。前两个节气取消重拍回弹，镜头各6秒。春季各镜6秒，夏秋冬按3或4.5秒交替。章节从5、41、65、89秒开始，正文113秒结束，结尾7秒。
 
-����ȡԭ��85�C205�������Ƭ�Σ������١���ѭ���������ƴ�ӡ�����1.25�룬����2�룬��������0.78��Դ���졢��Ƭ��AAC�Ͳ�����¼�湤���ṩ��V1��V2�����ļ�������
+音乐取原曲85–205秒的连续片段，不变速、不循环、不跨段拼接。淡入1.25秒，淡出2秒，整体增益0.78。源音轨、成片用AAC和测量记录随工程提供。V1、V2交付文件保留。
 
-## �����뵼��
+## 运行与导出
 
-��ҪNode.js 24����ݰ汾��Python��FFmpeg/ffprobe�����ͼ��numpy��Pillow���״ΰ�װ����������������ļ���Ҫ���硣
+需要Node.js 24或兼容版本、Python、FFmpeg/ffprobe。检查图需numpy和Pillow；首次安装依赖和浏览器运行文件需要网络。
 
-˫��������Ԥ��.cmd���ɴ����ֱ༭Ԥ����˫�������µ���.cmd���������Ƭ���ն˿����У�
+双击“启动预览.cmd”可带音乐编辑预览；双击“重新导出.cmd”可输出成片。终端可运行：
 
     npm ci --cache work/npm-cache
     npm run dev
@@ -31,29 +31,29 @@ for s in shots:
     npm run render
     npm run finish
 
-���Ϊ outputs/master-silent.mp4 �� outputs/final.mp4���޸�JSON��Դ�������render��finish��
+输出为 outputs/master-silent.mp4 和 outputs/final.mp4。修改JSON或源码后重新render、finish。
 
-## �༭�����
+## 编辑与核验
 
-- src/Film.tsx������ͼ�㡢������ֲ����������������⡢̫���̶������β��
-- public/project.json����ʱ�������ֺ��½ڣ�public/shots.json��ÿ����ֹ֡�������ͼ����ֲ�������
-- public/assets.json��44��ͼ���ʵ����ʾ�ʡ�alpha�;�ͷ������source_file����¼����ʱ���棻��Ⱦֻ������������ļ���
-- public/assets/fuguang-jannik-full.mp3������������fuguang-progressive-120s.m4a��ʵ��ʹ�õ�120�����졣
-- music-plan.md��work/music-sync.json��ʵ�ʽ�ȡλ�á����ֽṹ�뾵ͷ��㡣
-- storyboard.md��script.md��ʵ�ʷ־�ʱ���뻭�����֡�
-- work/qc/��work/audio-offset-check.json������ṹ�����롢�������֡���顣�Զ������ͳ�֡������ȫƬ�˹�����
-- work/generated-records/��work/generated-batches/��ͼ��ʵ�����ɼ�¼��
+- src/Film.tsx：独立图层、相机、局部重音、天气、标题、太阳刻度盘与结尾。
+- public/project.json：总时长、音乐和章节；public/shots.json：每镜起止帧、相机、图层与局部重音。
+- public/assets.json：44张图像的实际提示词、alpha和镜头归属。source_file仅记录生成时缓存；渲染只读工程内相对文件。
+- public/assets/fuguang-jannik-full.mp3：完整歌曲；fuguang-progressive-120s.m4a：实际使用的120秒音轨。
+- music-plan.md、work/music-sync.json：实际截取位置、音乐结构与镜头落点。
+- storyboard.md、script.md：实际分镜时间与画面文字。
+- work/qc/、work/audio-offset-check.json：本版结构、解码、音轨与抽帧核验。自动测量和抽帧不等于全片人工听审。
+- work/generated-records/、work/generated-batches/：图像实际生成记录。
 
-ͼ����AI�Ӿ�������ֵ�����򣻸���������ũ�²���ͬ��ͬ��������֪ʶ��Դ��article.md��������WindowsϵͳKaiTi��������Microsoft YaHei��δ�ַ�ϵͳ�����ļ���
+图像是AI视觉演绎，表现典型物候；各地天气、农事并非同日同步发生。知识来源见article.md。标题用Windows系统KaiTi，正文用Microsoft YaHei，未分发系统字体文件。
 
-������Դ��https://music.163.com/song?id=1394601255 �����ַǱ���Ŀԭ������Ȩ��Ȩ���ˣ��û�ָ�����ڱ��α��ر༭����������/��ҵ��Ȩδ���顣
+音乐来源：https://music.163.com/song?id=1394601255 。音乐非本项目原创，版权归权利人；用户指定用于本次本地编辑，公开发布/商业授权未核验。
 ''',encoding='utf-8')
-h=(root/'hook-review.md').read_text(encoding='utf-8');a=h.index('## ʵʩ�汾');b=h.index('��ʵ���ݣ�',a)
-h=h[:a]+'''## ʵʩ�汾 �� ���� V3
+h=(root/'hook-review.md').read_text(encoding='utf-8');a=h.index('## 实施版本');b=h.index('事实依据：',a)
+h=h[:a]+'''## 实施版本 · 浮光 V3
 
-0���һ�䣬1��ڶ��䣬2.5�����⣬3.5�븱���⡣����5����͵����������������ּ����̵���17�룬����ʱ������Ҫ�߳�����ͷ���ٳе��߳�������
+0秒第一句，1秒第二句，2.5秒主题，3.5秒副标题。画面5秒柔和叠化进入立春。音乐继续铺垫至17秒，惊蛰时进入主要高潮；开头不再承担高潮爆发。
 
-���������ʲ������԰ף�����1.25�뵭�롣ǰ17��������ƽ�����ԭ��85�C102���������ţ�����߳���Ӧԭ��102�롣
+独立冰面资产、无旁白；初段1.25秒淡入。前17秒的情绪推进来自原曲85–102秒连续编排；切入高潮对应原曲102秒。
 
 '''+h[b:];(root/'hook-review.md').write_text(h,encoding='utf-8')
 plan_path=root/'work/scene-plan.json';plan=json.loads(plan_path.read_text(encoding='utf-8'));lookup={s.get('index'):s for s in shots if s['section']=='main'}

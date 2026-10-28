@@ -29,9 +29,9 @@ for name in ['generated-batches','generated-records','qc']:
  shutil.copytree(root/'work'/name,project/'work'/name)
 cmd1='@echo off\r\nchcp 65001 >nul\r\ncd /d "%~dp0"\r\nif not exist node_modules\\remotion\\package.json call npm ci --cache work\\npm-cache\r\ncall npm run dev\r\npause\r\n'
 cmd2='@echo off\r\nchcp 65001 >nul\r\ncd /d "%~dp0"\r\nif not exist node_modules\\remotion\\package.json call npm ci --cache work\\npm-cache\r\ncall npm run render\r\nif errorlevel 1 goto end\r\ncall npm run finish\r\n:end\r\npause\r\n'
-(project/'����Ԥ��.cmd').write_bytes(cmd1.encode('utf-8'))
-(project/'���µ���.cmd').write_bytes(cmd2.encode('utf-8'))
-(project/'README.md').write_text((project/'README-ʹ��˵��.md').read_text(encoding='utf-8'),encoding='utf-8')
+(project/'启动预览.cmd').write_bytes(cmd1.encode('utf-8'))
+(project/'重新导出.cmd').write_bytes(cmd2.encode('utf-8'))
+(project/'README.md').write_text((project/'README-使用说明.md').read_text(encoding='utf-8'),encoding='utf-8')
 archive=deliver/'24-solar-terms-editable-v1.zip'
 if archive.exists():raise SystemExit('ZIP already exists; preserve it and choose a new version.')
 with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
@@ -43,7 +43,7 @@ with zipfile.ZipFile(archive)as z:
  count=len(z.namelist())
 manifest={'final_mp4':{'file':final.name,'bytes':final.stat().st_size,'sha256':hashlib.sha256(final.read_bytes()).hexdigest()},'editable_zip':{'file':archive.name,'bytes':archive.stat().st_size,'sha256':hashlib.sha256(archive.read_bytes()).hexdigest(),'entries':count,'integrity_passed':True},'video':{'seconds':130,'width':1920,'height':1080,'fps':30,'frames':3900},'audio':'Original procedural composition; AAC 48kHz stereo; packet copy verified','layer_distribution':{'single':9,'double':11,'triple':4},'unique_images':44,'human_full_listening_review':False}
 (deliver/'24-solar-terms-delivery.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')
-notes='# ��ʮ�Ľ��� �� ��Ƭ����\n\n130�룬1920��1080��30fps��24������ʱ�������ƽ���9����ͼ�㡢11��˫ͼ�㡢4����ͼ�����ľ�ͷ������������/ǰ�������˶�����ͷ���̽��档\n\n��ͷ5�����dbs-hook�Ż���������û������ô�������ˣ����������롰��ʮ�Ľ��� �� ˳��̫��������һ�ꡱ��������ͷ�á������봺��������ض��족��ס���⡣\n\nȫƬ44�Ŷ���AI����ͼƬ��ֻ�н�β�ؿ�����ǰ�Ļ��档ԭ������ϳ����ֵ�Դ�롢WAV��AAC�������¼��뿪ͷ����������ڹ����ڡ�\n\nȫƬ���롢3900֡������ʱ����ȫ����ͷ�е����л��߽��֡��ͼ��ȥ�ء���ʵalpha���������ϣ��ZIP�����Լ������ɡ�δ����Ƭ�˹����󣻸��������ֲ�ͬ������Ϊ����ʱ�������AI�Ӿ����\n\n�ļ���24-solar-terms-v1.mp4��24-solar-terms-opening-10s.mp4��24-solar-terms-editable-v1.zip��\n'
+notes='# 二十四节气 · 成片交付\n\n130秒，1920×1080，30fps。24节气按时间完整推进；9个单图层、11个双图层、4个三图层正文镜头，背景与主体/前景独立运动，镜头长短交替。\n\n开头5秒采用dbs-hook优化：“冰还没化，怎么就立春了？”，随后进入“二十四节气 · 顺着太阳，读懂一年”。立春镜头用“节气入春，天气因地而异”接住问题。\n\n全片44张独立AI生成图片，只有结尾回看复用前文画面。原创程序合成配乐的源码、WAV、AAC、音符事件与开头卡点测量都在工程内。\n\n全片解码、3900帧、音画时长、全部镜头中点与切换边界抽帧、图像去重、真实alpha、音轨包哈希和ZIP完整性检查已完成。未做整片人工听审；各地物候表现不同，画面为典型时令意象的AI视觉演绎。\n\n文件：24-solar-terms-v1.mp4；24-solar-terms-opening-10s.mp4；24-solar-terms-editable-v1.zip。\n'
 (deliver/'24-solar-terms-notes.md').write_text(notes,encoding='utf-8')
 print(json.dumps(manifest,ensure_ascii=True,indent=2))
 

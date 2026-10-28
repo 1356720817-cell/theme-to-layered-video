@@ -1,5 +1,5 @@
 {
-  "track": "���� (The History)",
+  "track": "浮光 (The History)",
   "artist": "Jannik",
   "source_sha256": "5b48a13fdc37f31a4b62445d7a0f57595201bab025ceb47729036d3f4596ec38",
   "source_duration_seconds": 258,
@@ -21,7 +21,7 @@
   "boundaries": [
     {
       "shot": "spring-01-lichun",
-      "title": "����",
+      "title": "立春",
       "film_frame": 150,
       "source_seconds": 82.0,
       "duration_seconds": 6,
@@ -36,7 +36,7 @@
     },
     {
       "shot": "spring-02-yushui",
-      "title": "��ˮ",
+      "title": "雨水",
       "film_frame": 330,
       "source_seconds": 88.0,
       "duration_seconds": 6,
@@ -51,7 +51,7 @@
     },
     {
       "shot": "term-03-jingzhe",
-      "title": "����",
+      "title": "惊蛰",
       "film_frame": 510,
       "source_seconds": 94.0,
       "duration_seconds": 8,
@@ -66,7 +66,7 @@
     },
     {
       "shot": "term-04-chunfen",
-      "title": "����",
+      "title": "春分",
       "film_frame": 750,
       "source_seconds": 102.0,
       "duration_seconds": 7.5,
@@ -81,7 +81,7 @@
     },
     {
       "shot": "term-05-qingming",
-      "title": "����",
+      "title": "清明",
       "film_frame": 975,
       "source_seconds": 109.5,
       "duration_seconds": 9,
@@ -96,7 +96,7 @@
     },
     {
       "shot": "term-06-guyu",
-      "title": "����",
+      "title": "谷雨",
       "film_frame": 1245,
       "source_seconds": 118.5,
       "duration_seconds": 7.5,
@@ -111,7 +111,7 @@
     },
     {
       "shot": "term-07-lixia",
-      "title": "����",
+      "title": "立夏",
       "film_frame": 1470,
       "source_seconds": 126.0,
       "duration_seconds": 3,
@@ -126,7 +126,7 @@
     },
     {
       "shot": "term-08-xiaoman",
-      "title": "С��",
+      "title": "小满",
       "film_frame": 1560,
       "source_seconds": 129.0,
       "duration_seconds": 4.5,
@@ -141,7 +141,7 @@
     },
     {
       "shot": "term-09-mangzhong",
-      "title": "â��",
+      "title": "芒种",
       "film_frame": 1695,
       "source_seconds": 133.5,
       "duration_seconds": 4.5,
@@ -156,7 +156,7 @@
     },
     {
       "shot": "term-10-xiazhi",
-      "title": "����",
+      "title": "夏至",
       "film_frame": 1830,
       "source_seconds": 138.0,
       "duration_seconds": 3,
@@ -171,7 +171,7 @@
     },
     {
       "shot": "term-11-xiaoshu",
-      "title": "С��",
+      "title": "小暑",
       "film_frame": 1920,
       "source_seconds": 141.0,
       "duration_seconds": 4.5,
@@ -186,7 +186,7 @@
     },
     {
       "shot": "term-12-dashu",
-      "title": "����",
+      "title": "大暑",
       "film_frame": 2055,
       "source_seconds": 145.5,
       "duration_seconds": 4.5,
@@ -201,7 +201,7 @@
     },
     {
       "shot": "term-13-liqiu",
-      "title": "����",
+      "title": "立秋",
       "film_frame": 2190,
       "source_seconds": 150.0,
       "duration_seconds": 4.5,
@@ -216,7 +216,7 @@
     },
     {
       "shot": "term-14-chushu",
-      "title": "����",
+      "title": "处暑",
       "film_frame": 2325,
       "source_seconds": 154.5,
       "duration_seconds": 3,
@@ -231,7 +231,7 @@
     },
     {
       "shot": "term-15-bailu",
-      "title": "��¶",
+      "title": "白露",
       "film_frame": 2415,
       "source_seconds": 157.5,
       "duration_seconds": 4.5,
@@ -246,7 +246,7 @@
     },
     {
       "shot": "term-16-qiufen",
-      "title": "���",
+      "title": "秋分",
       "film_frame": 2550,
       "source_seconds": 162.0,
       "duration_seconds": 4.5,
@@ -261,7 +261,7 @@
     },
     {
       "shot": "term-17-hanlu",
-      "title": "��¶",
+      "title": "寒露",
       "film_frame": 2685,
       "source_seconds": 166.5,
       "duration_seconds": 4.5,
@@ -276,7 +276,7 @@
     },
     {
       "shot": "term-18-shuangjiang",
-      "title": "˪��",
+      "title": "霜降",
       "film_frame": 2820,
       "source_seconds": 171.0,
       "duration_seconds": 3,
@@ -291,7 +291,7 @@
     },
     {
       "shot": "term-19-lidong",
-      "title": "����",
+      "title": "立冬",
       "film_frame": 2910,
       "source_seconds": 174.0,
       "duration_seconds": 4.5,
@@ -306,7 +306,7 @@
     },
     {
       "shot": "term-20-xiaoxue",
-      "title": "Сѩ",
+      "title": "小雪",
       "film_frame": 3045,
       "source_seconds": 178.5,
       "duration_seconds": 3,
@@ -321,7 +321,7 @@
     },
     {
       "shot": "term-21-daxue",
-      "title": "��ѩ",
+      "title": "大雪",
       "film_frame": 3135,
       "source_seconds": 181.5,
       "duration_seconds": 4.5,
@@ -336,7 +336,7 @@
     },
     {
       "shot": "term-22-dongzhi",
-      "title": "����",
+      "title": "冬至",
       "film_frame": 3270,
       "source_seconds": 186.0,
       "duration_seconds": 4.5,
@@ -351,7 +351,7 @@
     },
     {
       "shot": "term-23-xiaohan",
-      "title": "С��",
+      "title": "小寒",
       "film_frame": 3405,
       "source_seconds": 190.5,
       "duration_seconds": 3,
@@ -366,7 +366,7 @@
     },
     {
       "shot": "term-24-dahan",
-      "title": "��",
+      "title": "大寒",
       "film_frame": 3495,
       "source_seconds": 193.5,
       "duration_seconds": 4.5,
@@ -390,7 +390,7 @@
     "title_frame": 75,
     "pickup_tagline_frame": 105,
     "main_drop_frame": 750,
-    "main_drop_shot": "����",
+    "main_drop_shot": "春分",
     "opening_fade_in_seconds": 1.25
   },
   "ending_events": {

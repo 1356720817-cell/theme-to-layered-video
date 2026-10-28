@@ -15,7 +15,7 @@ for s in shots:
   assert p['cueFrame']<s['end']-s['start']
   assert max(len(line) for line in p['lines'])<=7
   if s['end']-s['start']<=90:assert len(p['lines'])==1
-  assert p['lines']==records[s['index']-1]['excerpt'].rstrip('��').split('��')
+  assert p['lines']==records[s['index']-1]['excerpt'].rstrip('。').split('，')
 assert len({'|'.join(s['poem']['lines']) for s in main})==24
 digest=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
 audio=digest(root/'public'/project['audio']['file']);previous_audio=digest(previous/'public'/old_project['audio']['file']);assert audio==previous_audio

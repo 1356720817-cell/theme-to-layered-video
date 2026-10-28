@@ -83,7 +83,7 @@ function Poetry({poem,frame,bottom}:{poem:Poem;frame:number;bottom:boolean}){
   {bottom?<div style={{position:'absolute',left:-50,top:-50,width:'120%',height:single?240:330,background:'radial-gradient(ellipse at 25% 50%,#05101b94,transparent 72%)',opacity:clamp((frame-poem.cueFrame)/8)}}/>:null}
   <div style={{position:'relative',borderLeft:'2px solid #e1bc7755',paddingLeft:width*.013}}>
    {poem.lines.map((line,i)=>{const show=clamp((frame-poem.cueFrame-i*poem.lineStaggerFrames)/8),q=1-Math.pow(1-show,3);return <div key={line} style={{fontSize:size,lineHeight:1.42,letterSpacing:5,whiteSpace:'nowrap',opacity:show,transform:'translateY('+((1-q)*12)+'px)',textShadow:'0 2px 8px #000000aa'}}>{line}</div>;})}
-   <div style={{fontFamily:project.fonts.sans,fontSize:width*.0115,lineHeight:1.7,letterSpacing:1.2,marginTop:20,color:'#e4dcc9b8',opacity:clamp((frame-poem.attributionCueFrame)/7),textShadow:'0 2px 6px #000000aa'}}>{poem.author} ����{poem.work}��</div>
+   <div style={{fontFamily:project.fonts.sans,fontSize:width*.0115,lineHeight:1.7,letterSpacing:1.2,marginTop:20,color:'#e4dcc9b8',opacity:clamp((frame-poem.attributionCueFrame)/7),textShadow:'0 2px 6px #000000aa'}}>{poem.author} ·《{poem.work}》</div>
   </div>
  </div>;
 }
@@ -132,7 +132,7 @@ function SceneView({shot}:{shot:Shot}){
    </div>}
    {shot.poem?<Poetry poem={shot.poem} frame={frame} bottom={bottom}/>:null}
    <Timeline frame={shot.start+frame} shot={shot}/>
-   {project.status!=='ready'?<div style={{position:'absolute',right:'6%',top:'5%',fontFamily:project.fonts.sans,color:accent,fontSize:width*.012}}>����Ԥ��</div>:null}
+   {project.status!=='ready'?<div style={{position:'absolute',right:'6%',top:'5%',fontFamily:project.fonts.sans,color:accent,fontSize:width*.012}}>制作预览</div>:null}
   </>:null}
  </AbsoluteFill>;
 }

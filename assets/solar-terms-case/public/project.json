@@ -1,5 +1,5 @@
 {
-  "topic": "��ʮ�Ľ�����һ����α�ʱ��д�����",
+  "topic": "二十四节气：一年如何被时间写进大地",
   "status": "ready",
   "width": 1920,
   "height": 1080,
@@ -27,19 +27,19 @@
   },
   "chapters": [
     {
-      "label": "��",
+      "label": "春",
       "start": 150
     },
     {
-      "label": "��",
+      "label": "夏",
       "start": 1470
     },
     {
-      "label": "��",
+      "label": "秋",
       "start": 2190
     },
     {
-      "label": "��",
+      "label": "冬",
       "start": 2910
     }
   ],
@@ -306,8 +306,8 @@
     "double": 11,
     "triple": 4
   },
-  "music_note": "V4�����ֽ���Լ6dB��ԭ��77�C205������Ƭ�Σ���25���Ӧԭ��102��߳������봺�֡�����44�룬���ﶬ��24�룻ʵ��0.500�����壬ȫƬ128�롣",
-  "visual_disclosure": "AI�Ӿ����������������",
+  "music_note": "V4：音乐降低约6dB。原曲77–205秒连续片段，第25秒对应原曲102秒高潮，切入春分。春季44秒，夏秋冬各24秒；实测0.500秒脉冲，全片128秒。",
+  "visual_disclosure": "AI视觉演绎；物候因地区而异",
   "openingCueFrames": {
     "first": 0,
     "second": 30,
@@ -315,11 +315,11 @@
     "title": 75,
     "tagline": 105
   },
-  "musicCredit": "���֣������⡷�� Jannik",
-  "revision": "V5ʫ�ʰ�",
+  "musicCredit": "配乐：《浮光》— Jannik",
+  "revision": "V5诗词版",
   "poetry": {
     "count": 24,
-    "style": "����ʫ��+����С������ƪ��",
+    "style": "楷体诗句+独立小字作者篇名",
     "independent_overlay": true,
     "audio_unchanged_from_v4": true
   }

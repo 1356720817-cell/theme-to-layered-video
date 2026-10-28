@@ -19,6 +19,6 @@ for delta in range(-60,61,10):
 best=max(results,key=lambda r:r['correlation'])
 assert best['correlation']>.96,best
 assert abs(best['source_shift_ms'])<=2,best
-report={'source_song':'���� (The History) �� Jannik','expected_source_offset_seconds':77,'sample_rate':sr,'comparison_video_seconds':[28,120],'method':'PCM cross-correlation against decoded original, sample decimation 10; compressed AAC differences are expected. This verifies source excerpt offset, not human listening or aesthetic beat selection.','best_alignment':best,'source_offset_verified':True,'human_full_listening_review':False}
+report={'source_song':'浮光 (The History) — Jannik','expected_source_offset_seconds':77,'sample_rate':sr,'comparison_video_seconds':[28,120],'method':'PCM cross-correlation against decoded original, sample decimation 10; compressed AAC differences are expected. This verifies source excerpt offset, not human listening or aesthetic beat selection.','best_alignment':best,'source_offset_verified':True,'human_full_listening_review':False}
 (root/'work/audio-offset-check.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps(report,ensure_ascii=True,indent=2))

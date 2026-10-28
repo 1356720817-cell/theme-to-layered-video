@@ -29,7 +29,7 @@ for name in ['asset-jobs.json','scene-plan.json','opening-asset.json','asset-int
  if src.exists():shutil.copy2(src,project/'work'/name)
 for name in ['generated-batches','generated-records','qc']:
  shutil.copytree(root/'work'/name,project/'work'/name)
-(project/'README.md').write_text((project/'README-ʹ��˵��.md').read_text(encoding='utf-8'),encoding='utf-8')
+(project/'README.md').write_text((project/'README-使用说明.md').read_text(encoding='utf-8'),encoding='utf-8')
 with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
  for file in sorted(project.rglob('*')):
   if file.is_file():z.write(file,file.relative_to(deliver))
@@ -39,20 +39,20 @@ with zipfile.ZipFile(archive) as z:
  assert any(n.endswith('/public/assets/fuguang-25s-drop-128s.m4a') for n in names)
  assert any(n.endswith('/public/assets/fuguang-jannik-full.mp3') for n in names)
  count=len(names)
-manifest={'version':'Poetry V5','final_mp4':{'file':final.name,'bytes':final.stat().st_size,'sha256':hashlib.sha256(final.read_bytes()).hexdigest()},'preview_mp4':{'file':preview.name,'seconds':35},'editable_zip':{'file':archive.name,'bytes':archive.stat().st_size,'sha256':hashlib.sha256(archive.read_bytes()).hexdigest(),'entries':count,'integrity_passed':True},'video':{'seconds':128,'width':1920,'height':1080,'fps':30,'frames':3840},'audio':{'song':'���� (The History)','artist':'Jannik','source':'https://music.163.com/song?id=1394601255','source_excerpt_seconds':[77,205],'climax_video_start_seconds':25,'unchanged_from_v4':True,'aac_packet_copy_verified':True,'public_or_commercial_rights_verified':False},'poetry':{'terms_with_verse':24,'single_line_fast_shots':6,'text_and_attribution_checked':True,'source_list':prefix+'-poems.md'},'main_layer_distribution':{'single':9,'double':11,'triple':4},'unique_images':44,'human_full_listening_review':False}
+manifest={'version':'Poetry V5','final_mp4':{'file':final.name,'bytes':final.stat().st_size,'sha256':hashlib.sha256(final.read_bytes()).hexdigest()},'preview_mp4':{'file':preview.name,'seconds':35},'editable_zip':{'file':archive.name,'bytes':archive.stat().st_size,'sha256':hashlib.sha256(archive.read_bytes()).hexdigest(),'entries':count,'integrity_passed':True},'video':{'seconds':128,'width':1920,'height':1080,'fps':30,'frames':3840},'audio':{'song':'浮光 (The History)','artist':'Jannik','source':'https://music.163.com/song?id=1394601255','source_excerpt_seconds':[77,205],'climax_video_start_seconds':25,'unchanged_from_v4':True,'aac_packet_copy_verified':True,'public_or_commercial_rights_verified':False},'poetry':{'terms_with_verse':24,'single_line_fast_shots':6,'text_and_attribution_checked':True,'source_list':prefix+'-poems.md'},'main_layer_distribution':{'single':9,'double':11,'triple':4},'unique_images':44,'human_full_listening_review':False}
 (deliver/(prefix+'-delivery.json')).write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')
-(deliver/(prefix+'-notes.md')).write_text('''# ��ʮ�Ľ��� �� ʫ�ʰ� V5
+(deliver/(prefix+'-notes.md')).write_text('''# 二十四节气 · 诗词版 V5
 
-128�룬1920��1080��30fps����ǰ�汾������
+128秒，1920×1080，30fps。此前版本保留。
 
-ÿ����������һ��ʫ�ʽ�ѡ��������ƪ�����ϳ���ͷ��һ����3��̾�ͷֻ��һ�䡣����ů�������ַ��е��룬������λ�÷������»����ϣ�â�ֵ��������Ա���ũ�±�ǩ��24���˶���Դ�湤�̺Ͷ����嵥������
+每个节气新增一处诗词节选、作者与篇名，较长镜头用一联，3秒短镜头只用一句。独立暖金楷体文字分行淡入，按留白位置放在左下或左上，芒种单独上移以避让农事标签。24条核对来源随工程和独立清单交付。
 
-���֡�������25��߳�����ʱ����V4һ�£����ı��û���ȷ�ϵ�����������
+音乐、音量、25秒高潮及逐镜时长与V4一致；不改变用户已确认的声音方案。
 
-����44�Ŷ���ͼ��9����ͼ�㡢11��˫ͼ�㡢4����ͼ�����ģ�ǰ����ѡ��������΢�ص����������������˾�����ʱ�����˾���ת��������ȷ�ϵ�V4������ʫ��ʹ�ö������ֶ�Ч������Ϊ�����⡷��Jannik��
+保留44张独立图像，9个单图层、11个双图层、4个三图层正文；前景在选定重音轻微回弹，背景继续独立运镜。逐镜时长、运镜与转场沿用已确认的V4，新增诗词使用独立文字动效。音乐为《浮光》—Jannik。
 
-��飺ȫƬ���롢3840֡������ʱ����24����˳����ʫ�䡢ÿ���е��ȫ���л��߽��֡���ز�ȥ�ء�V4����һ���ԡ���Ƶ����ϣ��ZIP�����ԡ�δ�������˹������Զ�������֡�����������˹�����
+检查：全片解码、3840帧、音画时长、24节气顺序与诗句、每镜中点和全部切换边界抽帧、素材去重、V4音轨一致性、音频包哈希和ZIP完整性。未做完整人工听审；自动检查与抽帧不等于完整人工听审。
 
-���ְ�Ȩ��Ȩ���ˣ���Դ����Ȩ���鷶Χ�Ѽ�¼�ڹ����ڡ�
+音乐版权归权利人，来源与授权核验范围已记录在工程内。
 ''',encoding='utf-8')
 print(json.dumps(manifest,ensure_ascii=True,indent=2))

@@ -1,19 +1,19 @@
 {
-  "scope": "ԭ�ο�Ƭ��������Ƶ�Ѻϳɣ���ʮ�Ľ����Ӿ����Ϊ���������������а��û�ָʾѡ��",
+  "scope": "原参考片含独立音频已合成；二十四节气视觉标尺为静音，音乐须另行按用户指示选择。",
   "original_full_visual": {
     "file": "original-reference-full-130s.mp4",
     "seconds": 130,
     "sha256": "2c600cadb7f3581681d5962883c4a72fe9a90f134a57455869bc6b3728ffcf33",
     "source_url": "https://v.douyin.com/ZP2QjD0d6o8/",
-    "rights_status": "�û��ѱ�ʾӵ�й����ٷַ���Ȩ",
-    "availability": "��ֿ��ṩ����130��ο�Ƭ����ԭʼ��Ƶ�������Ƶ���ƺϳ�",
-    "audio": "������Ŀ�ѱ����ԭƬ������Ƶ���ϲ�����ȡ��130��"
+    "rights_status": "用户已表示拥有公开再分发授权",
+    "availability": "随仓库提供完整130秒参考片；将原始视频与独立音频复制合成",
+    "audio": "来自项目已保存的原片独立音频，合并并截取到130秒"
   },
   "finished_full_visual": {
     "file": "solar-terms-finished-visual-full-128s.mp4",
     "seconds": 128,
     "sha256": "60d5420614aa92486554f60044170b974f66d271caea57ba6db1ad3f8c7b5087",
-    "availability": "��ֿ��Ϊ3���ṩ���״�ʹ��ʱ��ָ��ƴ�Ӳ�У��SHA-256",
+    "availability": "随仓库分为3段提供；首次使用时按指令拼接并校验SHA-256",
     "encoding": "1080p H.264 visual-only reference; binary segments are byte-exact parts of the complete file",
     "parts": [
       {

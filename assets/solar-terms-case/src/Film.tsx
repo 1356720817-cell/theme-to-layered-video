@@ -59,7 +59,7 @@ function Timeline({frame,index}:{frame:number;index:number}){
    <div style={{position:'absolute',left:(clamp((frame-mainStart)/(mainEnd-mainStart))*100)+'%',top:-4,width:9,height:9,background:active,borderRadius:9,boxShadow:'0 0 16px '+active}}/>
   </div>
   <div style={{position:'absolute',right:0,bottom:20,fontSize:18,letterSpacing:2}}>{String(index).padStart(2,'0')} / 24</div>
-  <div style={{position:'absolute',right:0,bottom:50,fontSize:15,letterSpacing:1,opacity:.60}}>AI�Ӿ����� �� �����ض���</div>
+  <div style={{position:'absolute',right:0,bottom:50,fontSize:15,letterSpacing:1,opacity:.60}}>AI视觉演绎 · 物候因地而异</div>
   <div style={{position:'absolute',left:0,bottom:50,width:width*.2,height:1,background:'transparent'}}/>
  </div>;
 }
@@ -69,11 +69,11 @@ function Dial({angle,progress,large=false}:{angle:number;progress:number;large?:
   <circle cx={c} cy={c} r={r} fill="#0b1019a8" stroke="#e4d4ad55" strokeWidth={1}/>
   <circle cx={c} cy={c} r={r-22} fill="none" stroke="#e4d4ad22"/>
   {Array.from({length:24},(_,i)=>{const t=(i*15-90)*Math.PI/180;return <line key={i} x1={c+(r-10)*Math.cos(t)} y1={c+(r-10)*Math.sin(t)} x2={c+r*Math.cos(t)} y2={c+r*Math.sin(t)} stroke={colors[Math.floor(i/6)]} strokeWidth={i%6?1:3}/>})}
-  {[['����',0],['����',90],['���',180],['����',270]].map(([label,n])=>{const t=(Number(n)-90)*Math.PI/180;return <text key={String(label)} x={c+(r+29)*Math.cos(t)} y={c+(r+29)*Math.sin(t)+7} textAnchor="middle" fill={n===angle?'#f0d69b':'#e6ddc7aa'} fontSize={large?24:20} fontFamily={project.fonts.serif}>{label}</text>})}
+  {[['春分',0],['夏至',90],['秋分',180],['冬至',270]].map(([label,n])=>{const t=(Number(n)-90)*Math.PI/180;return <text key={String(label)} x={c+(r+29)*Math.cos(t)} y={c+(r+29)*Math.sin(t)+7} textAnchor="middle" fill={n===angle?'#f0d69b':'#e6ddc7aa'} fontSize={large?24:20} fontFamily={project.fonts.serif}>{label}</text>})}
   <line x1={c} y1={c} x2={c+r*Math.cos(a)} y2={c+r*Math.sin(a)} stroke="#edc47c66"/>
   <circle cx={c+r*Math.cos(a)} cy={c+r*Math.sin(a)} r={large?11:8} fill="#f4d28f" style={{filter:'drop-shadow(0 0 10px #edbd6c)'}}/>
-  <text x={c} y={c-9} textAnchor="middle" fill="#f1e5ca" fontSize={large?44:34} fontFamily={project.fonts.serif}>{large?'ÿ15��':angle+'��'}</text>
-  <text x={c} y={c+33} textAnchor="middle" fill="#d7c9a8aa" fontSize={large?24:19} fontFamily={project.fonts.sans}>{large?'һ������':'̫���ƾ�λ��'}</text>
+  <text x={c} y={c-9} textAnchor="middle" fill="#f1e5ca" fontSize={large?44:34} fontFamily={project.fonts.serif}>{large?'每15°':angle+'°'}</text>
+  <text x={c} y={c+33} textAnchor="middle" fill="#d7c9a8aa" fontSize={large?24:19} fontFamily={project.fonts.sans}>{large?'一个节气':'太阳黄经位置'}</text>
  </svg>;
 }
 function Weather({shot,frame}:{shot:Shot;frame:number}){
@@ -107,27 +107,27 @@ function Opening({shot}:{shot:Shot}){
   {a?<Img src={staticFile(a.file)} style={{width:'100%',height:'100%',objectFit:'cover',transform:'scale('+(1.04+q*.055)+') translateX('+(-q*10)+'px)',opacity:1-title*.30}}/>:null}
   <AbsoluteFill style={{background:'linear-gradient(90deg,#050b15e8,transparent 90%)'}}/>
   <div style={{position:'absolute',left:'7%',top:'27%',fontFamily:project.fonts.serif,color:'#f3ead9',fontSize:width*.054,lineHeight:1.4,letterSpacing:3,opacity:question}}>
-   <div style={{opacity:first,transform:'translateY('+((1-first)*15)+'px)'}}>����û����</div>
-   <div style={{opacity:second,transform:'translateY('+((1-second)*15)+'px)'}}>��ô��<span style={{color:'#efc989'}}>����</span>�ˣ�</div>
+   <div style={{opacity:first,transform:'translateY('+((1-first)*15)+'px)'}}>冰还没化，</div>
+   <div style={{opacity:second,transform:'translateY('+((1-second)*15)+'px)'}}>怎么就<span style={{color:'#efc989'}}>立春</span>了？</div>
   </div>
   <div style={{position:'absolute',left:'7%',top:'34%',opacity:title,color:'#f2e7ce',fontFamily:project.fonts.serif,transform:'translateY('+((1-title)*14)+'px)'}}>
-   <div style={{fontSize:width*.067,letterSpacing:10}}>��ʮ�Ľ���</div>
-   <div style={{fontFamily:project.fonts.sans,fontSize:30,letterSpacing:7,marginTop:32,opacity:clamp((frame-cues.tagline)/6)}}>˳��̫��������һ��</div>
+   <div style={{fontSize:width*.067,letterSpacing:10}}>二十四节气</div>
+   <div style={{fontFamily:project.fonts.sans,fontSize:30,letterSpacing:7,marginTop:32,opacity:clamp((frame-cues.tagline)/6)}}>顺着太阳，读懂一年</div>
   </div>
   <div style={{position:'absolute',right:'9%',top:'24%',opacity:title,transform:'scale('+(1.05-title*.05)+')'}}><Dial angle={315} progress={title} large/></div>
-  <div style={{position:'absolute',left:'7%',bottom:58,fontFamily:project.fonts.sans,color:'#dcd1ba88',fontSize:18,letterSpacing:4,opacity:textVisible}}>��ʮ�Ľ��� �� �����ĳ� ���ն���</div>
+  <div style={{position:'absolute',left:'7%',bottom:58,fontFamily:project.fonts.sans,color:'#dcd1ba88',fontSize:18,letterSpacing:4,opacity:textVisible}}>二十四节气 · 春生夏长 秋收冬藏</div>
  </AbsoluteFill>;
 }
 function Ending({shot}:{shot:Shot}){
  const frame=useCurrentFrame(),{height}=useVideoConfig(),duration=shot.end-shot.start,p=clamp(frame/(duration-1));
  return <AbsoluteFill style={{overflow:'hidden',background:'#0a1015',opacity:1-clamp((frame-duration+21)/20)}}>
-  {shot.layers.map((l,i)=>{const a=assets.get(l.assetId);return a?<div key={l.assetId} style={{position:'absolute',left:(i*25)+'%',width:'25%',height:'100%',overflow:'hidden',borderRight:'1px solid #f0debe33'}}><Img src={staticFile(a.file)} style={{width:'100%',height:'100%',objectFit:'cover',transform:'scale('+(1.12-p*.09)+')'}}/><div style={{position:'absolute',left:36,top:55,color:colors[i],fontFamily:project.fonts.serif,fontSize:36}}>{['����','�ĳ�','����','����'][i]}</div></div>:null})}
+  {shot.layers.map((l,i)=>{const a=assets.get(l.assetId);return a?<div key={l.assetId} style={{position:'absolute',left:(i*25)+'%',width:'25%',height:'100%',overflow:'hidden',borderRight:'1px solid #f0debe33'}}><Img src={staticFile(a.file)} style={{width:'100%',height:'100%',objectFit:'cover',transform:'scale('+(1.12-p*.09)+')'}}/><div style={{position:'absolute',left:36,top:55,color:colors[i],fontFamily:project.fonts.serif,fontSize:36}}>{['春生','夏长','秋收','冬藏'][i]}</div></div>:null})}
   <AbsoluteFill style={{background:'linear-gradient(180deg,#05090d55,#05090dbb)',opacity:.7+p*.2}}/>
   <div style={{position:'absolute',top:height*.36,width:'100%',textAlign:'center',color:'#f1e5ca',fontFamily:project.fonts.serif,opacity:clamp(frame/14)}}>
-   <div style={{fontSize:104,letterSpacing:14}}>��ʮ�Ľ���</div>
-   <div style={{fontSize:32,letterSpacing:4,marginTop:43,lineHeight:1.8,opacity:clamp((frame-45)/9),transform:'translateY('+((1-clamp((frame-45)/9))*10)+'px)'}}>���µĲ�ֻ��ʱ��<br/>Ҳ���������ദ�ķ�ʽ</div>
+   <div style={{fontSize:104,letterSpacing:14}}>二十四节气</div>
+   <div style={{fontSize:32,letterSpacing:4,marginTop:43,lineHeight:1.8,opacity:clamp((frame-45)/9),transform:'translateY('+((1-clamp((frame-45)/9))*10)+'px)'}}>记下的不只是时间<br/>也是人与大地相处的方式</div>
   </div>
-  <div style={{position:'absolute',bottom:55,width:'100%',textAlign:'center',fontFamily:project.fonts.sans,fontSize:18,color:'#d7cdb888',letterSpacing:3}}>AI�Ӿ����� �� {project.musicCredit}</div>
+  <div style={{position:'absolute',bottom:55,width:'100%',textAlign:'center',fontFamily:project.fonts.sans,fontSize:18,color:'#d7cdb888',letterSpacing:3}}>AI视觉演绎 · {project.musicCredit}</div>
  </AbsoluteFill>;
 }
 function PoetryOverlay({poem,frame,bottom}:{poem:Poem;frame:number;bottom:boolean}){
@@ -137,7 +137,7 @@ function PoetryOverlay({poem,frame,bottom}:{poem:Poem;frame:number;bottom:boolea
   {bottom?<div style={{position:'absolute',left:-50,top:-50,width:'120%',height:single?240:330,background:'radial-gradient(ellipse at 25% 50%,#05101b94,transparent 72%)',opacity:clamp((frame-poem.cueFrame)/8)}}/>:null}
   <div style={{position:'relative',borderLeft:'2px solid #e1bc7755',paddingLeft:25}}>
    {poem.lines.map((line,i)=>{const show=clamp((frame-poem.cueFrame-i*poem.lineStaggerFrames)/8),q=1-Math.pow(1-show,3);return <div key={line} style={{fontSize:single?76:62,lineHeight:1.42,letterSpacing:5,whiteSpace:'nowrap',opacity:show,transform:'translateY('+((1-q)*12)+'px)',textShadow:'0 2px 8px #000000aa'}}>{line}</div>})}
-   <div style={{fontFamily:project.fonts.sans,fontSize:22,lineHeight:1.7,letterSpacing:1.2,marginTop:20,color:'#e4dcc9b8',opacity:sourceOpacity,textShadow:'0 2px 6px #000000aa'}}>{poem.author} ����{poem.work}��</div>
+   <div style={{fontFamily:project.fonts.sans,fontSize:22,lineHeight:1.7,letterSpacing:1.2,marginTop:20,color:'#e4dcc9b8',opacity:sourceOpacity,textShadow:'0 2px 6px #000000aa'}}>{poem.author} ·《{poem.work}》</div>
   </div>
  </div>;
 }
@@ -160,11 +160,11 @@ function SceneView({shot}:{shot:Shot}){
     <div style={{fontSize:width*.032,marginBottom:height*.065,whiteSpace:'nowrap',color:accent}}>{shot.kicker}</div>
     <div style={{fontSize:width*.054,lineHeight:1.15,letterSpacing:4}}>{shot.title}</div>
     <div style={{fontSize:30,lineHeight:1.8,marginTop:26,letterSpacing:1.3,maxWidth:width*.40,opacity:subtitleEntry}}>{shot.subtitle}</div>
-    {index===1?<div style={{fontFamily:project.fonts.sans,fontSize:22,marginTop:28,color:'#cdd8dea6'}}>�����봺��������ض���</div>:null}
+    {index===1?<div style={{fontFamily:project.fonts.sans,fontSize:22,marginTop:28,color:'#cdd8dea6'}}>节气入春，天气因地而异</div>:null}
    </div>
-   {index===9?<><div style={{position:'absolute',right:'15%',bottom:'16%',fontFamily:project.fonts.sans,fontSize:22,color:'#493720',letterSpacing:3}}>��������</div><div style={{position:'absolute',left:'7%',bottom:'20%',fontFamily:project.fonts.sans,fontSize:22,color:'#d1e4bb',letterSpacing:3}}>�Ϸ�����</div></>:null}
+   {index===9?<><div style={{position:'absolute',right:'15%',bottom:'16%',fontFamily:project.fonts.sans,fontSize:22,color:'#493720',letterSpacing:3}}>北方麦收</div><div style={{position:'absolute',left:'7%',bottom:'20%',fontFamily:project.fonts.sans,fontSize:22,color:'#d1e4bb',letterSpacing:3}}>南方夏种</div></>:null}
    {shot.poem?<PoetryOverlay poem={shot.poem} frame={frame} bottom={bottom}/>:null}
-   {[4,10,16,22].includes(index)?<div style={{position:'absolute',right:'10%',bottom:'14%',transform:'scale(.90)'}}><Dial angle={Number(shot.kicker.match(/(\d+)��/)?.[1]??0)} progress={clamp((frame-12)/14)}/></div>:null}
+   {[4,10,16,22].includes(index)?<div style={{position:'absolute',right:'10%',bottom:'14%',transform:'scale(.90)'}}><Dial angle={Number(shot.kicker.match(/(\d+)°/)?.[1]??0)} progress={clamp((frame-12)/14)}/></div>:null}
    <Timeline frame={shot.start+frame} index={index}/>
   </>:null}
  </AbsoluteFill>;
